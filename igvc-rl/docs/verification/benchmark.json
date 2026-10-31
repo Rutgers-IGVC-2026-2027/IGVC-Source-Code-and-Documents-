@@ -1,0 +1,10 @@
+{
+  "steps": 10000,
+  "transitions_per_second": 959.623076135897,
+  "initial_planning_seconds": 1.1707015000283718,
+  "reset_seconds": 0.027027248754166067,
+  "transition_seconds": 10.420758158783428,
+  "completed_episodes": 40,
+  "controller": "pure-pursuit",
+  "seed": 6200
+}

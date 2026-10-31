@@ -1,0 +1,17 @@
+seed: 42
+n_envs: 4
+vectorization: subprocess
+course_seeds: [6201, 6202, 6203, 6204]
+evaluation_seeds: [6200, 6210, 6211]
+max_episode_steps: 1500
+total_timesteps: 1000000
+n_steps: 1024
+batch_size: 256
+n_epochs: 10
+learning_rate: 0.0003
+gamma: 0.99
+eval_freq: 10000
+n_eval_episodes: 6
+device: cpu
+normalize_observations: false  # Opt in for the matched development comparison.
+output: models_checkpoints/ppo

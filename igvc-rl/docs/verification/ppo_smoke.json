@@ -1,0 +1,7 @@
+{
+  "checkpoint": "work/smoke-final/final_model.zip",
+  "training_steps": 500,
+  "reloaded": true,
+  "finite_rollout": true,
+  "limitation": "A training plumbing smoke test, not evidence of navigation learning"
+}

@@ -1,0 +1,845 @@
+{
+  "schema_version": 1,
+  "source_root": "/Users/joeroche/Developer/igvc-procedural",
+  "source_git_head": "2bc0343716e5cc5353e0df0e3259825fd5ab95f9",
+  "source_state": "Hashes reflect working-tree bytes; HEAD alone is not source provenance.",
+  "license_status": "Unresolved: no top-level LICENSE found; source package declares LicenseRef-Project-License-Unspecified. No license grant invented.",
+  "counts": {
+    "imported_files": 101,
+    "obj_meshes": 73,
+    "worlds": 2,
+    "fixture_files": 6,
+    "blender_scripts": 2
+  },
+  "excluded_generated_files": [
+    {
+      "source": "gazebo/igvc_blender_course/tools/__pycache__/verify_camera.cpython-314.pyc",
+      "original_sha256": "e2f9fbabc15aaff99c71b66b613f87ce22892f02ac15e232db6c327f6bb1249a",
+      "reason": "Historical interpreter cache was never tracked; exclude it from portable source asset verification."
+    }
+  ],
+  "files": [
+    {
+      "source": "scripts/export_blender_gazebo.py",
+      "destination": "sim/blender/export_blender_gazebo.py",
+      "original_sha256": "c245462dfd158920e691b9949ef53a1ff48326375f7358e2f76f23d6032c153f",
+      "final_sha256": "c245462dfd158920e691b9949ef53a1ff48326375f7358e2f76f23d6032c153f",
+      "bytes": 8384,
+      "modifications": []
+    },
+    {
+      "source": "scripts/fix_gazebo_obj_normals.py",
+      "destination": "sim/blender/fix_gazebo_obj_normals.py",
+      "original_sha256": "98cc2557baff494b8ce4d3a23078125cbd8d5aafdf77999c132a0a63ecd2ea3d",
+      "final_sha256": "98cc2557baff494b8ce4d3a23078125cbd8d5aafdf77999c132a0a63ecd2ea3d",
+      "bytes": 1986,
+      "modifications": []
+    },
+    {
+      "source": "work/night-20261018/02-blender-repair-1/course/6200_front/course-report.json",
+      "destination": "sim/fixtures/course_6200/course-report.json",
+      "original_sha256": "d17be79477120a5a4694d811783e03f35aefcf8737d8a2b215613a251d3ddc73",
+      "final_sha256": "d17be79477120a5a4694d811783e03f35aefcf8737d8a2b215613a251d3ddc73",
+      "bytes": 4452,
+      "modifications": []
+    },
+    {
+      "source": "work/night-20261018/02-blender-repair-1/course/6200_front/geometry.json",
+      "destination": "sim/fixtures/course_6200/geometry.json",
+      "original_sha256": "e4a698da4fc69679a6e02fbb73926012d50db87ead120b4c24fe932c5650034a",
+      "final_sha256": "e4a698da4fc69679a6e02fbb73926012d50db87ead120b4c24fe932c5650034a",
+      "bytes": 4550315,
+      "modifications": []
+    },
+    {
+      "source": "work/night-20261018/02-blender-repair-1/course/6200_front/metadata.json",
+      "destination": "sim/fixtures/course_6200/metadata.json",
+      "original_sha256": "7144803e555ff20cbb66a32b093c79be9c7f0ad0652cc1ff624207a4d544a5fd",
+      "final_sha256": "7144803e555ff20cbb66a32b093c79be9c7f0ad0652cc1ff624207a4d544a5fd",
+      "bytes": 16611,
+      "modifications": []
+    },
+    {
+      "source": "work/night-20261018/02-blender-repair-1/course/6200_front/render-config.json",
+      "destination": "sim/fixtures/course_6200/render-config.json",
+      "original_sha256": "3427332d780c17805f8e4db631407b10578fb769c85fb4b93a54027c6be85642",
+      "final_sha256": "3427332d780c17805f8e4db631407b10578fb769c85fb4b93a54027c6be85642",
+      "bytes": 1101,
+      "modifications": []
+    },
+    {
+      "source": "work/night-20261018/02-blender-repair-1/course/6200_front/source-generate.py",
+      "destination": "sim/fixtures/course_6200/source-generate.py",
+      "original_sha256": "11102eecfe143cf1429298d2eea425f7a56b4f40ce23e5614310be8c6d0a826b",
+      "final_sha256": "11102eecfe143cf1429298d2eea425f7a56b4f40ce23e5614310be8c6d0a826b",
+      "bytes": 24004,
+      "modifications": []
+    },
+    {
+      "source": "work/night-20261018/02-blender-repair-1/course/6200_front/source-generate_blender_course.py",
+      "destination": "sim/fixtures/course_6200/source-generate_blender_course.py",
+      "original_sha256": "52e8b2a6e4aa88549541b12804dbe37ffc2b814048feb839d9425f7aa225f781",
+      "final_sha256": "52e8b2a6e4aa88549541b12804dbe37ffc2b814048feb839d9425f7aa225f781",
+      "bytes": 3728,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/CMakeLists.txt",
+      "destination": "sim/gazebo/igvc_blender_course/CMakeLists.txt",
+      "original_sha256": "235dd40047083e6bd4b00dd321b60b8bfb061b04171f8673dd7c2d8292806e4a",
+      "final_sha256": "d3578d8cd9efe5984b4b5c5bbc4b0a7ab0fd5888084c55ae1078428d490e33e6",
+      "bytes": 1366,
+      "modifications": [
+        "Install repository robot/description under package share; also install verifier alongside share resources.",
+        "Install shared Python planner, ROS controller executable, saved course metadata and robot parameters.",
+        "Install the small standard rosbag navigation logging wrapper.",
+        "Install focused ramp launch and physical-model limitations documentation.",
+        "Document retained-course ramp mode and install its recorded results and team log."
+      ]
+    },
+    {
+      "source": "gazebo/igvc_blender_course/POV.md",
+      "destination": "sim/gazebo/igvc_blender_course/POV.md",
+      "original_sha256": "436d9f844ab3490600f3805ab9a68a748252b23c0e3d094d653ff5473e810224",
+      "final_sha256": "436d9f844ab3490600f3805ab9a68a748252b23c0e3d094d653ff5473e810224",
+      "bytes": 6071,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/PROVENANCE.json",
+      "destination": "sim/gazebo/igvc_blender_course/PROVENANCE.json",
+      "original_sha256": "822b226c847694e37e915fe38ff1a908dffa405a159f5eb385a44689ad4040a4",
+      "final_sha256": "822b226c847694e37e915fe38ff1a908dffa405a159f5eb385a44689ad4040a4",
+      "bytes": 39790,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/README.md",
+      "destination": "sim/gazebo/igvc_blender_course/README.md",
+      "original_sha256": "3896806f14d033b44b193a6715a08454a3e2a4a33f14f1793157591126e3cc57",
+      "final_sha256": "b13a4e7d262cdd0ab70a69f5e6fe14f9843f268509725b83d4263398f6247801",
+      "bytes": 5746,
+      "modifications": [
+        "Document retained-course ramp mode and install its recorded results and team log."
+      ]
+    },
+    {
+      "source": "gazebo/igvc_blender_course/RUNTIME_FIXES.json",
+      "destination": "sim/gazebo/igvc_blender_course/RUNTIME_FIXES.json",
+      "original_sha256": "e0c9c94df6fbfe5160be5b4a60ae96ba28bac7bbd08459e9e947330655a2c41b",
+      "final_sha256": "e0c9c94df6fbfe5160be5b4a60ae96ba28bac7bbd08459e9e947330655a2c41b",
+      "bytes": 23751,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/RUNTIME_VERIFICATION.json",
+      "destination": "sim/gazebo/igvc_blender_course/RUNTIME_VERIFICATION.json",
+      "original_sha256": "555585d5ba2dd0c7b280e8931b227c3d13b8c030d7b4102f60d8b48df7d9c5f6",
+      "final_sha256": "555585d5ba2dd0c7b280e8931b227c3d13b8c030d7b4102f60d8b48df7d9c5f6",
+      "bytes": 2928,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/VERIFICATION.json",
+      "destination": "sim/gazebo/igvc_blender_course/VERIFICATION.json",
+      "original_sha256": "4ba7f878d476c9b56ea8e7078913f642b4ba23881f395ffebc277715497e8ef8",
+      "final_sha256": "4ba7f878d476c9b56ea8e7078913f642b4ba23881f395ffebc277715497e8ef8",
+      "bytes": 1104,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/config/bridge.yaml",
+      "destination": "sim/gazebo/igvc_blender_course/config/bridge.yaml",
+      "original_sha256": "9aeeb820cde739f531f2afa62dad30e45e27177e1d9132d548ef4514172e65cd",
+      "final_sha256": "9aeeb820cde739f531f2afa62dad30e45e27177e1d9132d548ef4514172e65cd",
+      "bytes": 495,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/config/pov_bridge.yaml",
+      "destination": "sim/gazebo/igvc_blender_course/config/pov_bridge.yaml",
+      "original_sha256": "32b54cb8ed33576c568e3ec32ef5278fcc51539aa81e05078f486e2fa3c7abf4",
+      "final_sha256": "32b54cb8ed33576c568e3ec32ef5278fcc51539aa81e05078f486e2fa3c7abf4",
+      "bytes": 520,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/config/pov_gui.config",
+      "destination": "sim/gazebo/igvc_blender_course/config/pov_gui.config",
+      "original_sha256": "ba931cb4e9b022cb6973b406402489cc30b7d7c517b0b3bd56042d555db74b6d",
+      "final_sha256": "ba931cb4e9b022cb6973b406402489cc30b7d7c517b0b3bd56042d555db74b6d",
+      "bytes": 362,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/launch/course.launch.py",
+      "destination": "sim/gazebo/igvc_blender_course/launch/course.launch.py",
+      "original_sha256": "ba835a4bca888f6eed6ea6c4f2040df26e92a96d1c83a7d9f072e83a39694c89",
+      "final_sha256": "ba835a4bca888f6eed6ea6c4f2040df26e92a96d1c83a7d9f072e83a39694c89",
+      "bytes": 1732,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/launch/vehicle_pov.launch.py",
+      "destination": "sim/gazebo/igvc_blender_course/launch/vehicle_pov.launch.py",
+      "original_sha256": "2cdf45c724859b43b2017ce170112c27f27d1f641546c1428c8895a85de67476",
+      "final_sha256": "2cdf45c724859b43b2017ce170112c27f27d1f641546c1428c8895a85de67476",
+      "bytes": 2539,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/000_Asphalt_pad_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/000_Asphalt_pad_m0.obj",
+      "original_sha256": "12d6a55992cc2754caee9a7d13c05c8c107d8cad59ad2cae3a1d6bf515892350",
+      "final_sha256": "12d6a55992cc2754caee9a7d13c05c8c107d8cad59ad2cae3a1d6bf515892350",
+      "bytes": 148,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/001_Barrel_00_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/001_Barrel_00_m0.obj",
+      "original_sha256": "6360534298baa4f819b7fedb259dc948653119c97300502f04da16c38710dc97",
+      "final_sha256": "6360534298baa4f819b7fedb259dc948653119c97300502f04da16c38710dc97",
+      "bytes": 161404,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/001_Barrel_00_m1.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/001_Barrel_00_m1.obj",
+      "original_sha256": "37be83d87ead84f9c0d9d4b4525828733f377f2d8ca4410b5d028ee38854df8a",
+      "final_sha256": "37be83d87ead84f9c0d9d4b4525828733f377f2d8ca4410b5d028ee38854df8a",
+      "bytes": 62439,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/001_Barrel_00_m2.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/001_Barrel_00_m2.obj",
+      "original_sha256": "8ffa29bcc68c540a7326a28e012a34f6877492c40d04a3f601fc72d0ef016344",
+      "final_sha256": "8ffa29bcc68c540a7326a28e012a34f6877492c40d04a3f601fc72d0ef016344",
+      "bytes": 57998,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/002_Barrel_01_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/002_Barrel_01_m0.obj",
+      "original_sha256": "c4864a6ace98578c23d5f2fe4954ea800d2d376955a88506ee7c376f52e0913e",
+      "final_sha256": "c4864a6ace98578c23d5f2fe4954ea800d2d376955a88506ee7c376f52e0913e",
+      "bytes": 159291,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/002_Barrel_01_m1.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/002_Barrel_01_m1.obj",
+      "original_sha256": "65f88cd974d76f8d8702b8fea25cf73e9491389b3273d7c93ac6dee2fa914f88",
+      "final_sha256": "65f88cd974d76f8d8702b8fea25cf73e9491389b3273d7c93ac6dee2fa914f88",
+      "bytes": 60235,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/002_Barrel_01_m2.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/002_Barrel_01_m2.obj",
+      "original_sha256": "d5de741d0b8801ef796d797ea3edcade704c405c4dca4590a0d858904df4b34b",
+      "final_sha256": "d5de741d0b8801ef796d797ea3edcade704c405c4dca4590a0d858904df4b34b",
+      "bytes": 55817,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/003_Barrel_02_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/003_Barrel_02_m0.obj",
+      "original_sha256": "b00936be952678b6991bb34b22b84b72810180e05722919b91d4a0d56951acf9",
+      "final_sha256": "b00936be952678b6991bb34b22b84b72810180e05722919b91d4a0d56951acf9",
+      "bytes": 160794,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/003_Barrel_02_m1.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/003_Barrel_02_m1.obj",
+      "original_sha256": "bd96329a7df0ae48b81264215739c99c193df6d2e03fc4b48a52f61c8478da47",
+      "final_sha256": "bd96329a7df0ae48b81264215739c99c193df6d2e03fc4b48a52f61c8478da47",
+      "bytes": 61775,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/003_Barrel_02_m2.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/003_Barrel_02_m2.obj",
+      "original_sha256": "15a71f3e0c110dfec95aca60942fb72d1ac40d4345d3ddd640d4ea39433026b3",
+      "final_sha256": "15a71f3e0c110dfec95aca60942fb72d1ac40d4345d3ddd640d4ea39433026b3",
+      "bytes": 57350,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/004_Barrel_03_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/004_Barrel_03_m0.obj",
+      "original_sha256": "e38682f5f85f78fb0ea95257c6ec5320105a718517034071c8f002ef51852690",
+      "final_sha256": "e38682f5f85f78fb0ea95257c6ec5320105a718517034071c8f002ef51852690",
+      "bytes": 161058,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/004_Barrel_03_m1.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/004_Barrel_03_m1.obj",
+      "original_sha256": "8f16c166393ca4dc1b94009e55bae33c72a9827dc7c958209efb9937f7282f88",
+      "final_sha256": "8f16c166393ca4dc1b94009e55bae33c72a9827dc7c958209efb9937f7282f88",
+      "bytes": 62089,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/004_Barrel_03_m2.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/004_Barrel_03_m2.obj",
+      "original_sha256": "5df06bf1332386b4190d3c2c6b76a7874200eee85fd084e80cce32504de11039",
+      "final_sha256": "5df06bf1332386b4190d3c2c6b76a7874200eee85fd084e80cce32504de11039",
+      "bytes": 57638,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/005_Barrel_04_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/005_Barrel_04_m0.obj",
+      "original_sha256": "b5bc3704f3dad503529e32520a91c0b57067d40c2791c081a7db0cc234b0b316",
+      "final_sha256": "b5bc3704f3dad503529e32520a91c0b57067d40c2791c081a7db0cc234b0b316",
+      "bytes": 160252,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/005_Barrel_04_m1.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/005_Barrel_04_m1.obj",
+      "original_sha256": "1efc8b7cc70f23984cd3d0060ae078c218afc8f6b48e4e25a7e777d8bd52a81a",
+      "final_sha256": "1efc8b7cc70f23984cd3d0060ae078c218afc8f6b48e4e25a7e777d8bd52a81a",
+      "bytes": 61271,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/005_Barrel_04_m2.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/005_Barrel_04_m2.obj",
+      "original_sha256": "456e7e6c898e14315d616cf70eb90d2f9798871fb4696177690cc1d48bf295c5",
+      "final_sha256": "456e7e6c898e14315d616cf70eb90d2f9798871fb4696177690cc1d48bf295c5",
+      "bytes": 56836,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/006_Barrel_05_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/006_Barrel_05_m0.obj",
+      "original_sha256": "4ed61b1b2e3872ae2f596290b9778c1cdafd9a033932d1cc873c179d5cc22a5f",
+      "final_sha256": "4ed61b1b2e3872ae2f596290b9778c1cdafd9a033932d1cc873c179d5cc22a5f",
+      "bytes": 159196,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/006_Barrel_05_m1.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/006_Barrel_05_m1.obj",
+      "original_sha256": "3619ee828ea8e22f956c7c62550931d8cfb155c980d1f2585cb19b0fb72ce396",
+      "final_sha256": "3619ee828ea8e22f956c7c62550931d8cfb155c980d1f2585cb19b0fb72ce396",
+      "bytes": 60249,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/006_Barrel_05_m2.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/006_Barrel_05_m2.obj",
+      "original_sha256": "057bf9508d81a5569eb8100ba6ddbfb2e10ae01db2e4a9d76041631749418fce",
+      "final_sha256": "057bf9508d81a5569eb8100ba6ddbfb2e10ae01db2e4a9d76041631749418fce",
+      "bytes": 55807,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/007_Boundary__1_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/007_Boundary__1_m0.obj",
+      "original_sha256": "1a979ce5619dccf4bcbb3d19c7894a23c4f73969b7077fabfb31e62f70c0d83d",
+      "final_sha256": "1a979ce5619dccf4bcbb3d19c7894a23c4f73969b7077fabfb31e62f70c0d83d",
+      "bytes": 79950,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/008_Boundary_1_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/008_Boundary_1_m0.obj",
+      "original_sha256": "ded9b47030f1233dac02a954c297b7fae439ebb3e7d5eeca9506a9713e2dbff4",
+      "final_sha256": "ded9b47030f1233dac02a954c297b7fae439ebb3e7d5eeca9506a9713e2dbff4",
+      "bytes": 79016,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/010_Icosphere_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/010_Icosphere_m0.obj",
+      "original_sha256": "cc3f3dff220d5802ddf92ed9bca2e60a7ff74f2dc51d6156941e86b4336e953c",
+      "final_sha256": "cc3f3dff220d5802ddf92ed9bca2e60a7ff74f2dc51d6156941e86b4336e953c",
+      "bytes": 28238,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/011_Icosphere_001_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/011_Icosphere_001_m0.obj",
+      "original_sha256": "5ea538caed110c42b23f0d2a1624c2d1619bf44b4c6d178027cda5e47517489c",
+      "final_sha256": "5ea538caed110c42b23f0d2a1624c2d1619bf44b4c6d178027cda5e47517489c",
+      "bytes": 28580,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/012_Icosphere_002_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/012_Icosphere_002_m0.obj",
+      "original_sha256": "4101233c4abce00c06a575196c8e3f091661b2aeb7d852964db9ed41a885982e",
+      "final_sha256": "4101233c4abce00c06a575196c8e3f091661b2aeb7d852964db9ed41a885982e",
+      "bytes": 28262,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/013_Icosphere_003_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/013_Icosphere_003_m0.obj",
+      "original_sha256": "72f9d6b8eeb53f19190614806f2c4008c62217a535f9286a6e3d1bf990e459fa",
+      "final_sha256": "72f9d6b8eeb53f19190614806f2c4008c62217a535f9286a6e3d1bf990e459fa",
+      "bytes": 28433,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/014_Icosphere_004_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/014_Icosphere_004_m0.obj",
+      "original_sha256": "24b9fdb675942fd719df3a4e65082304e1a024d0b5c121185829ddda9ef21334",
+      "final_sha256": "24b9fdb675942fd719df3a4e65082304e1a024d0b5c121185829ddda9ef21334",
+      "bytes": 28281,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/015_Icosphere_005_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/015_Icosphere_005_m0.obj",
+      "original_sha256": "f1cedf462df9d90273a590ce0604ee31cc03e015f4ecdbf6530b15e858f286c3",
+      "final_sha256": "f1cedf462df9d90273a590ce0604ee31cc03e015f4ecdbf6530b15e858f286c3",
+      "bytes": 28418,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/016_Icosphere_006_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/016_Icosphere_006_m0.obj",
+      "original_sha256": "dfdf00f5262ebfde6194fc98e954faa308c9a64e4729da51e69df3298dcd209a",
+      "final_sha256": "dfdf00f5262ebfde6194fc98e954faa308c9a64e4729da51e69df3298dcd209a",
+      "bytes": 28243,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/017_Icosphere_007_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/017_Icosphere_007_m0.obj",
+      "original_sha256": "47a8fa766c2c1ad865e9c43eb5043574477f29b1794fd578276a00b73e64cd48",
+      "final_sha256": "47a8fa766c2c1ad865e9c43eb5043574477f29b1794fd578276a00b73e64cd48",
+      "bytes": 28443,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/018_Icosphere_008_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/018_Icosphere_008_m0.obj",
+      "original_sha256": "ed7658b92bb1f9981bfa6ebaf980306eabf6ba602bbff15cd7f01cf22ad11a3c",
+      "final_sha256": "ed7658b92bb1f9981bfa6ebaf980306eabf6ba602bbff15cd7f01cf22ad11a3c",
+      "bytes": 28400,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/019_Icosphere_009_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/019_Icosphere_009_m0.obj",
+      "original_sha256": "b3401783484a020e69f96b89d7004367f60c3c1d22cce5a4d2905cce1fedd107",
+      "final_sha256": "b3401783484a020e69f96b89d7004367f60c3c1d22cce5a4d2905cce1fedd107",
+      "bytes": 28417,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/020_Icosphere_010_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/020_Icosphere_010_m0.obj",
+      "original_sha256": "59cce301ca430fd393d181abdd9b788d07bdd7a8f91aba77775814852954c401",
+      "final_sha256": "59cce301ca430fd393d181abdd9b788d07bdd7a8f91aba77775814852954c401",
+      "bytes": 28247,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/021_Icosphere_011_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/021_Icosphere_011_m0.obj",
+      "original_sha256": "edd52f502d51cf62ab141667eec3fd54b95a0a9a3670f93599266e50b4f23a23",
+      "final_sha256": "edd52f502d51cf62ab141667eec3fd54b95a0a9a3670f93599266e50b4f23a23",
+      "bytes": 28420,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/022_Icosphere_012_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/022_Icosphere_012_m0.obj",
+      "original_sha256": "42c33f0a9554eb6ec5c7110157773003f282d843c990ec4edf80290c329df896",
+      "final_sha256": "42c33f0a9554eb6ec5c7110157773003f282d843c990ec4edf80290c329df896",
+      "bytes": 28464,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/023_Icosphere_013_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/023_Icosphere_013_m0.obj",
+      "original_sha256": "2aebb624c9e8a8818df73ec7d70a2a0cde9b0f17bd7ed5fd6df576ce6d1c6a95",
+      "final_sha256": "2aebb624c9e8a8818df73ec7d70a2a0cde9b0f17bd7ed5fd6df576ce6d1c6a95",
+      "bytes": 28399,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/024_Icosphere_014_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/024_Icosphere_014_m0.obj",
+      "original_sha256": "0e25e8f40a91d8f13867db8ef0a7ef78ded2366257bc362602f51db361ebd4b1",
+      "final_sha256": "0e25e8f40a91d8f13867db8ef0a7ef78ded2366257bc362602f51db361ebd4b1",
+      "bytes": 28255,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/025_Icosphere_015_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/025_Icosphere_015_m0.obj",
+      "original_sha256": "6bcd97100a82b1473f16d4a2f21efc4cde5a53fee1df66469cfc6105be3ea0de",
+      "final_sha256": "6bcd97100a82b1473f16d4a2f21efc4cde5a53fee1df66469cfc6105be3ea0de",
+      "bytes": 28432,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/026_Icosphere_016_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/026_Icosphere_016_m0.obj",
+      "original_sha256": "485b5e1643105e75145e6a70f01fa0b3823e49d45f3f3e6f461e469e011732e3",
+      "final_sha256": "485b5e1643105e75145e6a70f01fa0b3823e49d45f3f3e6f461e469e011732e3",
+      "bytes": 28243,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/027_Icosphere_017_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/027_Icosphere_017_m0.obj",
+      "original_sha256": "e35bb57c22e72027b502381ea9ece174f18f5b045699b60b046300d01d0277c8",
+      "final_sha256": "e35bb57c22e72027b502381ea9ece174f18f5b045699b60b046300d01d0277c8",
+      "bytes": 28419,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/028_Icosphere_018_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/028_Icosphere_018_m0.obj",
+      "original_sha256": "fd17991549c179518ce43062d7cca9119ae3469dbfb57f18d8f9d6fdc551085a",
+      "final_sha256": "fd17991549c179518ce43062d7cca9119ae3469dbfb57f18d8f9d6fdc551085a",
+      "bytes": 28241,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/029_Icosphere_019_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/029_Icosphere_019_m0.obj",
+      "original_sha256": "3003a46df83cbbf4a29164f71ad7f16830c0e88459bc70e7b1f37980b87e7e27",
+      "final_sha256": "3003a46df83cbbf4a29164f71ad7f16830c0e88459bc70e7b1f37980b87e7e27",
+      "bytes": 28429,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/030_Icosphere_020_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/030_Icosphere_020_m0.obj",
+      "original_sha256": "9c54257ef4f89e9cae5438078e86b6541922ea09b0af227fe528a5306801c330",
+      "final_sha256": "9c54257ef4f89e9cae5438078e86b6541922ea09b0af227fe528a5306801c330",
+      "bytes": 28246,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/031_Icosphere_021_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/031_Icosphere_021_m0.obj",
+      "original_sha256": "1245deaf0d0cb8f889a4229633e9a69ef3342611305b6657cd6f15cd23d85f1e",
+      "final_sha256": "1245deaf0d0cb8f889a4229633e9a69ef3342611305b6657cd6f15cd23d85f1e",
+      "bytes": 28648,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/032_Icosphere_022_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/032_Icosphere_022_m0.obj",
+      "original_sha256": "67f3148f48d2cbdda672ba1a3e9b342d7adce5d70000685c1982c45a50166d50",
+      "final_sha256": "67f3148f48d2cbdda672ba1a3e9b342d7adce5d70000685c1982c45a50166d50",
+      "bytes": 28248,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/033_Icosphere_023_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/033_Icosphere_023_m0.obj",
+      "original_sha256": "7bff9c86d181bab2bff942d3717807ee5451facde3f807cd6fe1307bf0411104",
+      "final_sha256": "7bff9c86d181bab2bff942d3717807ee5451facde3f807cd6fe1307bf0411104",
+      "bytes": 28401,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/034_Pothole_00_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/034_Pothole_00_m0.obj",
+      "original_sha256": "641e172f660a7ea77e9c7b209055acd9c5b9e83917e531536125d7a1f2172021",
+      "final_sha256": "641e172f660a7ea77e9c7b209055acd9c5b9e83917e531536125d7a1f2172021",
+      "bytes": 26011,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/035_Pothole_01_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/035_Pothole_01_m0.obj",
+      "original_sha256": "ef9c60b19ebfb1b1469c21035f58be549d62171ed008e61fe172c20b6cc1d38e",
+      "final_sha256": "ef9c60b19ebfb1b1469c21035f58be549d62171ed008e61fe172c20b6cc1d38e",
+      "bytes": 26129,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/036_Pothole_02_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/036_Pothole_02_m0.obj",
+      "original_sha256": "0db5d128c1071906c9dbe960314fb88993f80188a2abf185bf22860f9b24cc97",
+      "final_sha256": "0db5d128c1071906c9dbe960314fb88993f80188a2abf185bf22860f9b24cc97",
+      "bytes": 26311,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/038_Surroundings_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/038_Surroundings_m0.obj",
+      "original_sha256": "546ab513fd944dc5c383bdae4eb5a51500ea4919d59323f3aee9811f6b5206a7",
+      "final_sha256": "546ab513fd944dc5c383bdae4eb5a51500ea4919d59323f3aee9811f6b5206a7",
+      "bytes": 206,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/039_Tree_trunk_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/039_Tree_trunk_m0.obj",
+      "original_sha256": "8ef63094268ad3a23c6050aed838c49440064cbbb3b94f0bfd058d902080c01d",
+      "final_sha256": "8ef63094268ad3a23c6050aed838c49440064cbbb3b94f0bfd058d902080c01d",
+      "bytes": 2741,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/040_Tree_trunk_001_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/040_Tree_trunk_001_m0.obj",
+      "original_sha256": "99c8ff32b54946433eb737d8420a9b99781adeb341bf3524e4251c4fd20b09bc",
+      "final_sha256": "99c8ff32b54946433eb737d8420a9b99781adeb341bf3524e4251c4fd20b09bc",
+      "bytes": 2781,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/041_Tree_trunk_002_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/041_Tree_trunk_002_m0.obj",
+      "original_sha256": "a72e6aa7c53e9696568f817b5c5efc09b4f548587c726c2306d26aa6ac6698c0",
+      "final_sha256": "a72e6aa7c53e9696568f817b5c5efc09b4f548587c726c2306d26aa6ac6698c0",
+      "bytes": 2741,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/042_Tree_trunk_003_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/042_Tree_trunk_003_m0.obj",
+      "original_sha256": "7721b632ab0458d71c62001727f62508fde31222be36f832474afec1bbc75b80",
+      "final_sha256": "7721b632ab0458d71c62001727f62508fde31222be36f832474afec1bbc75b80",
+      "bytes": 2761,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/043_Tree_trunk_004_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/043_Tree_trunk_004_m0.obj",
+      "original_sha256": "20b788e72bc5029cd27d66cb60929f15c9132523a7ecef08ca5428834ae2a148",
+      "final_sha256": "20b788e72bc5029cd27d66cb60929f15c9132523a7ecef08ca5428834ae2a148",
+      "bytes": 2737,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/044_Tree_trunk_005_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/044_Tree_trunk_005_m0.obj",
+      "original_sha256": "e152c669e7af59e8a36fde39bcbedaa1c2baa1a3d29c5e920ad9cb16d697ee72",
+      "final_sha256": "e152c669e7af59e8a36fde39bcbedaa1c2baa1a3d29c5e920ad9cb16d697ee72",
+      "bytes": 2763,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/045_Tree_trunk_006_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/045_Tree_trunk_006_m0.obj",
+      "original_sha256": "b6a43116d33d595e71124b6da5202c5a1bc172ea9949c0f5ecf49deabb0ac64a",
+      "final_sha256": "b6a43116d33d595e71124b6da5202c5a1bc172ea9949c0f5ecf49deabb0ac64a",
+      "bytes": 2737,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/046_Tree_trunk_007_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/046_Tree_trunk_007_m0.obj",
+      "original_sha256": "f87feffd2e9cc0cd2169bf71a39bdef3674dc33c83f2fbdc6066ff8b42377c7f",
+      "final_sha256": "f87feffd2e9cc0cd2169bf71a39bdef3674dc33c83f2fbdc6066ff8b42377c7f",
+      "bytes": 2757,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/047_Tree_trunk_008_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/047_Tree_trunk_008_m0.obj",
+      "original_sha256": "77a1852ef1260eea1b618f36704d40026aa55dd93ef6ce2a1dff6917d07bf523",
+      "final_sha256": "77a1852ef1260eea1b618f36704d40026aa55dd93ef6ce2a1dff6917d07bf523",
+      "bytes": 2759,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/048_Tree_trunk_009_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/048_Tree_trunk_009_m0.obj",
+      "original_sha256": "463a443c27dd9773820277fa9ae8b99eaf2d49c2739ea1ed88ddb4e68cfd2852",
+      "final_sha256": "463a443c27dd9773820277fa9ae8b99eaf2d49c2739ea1ed88ddb4e68cfd2852",
+      "bytes": 2761,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/049_Tree_trunk_010_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/049_Tree_trunk_010_m0.obj",
+      "original_sha256": "5d79fde1b6ccfbb961074eb54cf26c7cedbcf170997f65afa7556eaeee64cbd7",
+      "final_sha256": "5d79fde1b6ccfbb961074eb54cf26c7cedbcf170997f65afa7556eaeee64cbd7",
+      "bytes": 2745,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/050_Tree_trunk_011_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/050_Tree_trunk_011_m0.obj",
+      "original_sha256": "9e7b0090d062e688e60dc8d6ff8d51366595005eb9e8daecedd42053fe0bb7fb",
+      "final_sha256": "9e7b0090d062e688e60dc8d6ff8d51366595005eb9e8daecedd42053fe0bb7fb",
+      "bytes": 2753,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/051_Tree_trunk_012_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/051_Tree_trunk_012_m0.obj",
+      "original_sha256": "ad161ab580a3063b72da2a6a221a3ffcbe5211b61d738ed4362d2a2ea51f360b",
+      "final_sha256": "ad161ab580a3063b72da2a6a221a3ffcbe5211b61d738ed4362d2a2ea51f360b",
+      "bytes": 2757,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/052_Tree_trunk_013_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/052_Tree_trunk_013_m0.obj",
+      "original_sha256": "0ea46209b398dfc80a867b6a3a2aa2b1543ac1feb12bdce2e7b4408f0c9b3ae9",
+      "final_sha256": "0ea46209b398dfc80a867b6a3a2aa2b1543ac1feb12bdce2e7b4408f0c9b3ae9",
+      "bytes": 2761,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/053_Tree_trunk_014_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/053_Tree_trunk_014_m0.obj",
+      "original_sha256": "44fcf5e432d7dc209f5f6c6a63e067d013db6e0bbb855e0e28e7db65a2a965a0",
+      "final_sha256": "44fcf5e432d7dc209f5f6c6a63e067d013db6e0bbb855e0e28e7db65a2a965a0",
+      "bytes": 2733,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/054_Tree_trunk_015_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/054_Tree_trunk_015_m0.obj",
+      "original_sha256": "aaa9b5b5458afb6c76d8acfeb14e35696ed469f50d71ccc68e5acecf4a6a98ef",
+      "final_sha256": "aaa9b5b5458afb6c76d8acfeb14e35696ed469f50d71ccc68e5acecf4a6a98ef",
+      "bytes": 2761,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/055_Tree_trunk_016_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/055_Tree_trunk_016_m0.obj",
+      "original_sha256": "f31364cdadf8a3facb2e749684b58640506be234e3357b0474045a481ef67128",
+      "final_sha256": "f31364cdadf8a3facb2e749684b58640506be234e3357b0474045a481ef67128",
+      "bytes": 2723,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/056_Tree_trunk_017_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/056_Tree_trunk_017_m0.obj",
+      "original_sha256": "da02cc693d05802b1f2f015e86b1eff17b949592e5b9d40e601b8645561dd312",
+      "final_sha256": "da02cc693d05802b1f2f015e86b1eff17b949592e5b9d40e601b8645561dd312",
+      "bytes": 2759,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/057_Tree_trunk_018_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/057_Tree_trunk_018_m0.obj",
+      "original_sha256": "2c4c5c43812522fe3f04eeae09b93b9af79e83650c7e05cef155343e17074af5",
+      "final_sha256": "2c4c5c43812522fe3f04eeae09b93b9af79e83650c7e05cef155343e17074af5",
+      "bytes": 2723,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/058_Tree_trunk_019_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/058_Tree_trunk_019_m0.obj",
+      "original_sha256": "630312946c698c60528e9eaa2b8721759f802c40606c979ad5cafe0c860f642c",
+      "final_sha256": "630312946c698c60528e9eaa2b8721759f802c40606c979ad5cafe0c860f642c",
+      "bytes": 2759,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/059_Tree_trunk_020_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/059_Tree_trunk_020_m0.obj",
+      "original_sha256": "4d0916b7771a556a138b015475142bd996e79f0ff66a2994932979e6b4fc1d3b",
+      "final_sha256": "4d0916b7771a556a138b015475142bd996e79f0ff66a2994932979e6b4fc1d3b",
+      "bytes": 2741,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/060_Tree_trunk_021_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/060_Tree_trunk_021_m0.obj",
+      "original_sha256": "fcd4629c6b7342fbdc805659c6d481b5b6111b33fa46dd15b4e4d656283029fb",
+      "final_sha256": "fcd4629c6b7342fbdc805659c6d481b5b6111b33fa46dd15b4e4d656283029fb",
+      "bytes": 2791,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/061_Tree_trunk_022_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/061_Tree_trunk_022_m0.obj",
+      "original_sha256": "e0ecbdfa796b4b50b51a8a916a41ea9e4f8a302de96f15e25cd7b50fb8cbc091",
+      "final_sha256": "e0ecbdfa796b4b50b51a8a916a41ea9e4f8a302de96f15e25cd7b50fb8cbc091",
+      "bytes": 2743,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/meshes/062_Tree_trunk_023_m0.obj",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/meshes/062_Tree_trunk_023_m0.obj",
+      "original_sha256": "bdde37d42fa32d9eabcc316a54ad30875b17a3480a0a14cb3745853409c42b1b",
+      "final_sha256": "bdde37d42fa32d9eabcc316a54ad30875b17a3480a0a14cb3745853409c42b1b",
+      "bytes": 2765,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/model.config",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/model.config",
+      "original_sha256": "889eb34e2afcf3756df834fe14252989d39b61ed1ea14b2171c14a1940232b00",
+      "final_sha256": "889eb34e2afcf3756df834fe14252989d39b61ed1ea14b2171c14a1940232b00",
+      "bytes": 271,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/models/igvc_course_6200/model.sdf",
+      "destination": "sim/gazebo/igvc_blender_course/models/igvc_course_6200/model.sdf",
+      "original_sha256": "21b6e6ae2f7980cba51646ad63e2a14ae919e7a58c0293dbcf667fc17a3bb5dc",
+      "final_sha256": "21b6e6ae2f7980cba51646ad63e2a14ae919e7a58c0293dbcf667fc17a3bb5dc",
+      "bytes": 48302,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/package.xml",
+      "destination": "sim/gazebo/igvc_blender_course/package.xml",
+      "original_sha256": "a1e84711965b32a33638ed063dac31892202ab83c5d597ca18a13253f23d7922",
+      "final_sha256": "0722b8613db46a744111c0d3b9894030cff6b37bff12db7112ad9f9b520986ed",
+      "bytes": 1181,
+      "modifications": [
+        "Declare geometry_msgs and nav_msgs runtime dependencies for robot bridge.",
+        "Declare ament_cmake_python, rclpy, std_msgs and system Python planner dependencies.",
+        "Declare ros2bag for standard navigation run recording."
+      ]
+    },
+    {
+      "source": "gazebo/igvc_blender_course/tools/pov_demo.py",
+      "destination": "sim/gazebo/igvc_blender_course/tools/pov_demo.py",
+      "original_sha256": "a7a0a6fd30591dbf9f6b43f53564264163942c72c8d2eb8dda9eb503ea01bfb9",
+      "final_sha256": "a7a0a6fd30591dbf9f6b43f53564264163942c72c8d2eb8dda9eb503ea01bfb9",
+      "bytes": 2673,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/tools/verify_camera.py",
+      "destination": "sim/gazebo/igvc_blender_course/tools/verify_camera.py",
+      "original_sha256": "714aa26f68a5974238b3071b95d92b6e7075ac51e8c078c1932f88f92a9aab71",
+      "final_sha256": "714aa26f68a5974238b3071b95d92b6e7075ac51e8c078c1932f88f92a9aab71",
+      "bytes": 20968,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/verify_target.sh",
+      "destination": "sim/gazebo/igvc_blender_course/verify_target.sh",
+      "original_sha256": "2ef4c486d76c006df74947e6d78941c410ba534cc24e7ec634c9e8340f1931f2",
+      "final_sha256": "f2c25bd5a62db60a40a3590fe595aeb0bde7b1ee3dcab55cb3b7ecc4bcf5d943",
+      "bytes": 1229,
+      "modifications": [
+        "Resolve source, share and lib install resource layouts; ament share fallback; check required world."
+      ]
+    },
+    {
+      "source": "gazebo/igvc_blender_course/worlds/igvc_6200.sdf",
+      "destination": "sim/gazebo/igvc_blender_course/worlds/igvc_6200.sdf",
+      "original_sha256": "4b77346ce60629b5bc38952f769b3904b494d0c26558acf11f0165102da95bf5",
+      "final_sha256": "4b77346ce60629b5bc38952f769b3904b494d0c26558acf11f0165102da95bf5",
+      "bytes": 2102,
+      "modifications": []
+    },
+    {
+      "source": "gazebo/igvc_blender_course/worlds/igvc_6200_pov.sdf",
+      "destination": "sim/gazebo/igvc_blender_course/worlds/igvc_6200_pov.sdf",
+      "original_sha256": "d73b3b39f3ec31bb5376b4104ad08d834470f8746926eb3f5a2e15f63371ecc1",
+      "final_sha256": "d73b3b39f3ec31bb5376b4104ad08d834470f8746926eb3f5a2e15f63371ecc1",
+      "bytes": 4193,
+      "modifications": []
+    }
+  ]
+}

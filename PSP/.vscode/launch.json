@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug power systems test",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/power-systems-processing/tests/powerSystemsProcessingTest",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "C/C++: build power systems test"
+        }
+    ]
+}

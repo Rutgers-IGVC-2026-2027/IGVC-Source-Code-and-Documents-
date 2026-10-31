@@ -1,0 +1,26 @@
+# macOS metadata
+.DS_Store
+._*
+
+# Compiled output and debugger symbols
+build/
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.dSYM/
+/power-systems-processing/tests/powerSystemsProcessingTest
+
+# Local environment files (keep example configuration shareable)
+.env
+.env.*
+!.env.example
+
+# Editor temporary files
+*.swp
+*.swo
+*~

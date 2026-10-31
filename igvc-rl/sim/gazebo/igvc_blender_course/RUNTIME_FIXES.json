@@ -1,0 +1,589 @@
+{
+  "reason": "Gazebo DART rejects collision submeshes without vertex normals; add face normals with explicit OBJ indices.",
+  "files": [
+    {
+      "file": "000_Asphalt_pad_m0.obj",
+      "triangles": 2,
+      "normals": 2,
+      "before_sha256": "db6f084e98e6d6fabd0d32cde7cc9a92f21ad6560f11979ab734103968c2ac70",
+      "after_sha256": "12d6a55992cc2754caee9a7d13c05c8c107d8cad59ad2cae3a1d6bf515892350",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "001_Barrel_00_m0.obj",
+      "triangles": 1664,
+      "normals": 1664,
+      "before_sha256": "9866bf5a756189418829a3e2dae1689830c88f2762bb751bdfb1f3b9cab1c3ec",
+      "after_sha256": "6360534298baa4f819b7fedb259dc948653119c97300502f04da16c38710dc97",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "001_Barrel_00_m1.obj",
+      "triangles": 256,
+      "normals": 256,
+      "before_sha256": "d7173c53dfb56061968c749c093d306613468187a98547f55b148ba583639cab",
+      "after_sha256": "37be83d87ead84f9c0d9d4b4525828733f377f2d8ca4410b5d028ee38854df8a",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "001_Barrel_00_m2.obj",
+      "triangles": 252,
+      "normals": 252,
+      "before_sha256": "7a7e7746dc89f53169c3aea335c4d67abe2d36306195553a16481ff86315bbce",
+      "after_sha256": "8ffa29bcc68c540a7326a28e012a34f6877492c40d04a3f601fc72d0ef016344",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "002_Barrel_01_m0.obj",
+      "triangles": 1664,
+      "normals": 1664,
+      "before_sha256": "6b6aee151f61eb5495f0f0a8a133df4e2659964a1d30e3e81c2f67be2d5478ae",
+      "after_sha256": "c4864a6ace98578c23d5f2fe4954ea800d2d376955a88506ee7c376f52e0913e",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "002_Barrel_01_m1.obj",
+      "triangles": 256,
+      "normals": 256,
+      "before_sha256": "c8d9a72d10373a47a743498ab4c508eef13c3dfec310d81966b6eb896e01e527",
+      "after_sha256": "65f88cd974d76f8d8702b8fea25cf73e9491389b3273d7c93ac6dee2fa914f88",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "002_Barrel_01_m2.obj",
+      "triangles": 252,
+      "normals": 252,
+      "before_sha256": "979082dab301c080a25800f422a36d5d87e931709d397b10651baec6e3dafafc",
+      "after_sha256": "d5de741d0b8801ef796d797ea3edcade704c405c4dca4590a0d858904df4b34b",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "003_Barrel_02_m0.obj",
+      "triangles": 1664,
+      "normals": 1664,
+      "before_sha256": "a66479b90392849fd0f4535dc874a9254d24a009616ded188b62478538ad4a78",
+      "after_sha256": "b00936be952678b6991bb34b22b84b72810180e05722919b91d4a0d56951acf9",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "003_Barrel_02_m1.obj",
+      "triangles": 256,
+      "normals": 256,
+      "before_sha256": "4f168c3a5d6500808f31875c2b52dce9688869b7635f8f3de0fed1e8096df8d1",
+      "after_sha256": "bd96329a7df0ae48b81264215739c99c193df6d2e03fc4b48a52f61c8478da47",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "003_Barrel_02_m2.obj",
+      "triangles": 252,
+      "normals": 252,
+      "before_sha256": "f08de311815826ab30c42062d206080592932f0ab5fb57d98c3322eb5a2bca44",
+      "after_sha256": "15a71f3e0c110dfec95aca60942fb72d1ac40d4345d3ddd640d4ea39433026b3",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "004_Barrel_03_m0.obj",
+      "triangles": 1664,
+      "normals": 1664,
+      "before_sha256": "bf1ee28af20039e3141cf908834ba997153e3db6d11508f03f782643e61db158",
+      "after_sha256": "e38682f5f85f78fb0ea95257c6ec5320105a718517034071c8f002ef51852690",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "004_Barrel_03_m1.obj",
+      "triangles": 256,
+      "normals": 256,
+      "before_sha256": "06a618d2e33f04e1af262bca5f4b69fdfd7f65e8fd89de7c3ee2625689bc7236",
+      "after_sha256": "8f16c166393ca4dc1b94009e55bae33c72a9827dc7c958209efb9937f7282f88",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "004_Barrel_03_m2.obj",
+      "triangles": 252,
+      "normals": 252,
+      "before_sha256": "4d23d50dd230850702ee128546b115390baa9e85e7d40f6d8ee543201ae44404",
+      "after_sha256": "5df06bf1332386b4190d3c2c6b76a7874200eee85fd084e80cce32504de11039",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "005_Barrel_04_m0.obj",
+      "triangles": 1664,
+      "normals": 1664,
+      "before_sha256": "fba4022617bd70efd1dd7526721a2503267d762d4bc958415e0aca81117569a6",
+      "after_sha256": "b5bc3704f3dad503529e32520a91c0b57067d40c2791c081a7db0cc234b0b316",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "005_Barrel_04_m1.obj",
+      "triangles": 256,
+      "normals": 256,
+      "before_sha256": "e156d6c052da03f01ca22bf58df683521891f725aac2ca74fa12418dca6b3f03",
+      "after_sha256": "1efc8b7cc70f23984cd3d0060ae078c218afc8f6b48e4e25a7e777d8bd52a81a",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "005_Barrel_04_m2.obj",
+      "triangles": 252,
+      "normals": 252,
+      "before_sha256": "21a0fb1d208b015f5abb64bd86d285457d73181f0ed1213ff7002258376ae150",
+      "after_sha256": "456e7e6c898e14315d616cf70eb90d2f9798871fb4696177690cc1d48bf295c5",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "006_Barrel_05_m0.obj",
+      "triangles": 1664,
+      "normals": 1664,
+      "before_sha256": "02e3df14646ca117d27fe96ddb8080983e5ced69488670636e4813297ea82f79",
+      "after_sha256": "4ed61b1b2e3872ae2f596290b9778c1cdafd9a033932d1cc873c179d5cc22a5f",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "006_Barrel_05_m1.obj",
+      "triangles": 256,
+      "normals": 256,
+      "before_sha256": "16df68844812f0dced15b24de5d8b0ec4c6d62715b80bfc540da443790dcfcaa",
+      "after_sha256": "3619ee828ea8e22f956c7c62550931d8cfb155c980d1f2585cb19b0fb72ce396",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "006_Barrel_05_m2.obj",
+      "triangles": 252,
+      "normals": 252,
+      "before_sha256": "ed98f9c2ef23e7adf41920f963859cf8297650356dd7bc20c83163fe0f32bed9",
+      "after_sha256": "057bf9508d81a5569eb8100ba6ddbfb2e10ae01db2e4a9d76041631749418fce",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "007_Boundary__1_m0.obj",
+      "triangles": 998,
+      "normals": 998,
+      "before_sha256": "50af81397c53a31c9ffa0d9a05745a23d4c802d5001684640a3598e55ed27dfc",
+      "after_sha256": "1a979ce5619dccf4bcbb3d19c7894a23c4f73969b7077fabfb31e62f70c0d83d",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "008_Boundary_1_m0.obj",
+      "triangles": 998,
+      "normals": 998,
+      "before_sha256": "e7042a92ee69a80183447fc193863b78403e0a32342b51c8835d42a1f4a4603d",
+      "after_sha256": "ded9b47030f1233dac02a954c297b7fae439ebb3e7d5eeca9506a9713e2dbff4",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "010_Icosphere_m0.obj",
+      "triangles": 320,
+      "normals": 320,
+      "before_sha256": "38a08459138d6aaa6df06151a59e959f86f54887c91f1a419720c611e03ad8a4",
+      "after_sha256": "cc3f3dff220d5802ddf92ed9bca2e60a7ff74f2dc51d6156941e86b4336e953c",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "011_Icosphere_001_m0.obj",
+      "triangles": 320,
+      "normals": 320,
+      "before_sha256": "7ebf2a6ead1c657bec3dda1e7fcacb764324be5814f141cb52933affcaa47657",
+      "after_sha256": "5ea538caed110c42b23f0d2a1624c2d1619bf44b4c6d178027cda5e47517489c",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "012_Icosphere_002_m0.obj",
+      "triangles": 320,
+      "normals": 320,
+      "before_sha256": "65140af635595c5a149bc1e36bfe53267717d43be50799cc00435eb5c8de28b7",
+      "after_sha256": "4101233c4abce00c06a575196c8e3f091661b2aeb7d852964db9ed41a885982e",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "013_Icosphere_003_m0.obj",
+      "triangles": 320,
+      "normals": 320,
+      "before_sha256": "f865f76a2db20f1aecdf247fb9b6c9769144719104d702ee7e08005aea7efcd2",
+      "after_sha256": "72f9d6b8eeb53f19190614806f2c4008c62217a535f9286a6e3d1bf990e459fa",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "014_Icosphere_004_m0.obj",
+      "triangles": 320,
+      "normals": 320,
+      "before_sha256": "9460b2a977999d369c76ba18b7c1b705776430a29d303804c4ff6f0e9f8ea0e2",
+      "after_sha256": "24b9fdb675942fd719df3a4e65082304e1a024d0b5c121185829ddda9ef21334",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "015_Icosphere_005_m0.obj",
+      "triangles": 320,
+      "normals": 320,
+      "before_sha256": "7dd4eb9d746ad50aaee1f29a029743d2dbf5ab1d481567b8610fef4618696079",
+      "after_sha256": "f1cedf462df9d90273a590ce0604ee31cc03e015f4ecdbf6530b15e858f286c3",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "016_Icosphere_006_m0.obj",
+      "triangles": 320,
+      "normals": 320,
+      "before_sha256": "4c8f66e366c0eeaa0da7b3d7cb4eb9bd88b72020cf73f7022d48f84221b1dca0",
+      "after_sha256": "dfdf00f5262ebfde6194fc98e954faa308c9a64e4729da51e69df3298dcd209a",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "017_Icosphere_007_m0.obj",
+      "triangles": 320,
+      "normals": 320,
+      "before_sha256": "b3310d4e9318568dccdf57d6fe3c2f42ae2a33e0baba3e764c8c1ac50e4e65cb",
+      "after_sha256": "47a8fa766c2c1ad865e9c43eb5043574477f29b1794fd578276a00b73e64cd48",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "018_Icosphere_008_m0.obj",
+      "triangles": 320,
+      "normals": 320,
+      "before_sha256": "dacb896c75da8070f96c1fba499c1802fd1c7041d8c7ad66670ab8b984f2b74f",
+      "after_sha256": "ed7658b92bb1f9981bfa6ebaf980306eabf6ba602bbff15cd7f01cf22ad11a3c",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "019_Icosphere_009_m0.obj",
+      "triangles": 320,
+      "normals": 320,
+      "before_sha256": "b1c7b885b3a96d646ac5e0048fcb74631d42838d4970a15d4b40843fcc91bb21",
+      "after_sha256": "b3401783484a020e69f96b89d7004367f60c3c1d22cce5a4d2905cce1fedd107",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "020_Icosphere_010_m0.obj",
+      "triangles": 320,
+      "normals": 320,
+      "before_sha256": "7b74f8ad11457795cc59d0683ebd529415f8214e78a391fbf8764db7cf9174ae",
+      "after_sha256": "59cce301ca430fd393d181abdd9b788d07bdd7a8f91aba77775814852954c401",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "021_Icosphere_011_m0.obj",
+      "triangles": 320,
+      "normals": 320,
+      "before_sha256": "8566bf9ce158b58c8ce2c625c0d40d987a77bc18f778b72172fa42a6e1c72092",
+      "after_sha256": "edd52f502d51cf62ab141667eec3fd54b95a0a9a3670f93599266e50b4f23a23",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "022_Icosphere_012_m0.obj",
+      "triangles": 320,
+      "normals": 320,
+      "before_sha256": "b5ff35d725bd7d95564ddb21e13f7022b98c4dc7e56a034a38b6a6c71256f51f",
+      "after_sha256": "42c33f0a9554eb6ec5c7110157773003f282d843c990ec4edf80290c329df896",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "023_Icosphere_013_m0.obj",
+      "triangles": 320,
+      "normals": 320,
+      "before_sha256": "e3dc34b26d20f68eef405bc43b307b0188ecd40b41cddb5a5c5060a1113295e0",
+      "after_sha256": "2aebb624c9e8a8818df73ec7d70a2a0cde9b0f17bd7ed5fd6df576ce6d1c6a95",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "024_Icosphere_014_m0.obj",
+      "triangles": 320,
+      "normals": 320,
+      "before_sha256": "9449cfa6a71bad460046257d20ddc0aaab37ac08d169c093479f25e78c4b74e1",
+      "after_sha256": "0e25e8f40a91d8f13867db8ef0a7ef78ded2366257bc362602f51db361ebd4b1",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "025_Icosphere_015_m0.obj",
+      "triangles": 320,
+      "normals": 320,
+      "before_sha256": "2c46d275c2fdc832859d2a2a907816551627d976be815373ec5865103dae660a",
+      "after_sha256": "6bcd97100a82b1473f16d4a2f21efc4cde5a53fee1df66469cfc6105be3ea0de",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "026_Icosphere_016_m0.obj",
+      "triangles": 320,
+      "normals": 320,
+      "before_sha256": "e6fedcac64f397b43adbc565c43067420ef375083eaa036c6a9dc9fbacf0338b",
+      "after_sha256": "485b5e1643105e75145e6a70f01fa0b3823e49d45f3f3e6f461e469e011732e3",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "027_Icosphere_017_m0.obj",
+      "triangles": 320,
+      "normals": 320,
+      "before_sha256": "c4a0d0b5dba47b63f5556d9ef8dc55276312f301a5df0e6b42890d9dfe33c372",
+      "after_sha256": "e35bb57c22e72027b502381ea9ece174f18f5b045699b60b046300d01d0277c8",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "028_Icosphere_018_m0.obj",
+      "triangles": 320,
+      "normals": 320,
+      "before_sha256": "34441f325b86e1d4f0c3075153a935f216e16ef32a8c2be943392ff2871bdcea",
+      "after_sha256": "fd17991549c179518ce43062d7cca9119ae3469dbfb57f18d8f9d6fdc551085a",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "029_Icosphere_019_m0.obj",
+      "triangles": 320,
+      "normals": 320,
+      "before_sha256": "e2c5b695dba9c9779f3c7644465c3694e3ff93496b255b2fc072b105b39c9116",
+      "after_sha256": "3003a46df83cbbf4a29164f71ad7f16830c0e88459bc70e7b1f37980b87e7e27",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "030_Icosphere_020_m0.obj",
+      "triangles": 320,
+      "normals": 320,
+      "before_sha256": "2cfd211f0eb77690c5f79fa6a561f2a0a4dcf04d426e0f5dc91268410bbd5614",
+      "after_sha256": "9c54257ef4f89e9cae5438078e86b6541922ea09b0af227fe528a5306801c330",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "031_Icosphere_021_m0.obj",
+      "triangles": 320,
+      "normals": 320,
+      "before_sha256": "8d6ec9f2171cc8d97605322de8c249eabd058a84b5f9d3bcad29f1afbeca7aa6",
+      "after_sha256": "1245deaf0d0cb8f889a4229633e9a69ef3342611305b6657cd6f15cd23d85f1e",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "032_Icosphere_022_m0.obj",
+      "triangles": 320,
+      "normals": 320,
+      "before_sha256": "3afa076fe9bebb9fb06375ca33f477bdaf41530399a596cacc8a1a6cce22f6a7",
+      "after_sha256": "67f3148f48d2cbdda672ba1a3e9b342d7adce5d70000685c1982c45a50166d50",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "033_Icosphere_023_m0.obj",
+      "triangles": 320,
+      "normals": 320,
+      "before_sha256": "7737729023d88cfbeca7884d99d591a04fed29593f32605f3e4c6631f76989f0",
+      "after_sha256": "7bff9c86d181bab2bff942d3717807ee5451facde3f807cd6fe1307bf0411104",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "034_Pothole_00_m0.obj",
+      "triangles": 380,
+      "normals": 380,
+      "before_sha256": "a461479a381b80960925b63107df5c409a9987e0ad466a2afdbfa71cff30a8a9",
+      "after_sha256": "641e172f660a7ea77e9c7b209055acd9c5b9e83917e531536125d7a1f2172021",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "035_Pothole_01_m0.obj",
+      "triangles": 380,
+      "normals": 380,
+      "before_sha256": "e22a41e5cf4b83223d3be9397004ddc212f4b136709dcc68f2d3f2a41830bb36",
+      "after_sha256": "ef9c60b19ebfb1b1469c21035f58be549d62171ed008e61fe172c20b6cc1d38e",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "036_Pothole_02_m0.obj",
+      "triangles": 380,
+      "normals": 380,
+      "before_sha256": "7fd9ddc3b9efbbdede7d07d2b4036d8fe6491964f9987f5d020a192c26c2d495",
+      "after_sha256": "0db5d128c1071906c9dbe960314fb88993f80188a2abf185bf22860f9b24cc97",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "038_Surroundings_m0.obj",
+      "triangles": 2,
+      "normals": 2,
+      "before_sha256": "ce66d5c6f6e130fb46e75270e207be5c47cbcda01eab66c7d9d5966d51b7e0c0",
+      "after_sha256": "546ab513fd944dc5c383bdae4eb5a51500ea4919d59323f3aee9811f6b5206a7",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "039_Tree_trunk_m0.obj",
+      "triangles": 44,
+      "normals": 44,
+      "before_sha256": "91ef2c5bc7921ec2a1d59daab65d6702550dbf31e3a41c7d852a5d7dabc609fd",
+      "after_sha256": "8ef63094268ad3a23c6050aed838c49440064cbbb3b94f0bfd058d902080c01d",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "040_Tree_trunk_001_m0.obj",
+      "triangles": 44,
+      "normals": 44,
+      "before_sha256": "871c048a3ea5c92894d75aa2b4cb91c2483b261bd2c3823a7a319482f0b36f63",
+      "after_sha256": "99c8ff32b54946433eb737d8420a9b99781adeb341bf3524e4251c4fd20b09bc",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "041_Tree_trunk_002_m0.obj",
+      "triangles": 44,
+      "normals": 44,
+      "before_sha256": "a1f5f40f31a0813ed2254692392822562a0f21d179878f7e0aa0808a51834e15",
+      "after_sha256": "a72e6aa7c53e9696568f817b5c5efc09b4f548587c726c2306d26aa6ac6698c0",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "042_Tree_trunk_003_m0.obj",
+      "triangles": 44,
+      "normals": 44,
+      "before_sha256": "bb2dcf6da759fabe2689b9711df99e16c5c03ebe039a599d76cc6aeb5d80c922",
+      "after_sha256": "7721b632ab0458d71c62001727f62508fde31222be36f832474afec1bbc75b80",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "043_Tree_trunk_004_m0.obj",
+      "triangles": 44,
+      "normals": 44,
+      "before_sha256": "007bae8061397c74fbf2277d90144720a0921ca704041497d3be18b1f7d4ace7",
+      "after_sha256": "20b788e72bc5029cd27d66cb60929f15c9132523a7ecef08ca5428834ae2a148",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "044_Tree_trunk_005_m0.obj",
+      "triangles": 44,
+      "normals": 44,
+      "before_sha256": "092d0fd442f5a1fda9dee27af4d18d22b5baca2a536ac8e4bba5c3dc7be73703",
+      "after_sha256": "e152c669e7af59e8a36fde39bcbedaa1c2baa1a3d29c5e920ad9cb16d697ee72",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "045_Tree_trunk_006_m0.obj",
+      "triangles": 44,
+      "normals": 44,
+      "before_sha256": "4048723bebbca486b1ac9c6a0b83eeb85b523a7182db3e7550271343829dad77",
+      "after_sha256": "b6a43116d33d595e71124b6da5202c5a1bc172ea9949c0f5ecf49deabb0ac64a",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "046_Tree_trunk_007_m0.obj",
+      "triangles": 44,
+      "normals": 44,
+      "before_sha256": "f5c042fce0ab9dd507a2a80bc2ee18a093d18586ff7a6815a13359ccb25dd038",
+      "after_sha256": "f87feffd2e9cc0cd2169bf71a39bdef3674dc33c83f2fbdc6066ff8b42377c7f",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "047_Tree_trunk_008_m0.obj",
+      "triangles": 44,
+      "normals": 44,
+      "before_sha256": "c2c27f01712cb3d47519a8251bfe29664d8adc9647dd9884a3b1dfabdb0e0b9f",
+      "after_sha256": "77a1852ef1260eea1b618f36704d40026aa55dd93ef6ce2a1dff6917d07bf523",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "048_Tree_trunk_009_m0.obj",
+      "triangles": 44,
+      "normals": 44,
+      "before_sha256": "b59d3dfb1ef63c6328c5e6e7962f2dab37597079138ea215e56cc6b3d3bf2387",
+      "after_sha256": "463a443c27dd9773820277fa9ae8b99eaf2d49c2739ea1ed88ddb4e68cfd2852",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "049_Tree_trunk_010_m0.obj",
+      "triangles": 44,
+      "normals": 44,
+      "before_sha256": "3718c9cabbc627d541c787a0b583ed4fd687cd37ff471a5fd9a96503dbe59072",
+      "after_sha256": "5d79fde1b6ccfbb961074eb54cf26c7cedbcf170997f65afa7556eaeee64cbd7",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "050_Tree_trunk_011_m0.obj",
+      "triangles": 44,
+      "normals": 44,
+      "before_sha256": "50f73b8d639f389e13bdf405535db25ce6cc40d7de246d719b968f697fcb7e16",
+      "after_sha256": "9e7b0090d062e688e60dc8d6ff8d51366595005eb9e8daecedd42053fe0bb7fb",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "051_Tree_trunk_012_m0.obj",
+      "triangles": 44,
+      "normals": 44,
+      "before_sha256": "1e141c8114a486b950371894c04c78f148ce9842518ae091e0d386ecd1f05f4e",
+      "after_sha256": "ad161ab580a3063b72da2a6a221a3ffcbe5211b61d738ed4362d2a2ea51f360b",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "052_Tree_trunk_013_m0.obj",
+      "triangles": 44,
+      "normals": 44,
+      "before_sha256": "0ece1f2ddc1cadb9e6fb1f547acf89f4cf9740911b9e2732c73ac8b42e8742c2",
+      "after_sha256": "0ea46209b398dfc80a867b6a3a2aa2b1543ac1feb12bdce2e7b4408f0c9b3ae9",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "053_Tree_trunk_014_m0.obj",
+      "triangles": 44,
+      "normals": 44,
+      "before_sha256": "3910340512b763911b92fcc04d8a0debb54613a44d5d9104cc685861d39e93b5",
+      "after_sha256": "44fcf5e432d7dc209f5f6c6a63e067d013db6e0bbb855e0e28e7db65a2a965a0",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "054_Tree_trunk_015_m0.obj",
+      "triangles": 44,
+      "normals": 44,
+      "before_sha256": "0309bc0248b7c830f4b9ebeef60779e5d95619cbac2d94dbda1c9f2a8337107b",
+      "after_sha256": "aaa9b5b5458afb6c76d8acfeb14e35696ed469f50d71ccc68e5acecf4a6a98ef",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "055_Tree_trunk_016_m0.obj",
+      "triangles": 44,
+      "normals": 44,
+      "before_sha256": "34ecf5376696a6728fc9377578e894d958d453e826df42e73c1250e5c94d4bcc",
+      "after_sha256": "f31364cdadf8a3facb2e749684b58640506be234e3357b0474045a481ef67128",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "056_Tree_trunk_017_m0.obj",
+      "triangles": 44,
+      "normals": 44,
+      "before_sha256": "441b36d817a066f7dfc48b9bea8260ab01b49264a237a40c52234e6ebb924172",
+      "after_sha256": "da02cc693d05802b1f2f015e86b1eff17b949592e5b9d40e601b8645561dd312",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "057_Tree_trunk_018_m0.obj",
+      "triangles": 44,
+      "normals": 44,
+      "before_sha256": "d12cfb59587c8e8afc6b9de5904fa29a11544b95eb821ba27c66a9ded8b94418",
+      "after_sha256": "2c4c5c43812522fe3f04eeae09b93b9af79e83650c7e05cef155343e17074af5",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "058_Tree_trunk_019_m0.obj",
+      "triangles": 44,
+      "normals": 44,
+      "before_sha256": "a9892fe768d6414344c80f23cc0df294f89176ea7a8a884ada1006701cbd2d87",
+      "after_sha256": "630312946c698c60528e9eaa2b8721759f802c40606c979ad5cafe0c860f642c",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "059_Tree_trunk_020_m0.obj",
+      "triangles": 44,
+      "normals": 44,
+      "before_sha256": "87f9b9d3a7a1f43ed85ea02fca17918a2012f576bb2767044fb0bdd59fd3573c",
+      "after_sha256": "4d0916b7771a556a138b015475142bd996e79f0ff66a2994932979e6b4fc1d3b",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "060_Tree_trunk_021_m0.obj",
+      "triangles": 44,
+      "normals": 44,
+      "before_sha256": "6877098f8646115767ceb8129f26727bbe0c74cac7de90da4740d8b4b2bb4ce4",
+      "after_sha256": "fcd4629c6b7342fbdc805659c6d481b5b6111b33fa46dd15b4e4d656283029fb",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "061_Tree_trunk_022_m0.obj",
+      "triangles": 44,
+      "normals": 44,
+      "before_sha256": "8b9c276d0bdbf7994cc88c90f14d4f2dff433be6be7357be1bcc8926db479d91",
+      "after_sha256": "e0ecbdfa796b4b50b51a8a916a41ea9e4f8a302de96f15e25cd7b50fb8cbc091",
+      "vertices_and_faces_unchanged": true
+    },
+    {
+      "file": "062_Tree_trunk_023_m0.obj",
+      "triangles": 44,
+      "normals": 44,
+      "before_sha256": "90f1037eb0116954f9b66a5552c39634a569c04752acf96c22eeb00f55e09e5d",
+      "after_sha256": "bdde37d42fa32d9eabcc316a54ad30875b17a3480a0a14cb3745853409c42b1b",
+      "vertices_and_faces_unchanged": true
+    }
+  ]
+}

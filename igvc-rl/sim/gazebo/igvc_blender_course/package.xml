@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>igvc_blender_course</name>
+  <version>0.1.0</version>
+  <description>Saved procedural Blender course for Gazebo Harmonic and ROS 2 Jazzy.</description>
+  <maintainer email="maintainer@example.invalid">IGVC project maintainers</maintainer>
+  <license>LicenseRef-Project-License-Unspecified</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_cmake_python</buildtool_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>python3-numpy</exec_depend>
+  <exec_depend>python3-scipy</exec_depend>
+  <exec_depend>python3-shapely</exec_depend>
+  <exec_depend>python3-yaml</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>ament_index_python</exec_depend>
+  <exec_depend>ros_gz_sim</exec_depend>
+  <exec_depend>ros_gz_bridge</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>rosgraph_msgs</exec_depend>
+  <exec_depend>ros2bag</exec_depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>

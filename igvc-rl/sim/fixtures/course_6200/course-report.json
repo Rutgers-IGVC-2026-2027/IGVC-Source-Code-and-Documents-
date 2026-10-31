@@ -1,0 +1,189 @@
+{
+  "kind": "actual-blender-course-render-and-evaluated-mesh",
+  "blender_version": "4.3.0",
+  "python": "3.11.14 (main, Jan 14 2026, 21:09:41) [Clang 21.1.4 ]",
+  "machine": "arm64",
+  "seed": 6200,
+  "view": "front",
+  "resolution": [
+    640,
+    360
+  ],
+  "samples": 32,
+  "elapsed_seconds": 3.4468260419671424,
+  "triangles": 24908,
+  "instances": 61,
+  "mesh_class_triangle_counts": {
+    "1": 2,
+    "2": 1996,
+    "3": 13032,
+    "4": 1140,
+    "5": 8738
+  },
+  "world_bounds_m": [
+    [
+      -110.0,
+      -90.0,
+      -0.04500000178813934
+    ],
+    [
+      110.0,
+      130.0,
+      7.2807886600494385
+    ]
+  ],
+  "pixel_counts": {
+    "background": 85553,
+    "asphalt": 121360,
+    "boundary": 2948,
+    "barrel": 4581,
+    "pothole": 114,
+    "environment": 15844
+  },
+  "geometry_label_check": {
+    "interior_center_rays_checked": 724,
+    "mismatches": 0,
+    "instance_mismatches": 0
+  },
+  "calibration": {
+    "K": [
+      [
+        391.1111111111111,
+        0,
+        320.0
+      ],
+      [
+        0,
+        391.1111111111111,
+        180.0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "world_to_camera_cv": [
+      [
+        0.9918857216835022,
+        -0.12713193893432617,
+        -9.313224635931761e-10,
+        0.22462153434753418
+      ],
+      [
+        -0.01185757014900446,
+        -0.09251298010349274,
+        -0.995640754699707,
+        1.0925196409225464
+      ],
+      [
+        0.12657776474952698,
+        0.9875619411468506,
+        -0.09326978772878647,
+        0.1312614530324936
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "camera_to_world_blender": [
+      [
+        0.9918858408927917,
+        0.011857572942972183,
+        -0.12657777965068817,
+        -0.2264590710401535
+      ],
+      [
+        -0.12713196873664856,
+        0.09251298755407333,
+        -0.9875620603561401,
+        0.0
+      ],
+      [
+        5.448361761750675e-10,
+        0.9956408739089966,
+        0.09326979517936707,
+        1.100000023841858
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "convention": "CV x right, y down, z forward; world meters, Z up; image origin upper-left corner, pixel centers at (u+0.5,v+0.5)",
+    "distortion": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "limitations": [
+    "Synthetic implementation assumptions, no real sensor accuracy.",
+    "Static course only; sequence and offset-sensor alignment are separate gates."
+  ],
+  "files": {
+    "geometry.json": {
+      "sha256": "e4a698da4fc69679a6e02fbb73926012d50db87ead120b4c24fe932c5650034a",
+      "bytes": 4550315
+    },
+    "index_0001.exr": {
+      "sha256": "75cfc06965a1332fcbd154182dbe932d38151286bd376200f55c3bb8b1922c4d",
+      "bytes": 24712
+    },
+    "instance.png": {
+      "sha256": "1f6f1ec683ed5470f60e4e71cb6a3eabe44f0340352e4e64a75a51073e3a5037",
+      "bytes": 3395
+    },
+    "instances.json": {
+      "sha256": "7c30d9b7ec2f6e124628e39bbecf3ef9a4d529ab072f9e4426478b5dd1f0b8e8",
+      "bytes": 3751
+    },
+    "metadata.json": {
+      "sha256": "7144803e555ff20cbb66a32b093c79be9c7f0ad0652cc1ff624207a4d544a5fd",
+      "bytes": 16611
+    },
+    "overlay.png": {
+      "sha256": "ce3b2523f95586396f9c0a213b5cdbf9c6f8e725096680b5fe76c761a9f93949",
+      "bytes": 137378
+    },
+    "render-config.json": {
+      "sha256": "3427332d780c17805f8e4db631407b10578fb769c85fb4b93a54027c6be85642",
+      "bytes": 1101
+    },
+    "rgb.png": {
+      "sha256": "6002264258c34c45a1c3fb28eb9deb4e3f23a437e50821b030e88281b8503393",
+      "bytes": 219634
+    },
+    "scene.blend": {
+      "sha256": "de906d905313313284eaa6a70625df10e829ad9ef9fd06da6ffed6f0cef5c0fa",
+      "bytes": 2444824
+    },
+    "semantic.png": {
+      "sha256": "7ca59954afe2022e5e258a2b42e6c9fcadbc2cab06b3fed307c34407251a23ea",
+      "bytes": 2900
+    },
+    "semantic_preview.png": {
+      "sha256": "827412ef1f3e32859665f5e7c921729ced19c8d404e6301c922b0f1381c03098",
+      "bytes": 4033
+    },
+    "source-generate.py": {
+      "sha256": "11102eecfe143cf1429298d2eea425f7a56b4f40ce23e5614310be8c6d0a826b",
+      "bytes": 24004
+    },
+    "source-generate_blender_course.py": {
+      "sha256": "52e8b2a6e4aa88549541b12804dbe37ffc2b814048feb839d9425f7aa225f781",
+      "bytes": 3728
+    },
+    "source-lidar_raycast.py": {
+      "sha256": "a39d22be32ddeb9a43fd72e9f9995cb5c8a8f12874b3e8389bc21e41e1c82372",
+      "bytes": 5066
+    }
+  }
+}

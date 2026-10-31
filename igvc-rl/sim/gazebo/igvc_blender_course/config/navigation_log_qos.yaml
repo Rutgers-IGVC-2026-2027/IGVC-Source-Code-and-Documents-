@@ -1,0 +1,6 @@
+# Retain the controller's current status even when recording starts late.
+/astar_controller/status:
+  history: keep_last
+  depth: 1
+  reliability: reliable
+  durability: transient_local

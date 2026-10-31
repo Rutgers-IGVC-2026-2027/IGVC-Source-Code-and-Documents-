@@ -1,0 +1,43 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "igvc-rl"
+version = "0.1.0"
+description = "Ground-truth guided reinforcement learning for IGVC navigation"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.26", "scipy>=1.11", "shapely>=2.0", "gymnasium>=1.0,<2", "pyyaml>=6"]
+
+[project.optional-dependencies]
+train = ["torch>=2.3", "stable-baselines3>=2.4,<3", "tensorboard>=2.16"]
+viz = ["matplotlib>=3.8", "pillow>=10"]
+dev = ["pytest>=8", "ruff>=0.9", "build>=1.2"]
+
+[project.scripts]
+igvc-train = "igvc_rl.training.train_ppo:main"
+igvc-smoke = "igvc_rl.training.smoke_test:main"
+igvc-evaluate = "igvc_rl.evaluation.benchmark:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/igvc_rl"]
+
+[tool.hatch.build.targets.wheel.force-include]
+"sim/fixtures/course_6200/metadata.json" = "igvc_rl/course/data/course_6200_metadata.json"
+"configs/training/ppo.yaml" = "igvc_rl/training/data/ppo.yaml"
+"configs/evaluation/default.yaml" = "igvc_rl/evaluation/data/default.yaml"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 100
+exclude = [
+    "sim",
+    "work",
+]
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]

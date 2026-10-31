@@ -1,0 +1,1360 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sdf version="1.9">
+  <model name="igvc_course_6200">
+    <static>true</static>
+    <link name="course">
+      <visual name="000_Asphalt_pad_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/000_Asphalt_pad_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.200000003 0.1700000018 0.1350000054 1</ambient>
+          <diffuse>0.200000003 0.1700000018 0.1350000054 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="000_Asphalt_pad_m0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/000_Asphalt_pad_m0.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="001_Barrel_00_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/001_Barrel_00_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.01999999955 0.3799999952 0.1199999973 1</ambient>
+          <diffuse>0.01999999955 0.3799999952 0.1199999973 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="001_Barrel_00_m0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/001_Barrel_00_m0.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="001_Barrel_00_m1_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/001_Barrel_00_m1.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.8799999952 0.8999999762 0.8500000238 1</ambient>
+          <diffuse>0.8799999952 0.8999999762 0.8500000238 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="001_Barrel_00_m1_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/001_Barrel_00_m1.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="001_Barrel_00_m2_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/001_Barrel_00_m2.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.02500000037 0.02899999917 0.03200000152 1</ambient>
+          <diffuse>0.02500000037 0.02899999917 0.03200000152 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="001_Barrel_00_m2_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/001_Barrel_00_m2.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="002_Barrel_01_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/002_Barrel_01_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.9200000167 0.1400000006 0.0120000001 1</ambient>
+          <diffuse>0.9200000167 0.1400000006 0.0120000001 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="002_Barrel_01_m0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/002_Barrel_01_m0.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="002_Barrel_01_m1_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/002_Barrel_01_m1.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.8799999952 0.8999999762 0.8500000238 1</ambient>
+          <diffuse>0.8799999952 0.8999999762 0.8500000238 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="002_Barrel_01_m1_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/002_Barrel_01_m1.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="002_Barrel_01_m2_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/002_Barrel_01_m2.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.02500000037 0.02899999917 0.03200000152 1</ambient>
+          <diffuse>0.02500000037 0.02899999917 0.03200000152 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="002_Barrel_01_m2_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/002_Barrel_01_m2.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="003_Barrel_02_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/003_Barrel_02_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.01999999955 0.1800000072 0.5799999833 1</ambient>
+          <diffuse>0.01999999955 0.1800000072 0.5799999833 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="003_Barrel_02_m0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/003_Barrel_02_m0.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="003_Barrel_02_m1_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/003_Barrel_02_m1.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.8799999952 0.8999999762 0.8500000238 1</ambient>
+          <diffuse>0.8799999952 0.8999999762 0.8500000238 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="003_Barrel_02_m1_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/003_Barrel_02_m1.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="003_Barrel_02_m2_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/003_Barrel_02_m2.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.02500000037 0.02899999917 0.03200000152 1</ambient>
+          <diffuse>0.02500000037 0.02899999917 0.03200000152 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="003_Barrel_02_m2_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/003_Barrel_02_m2.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="004_Barrel_03_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/004_Barrel_03_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.9200000167 0.6200000048 0.01999999955 1</ambient>
+          <diffuse>0.9200000167 0.6200000048 0.01999999955 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="004_Barrel_03_m0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/004_Barrel_03_m0.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="004_Barrel_03_m1_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/004_Barrel_03_m1.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.8799999952 0.8999999762 0.8500000238 1</ambient>
+          <diffuse>0.8799999952 0.8999999762 0.8500000238 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="004_Barrel_03_m1_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/004_Barrel_03_m1.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="004_Barrel_03_m2_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/004_Barrel_03_m2.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.02500000037 0.02899999917 0.03200000152 1</ambient>
+          <diffuse>0.02500000037 0.02899999917 0.03200000152 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="004_Barrel_03_m2_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/004_Barrel_03_m2.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="005_Barrel_04_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/005_Barrel_04_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.6800000072 0.02199999988 0.01700000092 1</ambient>
+          <diffuse>0.6800000072 0.02199999988 0.01700000092 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="005_Barrel_04_m0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/005_Barrel_04_m0.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="005_Barrel_04_m1_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/005_Barrel_04_m1.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.8799999952 0.8999999762 0.8500000238 1</ambient>
+          <diffuse>0.8799999952 0.8999999762 0.8500000238 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="005_Barrel_04_m1_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/005_Barrel_04_m1.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="005_Barrel_04_m2_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/005_Barrel_04_m2.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.02500000037 0.02899999917 0.03200000152 1</ambient>
+          <diffuse>0.02500000037 0.02899999917 0.03200000152 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="005_Barrel_04_m2_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/005_Barrel_04_m2.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="006_Barrel_05_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/006_Barrel_05_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.01999999955 0.3799999952 0.1199999973 1</ambient>
+          <diffuse>0.01999999955 0.3799999952 0.1199999973 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="006_Barrel_05_m0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/006_Barrel_05_m0.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="006_Barrel_05_m1_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/006_Barrel_05_m1.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.8799999952 0.8999999762 0.8500000238 1</ambient>
+          <diffuse>0.8799999952 0.8999999762 0.8500000238 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="006_Barrel_05_m1_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/006_Barrel_05_m1.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="006_Barrel_05_m2_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/006_Barrel_05_m2.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.02500000037 0.02899999917 0.03200000152 1</ambient>
+          <diffuse>0.02500000037 0.02899999917 0.03200000152 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="006_Barrel_05_m2_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/006_Barrel_05_m2.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="007_Boundary__1_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/007_Boundary__1_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.8199999928 0.8299999833 0.7799999714 1</ambient>
+          <diffuse>0.8199999928 0.8299999833 0.7799999714 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <visual name="008_Boundary_1_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/008_Boundary_1_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.8199999928 0.8299999833 0.7799999714 1</ambient>
+          <diffuse>0.8199999928 0.8299999833 0.7799999714 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <visual name="010_Icosphere_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/010_Icosphere_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.0700000003 0.1599999964 0.03299999982 1</ambient>
+          <diffuse>0.0700000003 0.1599999964 0.03299999982 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="010_Icosphere_m0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/010_Icosphere_m0.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="011_Icosphere_001_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/011_Icosphere_001_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.0700000003 0.1599999964 0.03299999982 1</ambient>
+          <diffuse>0.0700000003 0.1599999964 0.03299999982 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="011_Icosphere_001_m0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/011_Icosphere_001_m0.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="012_Icosphere_002_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/012_Icosphere_002_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.0700000003 0.1599999964 0.03299999982 1</ambient>
+          <diffuse>0.0700000003 0.1599999964 0.03299999982 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="012_Icosphere_002_m0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/012_Icosphere_002_m0.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="013_Icosphere_003_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/013_Icosphere_003_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.0700000003 0.1599999964 0.03299999982 1</ambient>
+          <diffuse>0.0700000003 0.1599999964 0.03299999982 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="013_Icosphere_003_m0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/013_Icosphere_003_m0.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="014_Icosphere_004_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/014_Icosphere_004_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.0700000003 0.1599999964 0.03299999982 1</ambient>
+          <diffuse>0.0700000003 0.1599999964 0.03299999982 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="014_Icosphere_004_m0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/014_Icosphere_004_m0.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="015_Icosphere_005_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/015_Icosphere_005_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.0700000003 0.1599999964 0.03299999982 1</ambient>
+          <diffuse>0.0700000003 0.1599999964 0.03299999982 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="015_Icosphere_005_m0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/015_Icosphere_005_m0.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="016_Icosphere_006_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/016_Icosphere_006_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.0700000003 0.1599999964 0.03299999982 1</ambient>
+          <diffuse>0.0700000003 0.1599999964 0.03299999982 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="016_Icosphere_006_m0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/016_Icosphere_006_m0.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="017_Icosphere_007_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/017_Icosphere_007_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.0700000003 0.1599999964 0.03299999982 1</ambient>
+          <diffuse>0.0700000003 0.1599999964 0.03299999982 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="017_Icosphere_007_m0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/017_Icosphere_007_m0.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="018_Icosphere_008_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/018_Icosphere_008_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.0700000003 0.1599999964 0.03299999982 1</ambient>
+          <diffuse>0.0700000003 0.1599999964 0.03299999982 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="018_Icosphere_008_m0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/018_Icosphere_008_m0.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="019_Icosphere_009_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/019_Icosphere_009_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.0700000003 0.1599999964 0.03299999982 1</ambient>
+          <diffuse>0.0700000003 0.1599999964 0.03299999982 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="019_Icosphere_009_m0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/019_Icosphere_009_m0.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="020_Icosphere_010_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/020_Icosphere_010_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.0700000003 0.1599999964 0.03299999982 1</ambient>
+          <diffuse>0.0700000003 0.1599999964 0.03299999982 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="020_Icosphere_010_m0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/020_Icosphere_010_m0.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="021_Icosphere_011_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/021_Icosphere_011_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.0700000003 0.1599999964 0.03299999982 1</ambient>
+          <diffuse>0.0700000003 0.1599999964 0.03299999982 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="021_Icosphere_011_m0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/021_Icosphere_011_m0.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="022_Icosphere_012_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/022_Icosphere_012_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.0700000003 0.1599999964 0.03299999982 1</ambient>
+          <diffuse>0.0700000003 0.1599999964 0.03299999982 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="022_Icosphere_012_m0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/022_Icosphere_012_m0.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="023_Icosphere_013_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/023_Icosphere_013_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.0700000003 0.1599999964 0.03299999982 1</ambient>
+          <diffuse>0.0700000003 0.1599999964 0.03299999982 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="023_Icosphere_013_m0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/023_Icosphere_013_m0.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="024_Icosphere_014_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/024_Icosphere_014_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.0700000003 0.1599999964 0.03299999982 1</ambient>
+          <diffuse>0.0700000003 0.1599999964 0.03299999982 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="024_Icosphere_014_m0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/024_Icosphere_014_m0.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="025_Icosphere_015_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/025_Icosphere_015_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.0700000003 0.1599999964 0.03299999982 1</ambient>
+          <diffuse>0.0700000003 0.1599999964 0.03299999982 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="025_Icosphere_015_m0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/025_Icosphere_015_m0.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="026_Icosphere_016_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/026_Icosphere_016_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.0700000003 0.1599999964 0.03299999982 1</ambient>
+          <diffuse>0.0700000003 0.1599999964 0.03299999982 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="026_Icosphere_016_m0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/026_Icosphere_016_m0.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="027_Icosphere_017_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/027_Icosphere_017_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.0700000003 0.1599999964 0.03299999982 1</ambient>
+          <diffuse>0.0700000003 0.1599999964 0.03299999982 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="027_Icosphere_017_m0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/027_Icosphere_017_m0.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="028_Icosphere_018_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/028_Icosphere_018_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.0700000003 0.1599999964 0.03299999982 1</ambient>
+          <diffuse>0.0700000003 0.1599999964 0.03299999982 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="028_Icosphere_018_m0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/028_Icosphere_018_m0.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="029_Icosphere_019_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/029_Icosphere_019_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.0700000003 0.1599999964 0.03299999982 1</ambient>
+          <diffuse>0.0700000003 0.1599999964 0.03299999982 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="029_Icosphere_019_m0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/029_Icosphere_019_m0.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="030_Icosphere_020_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/030_Icosphere_020_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.0700000003 0.1599999964 0.03299999982 1</ambient>
+          <diffuse>0.0700000003 0.1599999964 0.03299999982 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="030_Icosphere_020_m0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/030_Icosphere_020_m0.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="031_Icosphere_021_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/031_Icosphere_021_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.0700000003 0.1599999964 0.03299999982 1</ambient>
+          <diffuse>0.0700000003 0.1599999964 0.03299999982 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="031_Icosphere_021_m0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/031_Icosphere_021_m0.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="032_Icosphere_022_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/032_Icosphere_022_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.0700000003 0.1599999964 0.03299999982 1</ambient>
+          <diffuse>0.0700000003 0.1599999964 0.03299999982 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="032_Icosphere_022_m0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/032_Icosphere_022_m0.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="033_Icosphere_023_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/033_Icosphere_023_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.0700000003 0.1599999964 0.03299999982 1</ambient>
+          <diffuse>0.0700000003 0.1599999964 0.03299999982 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="033_Icosphere_023_m0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/033_Icosphere_023_m0.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="034_Pothole_00_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/034_Pothole_00_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.8199999928 0.8299999833 0.7799999714 1</ambient>
+          <diffuse>0.8199999928 0.8299999833 0.7799999714 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <visual name="035_Pothole_01_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/035_Pothole_01_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.8199999928 0.8299999833 0.7799999714 1</ambient>
+          <diffuse>0.8199999928 0.8299999833 0.7799999714 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <visual name="036_Pothole_02_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/036_Pothole_02_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.8199999928 0.8299999833 0.7799999714 1</ambient>
+          <diffuse>0.8199999928 0.8299999833 0.7799999714 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <visual name="038_Surroundings_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/038_Surroundings_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.1299999952 0.200000003 0.06499999762 1</ambient>
+          <diffuse>0.1299999952 0.200000003 0.06499999762 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="038_Surroundings_m0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/038_Surroundings_m0.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="039_Tree_trunk_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/039_Tree_trunk_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.1199999973 0.07500000298 0.03200000152 1</ambient>
+          <diffuse>0.1199999973 0.07500000298 0.03200000152 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="039_Tree_trunk_m0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/039_Tree_trunk_m0.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="040_Tree_trunk_001_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/040_Tree_trunk_001_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.1199999973 0.07500000298 0.03200000152 1</ambient>
+          <diffuse>0.1199999973 0.07500000298 0.03200000152 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="040_Tree_trunk_001_m0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/040_Tree_trunk_001_m0.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="041_Tree_trunk_002_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/041_Tree_trunk_002_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.1199999973 0.07500000298 0.03200000152 1</ambient>
+          <diffuse>0.1199999973 0.07500000298 0.03200000152 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="041_Tree_trunk_002_m0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/041_Tree_trunk_002_m0.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="042_Tree_trunk_003_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/042_Tree_trunk_003_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.1199999973 0.07500000298 0.03200000152 1</ambient>
+          <diffuse>0.1199999973 0.07500000298 0.03200000152 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="042_Tree_trunk_003_m0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/042_Tree_trunk_003_m0.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="043_Tree_trunk_004_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/043_Tree_trunk_004_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.1199999973 0.07500000298 0.03200000152 1</ambient>
+          <diffuse>0.1199999973 0.07500000298 0.03200000152 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="043_Tree_trunk_004_m0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/043_Tree_trunk_004_m0.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="044_Tree_trunk_005_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/044_Tree_trunk_005_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.1199999973 0.07500000298 0.03200000152 1</ambient>
+          <diffuse>0.1199999973 0.07500000298 0.03200000152 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="044_Tree_trunk_005_m0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/044_Tree_trunk_005_m0.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="045_Tree_trunk_006_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/045_Tree_trunk_006_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.1199999973 0.07500000298 0.03200000152 1</ambient>
+          <diffuse>0.1199999973 0.07500000298 0.03200000152 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="045_Tree_trunk_006_m0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/045_Tree_trunk_006_m0.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="046_Tree_trunk_007_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/046_Tree_trunk_007_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.1199999973 0.07500000298 0.03200000152 1</ambient>
+          <diffuse>0.1199999973 0.07500000298 0.03200000152 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="046_Tree_trunk_007_m0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/046_Tree_trunk_007_m0.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="047_Tree_trunk_008_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/047_Tree_trunk_008_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.1199999973 0.07500000298 0.03200000152 1</ambient>
+          <diffuse>0.1199999973 0.07500000298 0.03200000152 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="047_Tree_trunk_008_m0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/047_Tree_trunk_008_m0.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="048_Tree_trunk_009_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/048_Tree_trunk_009_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.1199999973 0.07500000298 0.03200000152 1</ambient>
+          <diffuse>0.1199999973 0.07500000298 0.03200000152 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="048_Tree_trunk_009_m0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/048_Tree_trunk_009_m0.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="049_Tree_trunk_010_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/049_Tree_trunk_010_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.1199999973 0.07500000298 0.03200000152 1</ambient>
+          <diffuse>0.1199999973 0.07500000298 0.03200000152 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="049_Tree_trunk_010_m0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/049_Tree_trunk_010_m0.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="050_Tree_trunk_011_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/050_Tree_trunk_011_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.1199999973 0.07500000298 0.03200000152 1</ambient>
+          <diffuse>0.1199999973 0.07500000298 0.03200000152 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="050_Tree_trunk_011_m0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/050_Tree_trunk_011_m0.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="051_Tree_trunk_012_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/051_Tree_trunk_012_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.1199999973 0.07500000298 0.03200000152 1</ambient>
+          <diffuse>0.1199999973 0.07500000298 0.03200000152 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="051_Tree_trunk_012_m0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/051_Tree_trunk_012_m0.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="052_Tree_trunk_013_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/052_Tree_trunk_013_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.1199999973 0.07500000298 0.03200000152 1</ambient>
+          <diffuse>0.1199999973 0.07500000298 0.03200000152 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="052_Tree_trunk_013_m0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/052_Tree_trunk_013_m0.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="053_Tree_trunk_014_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/053_Tree_trunk_014_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.1199999973 0.07500000298 0.03200000152 1</ambient>
+          <diffuse>0.1199999973 0.07500000298 0.03200000152 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="053_Tree_trunk_014_m0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/053_Tree_trunk_014_m0.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="054_Tree_trunk_015_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/054_Tree_trunk_015_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.1199999973 0.07500000298 0.03200000152 1</ambient>
+          <diffuse>0.1199999973 0.07500000298 0.03200000152 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="054_Tree_trunk_015_m0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/054_Tree_trunk_015_m0.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="055_Tree_trunk_016_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/055_Tree_trunk_016_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.1199999973 0.07500000298 0.03200000152 1</ambient>
+          <diffuse>0.1199999973 0.07500000298 0.03200000152 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="055_Tree_trunk_016_m0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/055_Tree_trunk_016_m0.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="056_Tree_trunk_017_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/056_Tree_trunk_017_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.1199999973 0.07500000298 0.03200000152 1</ambient>
+          <diffuse>0.1199999973 0.07500000298 0.03200000152 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="056_Tree_trunk_017_m0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/056_Tree_trunk_017_m0.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="057_Tree_trunk_018_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/057_Tree_trunk_018_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.1199999973 0.07500000298 0.03200000152 1</ambient>
+          <diffuse>0.1199999973 0.07500000298 0.03200000152 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="057_Tree_trunk_018_m0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/057_Tree_trunk_018_m0.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="058_Tree_trunk_019_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/058_Tree_trunk_019_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.1199999973 0.07500000298 0.03200000152 1</ambient>
+          <diffuse>0.1199999973 0.07500000298 0.03200000152 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="058_Tree_trunk_019_m0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/058_Tree_trunk_019_m0.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="059_Tree_trunk_020_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/059_Tree_trunk_020_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.1199999973 0.07500000298 0.03200000152 1</ambient>
+          <diffuse>0.1199999973 0.07500000298 0.03200000152 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="059_Tree_trunk_020_m0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/059_Tree_trunk_020_m0.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="060_Tree_trunk_021_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/060_Tree_trunk_021_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.1199999973 0.07500000298 0.03200000152 1</ambient>
+          <diffuse>0.1199999973 0.07500000298 0.03200000152 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="060_Tree_trunk_021_m0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/060_Tree_trunk_021_m0.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="061_Tree_trunk_022_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/061_Tree_trunk_022_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.1199999973 0.07500000298 0.03200000152 1</ambient>
+          <diffuse>0.1199999973 0.07500000298 0.03200000152 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="061_Tree_trunk_022_m0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/061_Tree_trunk_022_m0.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="062_Tree_trunk_023_m0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/062_Tree_trunk_023_m0.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.1199999973 0.07500000298 0.03200000152 1</ambient>
+          <diffuse>0.1199999973 0.07500000298 0.03200000152 1</diffuse>
+          <specular>0.04 0.04 0.04 1</specular>
+        </material>
+      </visual>
+      <collision name="062_Tree_trunk_023_m0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://igvc_course_6200/meshes/062_Tree_trunk_023_m0.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+</sdf>

@@ -1,0 +1,9 @@
+{
+  "tests": "30",
+  "failures": "0",
+  "errors": "0",
+  "skipped": "0",
+  "time": "13.541",
+  "command": "python -m pytest -q --junitxml=work/pytest-final.xml",
+  "timestamp_utc": "2026-10-20T01:32:04.601941+00:00"
+}

@@ -1,0 +1,857 @@
+{
+  "schema_version": 2,
+  "seed": 6200,
+  "view": "front",
+  "resolution": [
+    640,
+    360
+  ],
+  "blender": "4.3.0",
+  "renderer": "Cycles CPU",
+  "samples": 32,
+  "course": {
+    "seed": 6200,
+    "amplitude_m": 0.9455739842813677,
+    "wavelength_m": 28.123909534518113,
+    "phase": -0.24184440241530647,
+    "camera": {
+      "height_m": 1.1,
+      "focal_length_mm": 22.0,
+      "front_y_m": 0.0,
+      "lateral_offset_m": 0.0,
+      "look_distance_m": 9.0
+    },
+    "sun_elevation_rad": 0.8105618617832197,
+    "sun_rotation_rad": 1.431697442670186,
+    "sun_energy": 3.2575385570526123,
+    "sun_angle_rad": 0.07000000029802322,
+    "obstacles": [
+      {
+        "kind": "barrel",
+        "center_m": [
+          -0.5091151870037621,
+          5.047761605892737,
+          0
+        ],
+        "radius_m": 0.29,
+        "height_m": 1.0,
+        "opposite_side_clearance_m": 2.694998098219231
+      },
+      {
+        "kind": "barrel",
+        "center_m": [
+          2.0918237716580608,
+          10.03584112956009,
+          0
+        ],
+        "radius_m": 0.29,
+        "height_m": 1.0,
+        "opposite_side_clearance_m": 2.690237824777861
+      },
+      {
+        "kind": "barrel",
+        "center_m": [
+          -1.0615694113865122,
+          14.969122596959677,
+          0
+        ],
+        "radius_m": 0.29,
+        "height_m": 1.0,
+        "opposite_side_clearance_m": 2.3847760510252733
+      },
+      {
+        "kind": "barrel",
+        "center_m": [
+          0.18998339448069768,
+          21.781432207808585,
+          0
+        ],
+        "radius_m": 0.29,
+        "height_m": 1.0,
+        "opposite_side_clearance_m": 2.49838041202863
+      },
+      {
+        "kind": "barrel",
+        "center_m": [
+          -1.4232171403640292,
+          28.410054562546907,
+          0
+        ],
+        "radius_m": 0.29,
+        "height_m": 1.0,
+        "opposite_side_clearance_m": 2.6947078001490476
+      },
+      {
+        "kind": "barrel",
+        "center_m": [
+          1.7213802726544942,
+          31.54308176105962,
+          0
+        ],
+        "radius_m": 0.29,
+        "height_m": 1.0,
+        "opposite_side_clearance_m": 2.694999454427987
+      },
+      {
+        "kind": "pothole",
+        "center_m": [
+          1.5564483068967554,
+          7.482112086481667,
+          0
+        ],
+        "diameter_m": 0.6096
+      },
+      {
+        "kind": "pothole",
+        "center_m": [
+          -1.3316514892024323,
+          18.915478815873453,
+          0
+        ],
+        "diameter_m": 0.6096
+      },
+      {
+        "kind": "pothole",
+        "center_m": [
+          -0.008619919482031002,
+          25.902447333455015,
+          0
+        ],
+        "diameter_m": 0.6096
+      }
+    ],
+    "instances": {
+      "1": {
+        "name": "Asphalt pad",
+        "class_id": 1
+      },
+      "2": {
+        "name": "Barrel_00",
+        "class_id": 3
+      },
+      "3": {
+        "name": "Barrel_01",
+        "class_id": 3
+      },
+      "4": {
+        "name": "Barrel_02",
+        "class_id": 3
+      },
+      "5": {
+        "name": "Barrel_03",
+        "class_id": 3
+      },
+      "6": {
+        "name": "Barrel_04",
+        "class_id": 3
+      },
+      "7": {
+        "name": "Barrel_05",
+        "class_id": 3
+      },
+      "8": {
+        "name": "Boundary -1",
+        "class_id": 2
+      },
+      "9": {
+        "name": "Boundary 1",
+        "class_id": 2
+      },
+      "10": {
+        "name": "Icosphere",
+        "class_id": 5
+      },
+      "11": {
+        "name": "Icosphere.001",
+        "class_id": 5
+      },
+      "12": {
+        "name": "Icosphere.002",
+        "class_id": 5
+      },
+      "13": {
+        "name": "Icosphere.003",
+        "class_id": 5
+      },
+      "14": {
+        "name": "Icosphere.004",
+        "class_id": 5
+      },
+      "15": {
+        "name": "Icosphere.005",
+        "class_id": 5
+      },
+      "16": {
+        "name": "Icosphere.006",
+        "class_id": 5
+      },
+      "17": {
+        "name": "Icosphere.007",
+        "class_id": 5
+      },
+      "18": {
+        "name": "Icosphere.008",
+        "class_id": 5
+      },
+      "19": {
+        "name": "Icosphere.009",
+        "class_id": 5
+      },
+      "20": {
+        "name": "Icosphere.010",
+        "class_id": 5
+      },
+      "21": {
+        "name": "Icosphere.011",
+        "class_id": 5
+      },
+      "22": {
+        "name": "Icosphere.012",
+        "class_id": 5
+      },
+      "23": {
+        "name": "Icosphere.013",
+        "class_id": 5
+      },
+      "24": {
+        "name": "Icosphere.014",
+        "class_id": 5
+      },
+      "25": {
+        "name": "Icosphere.015",
+        "class_id": 5
+      },
+      "26": {
+        "name": "Icosphere.016",
+        "class_id": 5
+      },
+      "27": {
+        "name": "Icosphere.017",
+        "class_id": 5
+      },
+      "28": {
+        "name": "Icosphere.018",
+        "class_id": 5
+      },
+      "29": {
+        "name": "Icosphere.019",
+        "class_id": 5
+      },
+      "30": {
+        "name": "Icosphere.020",
+        "class_id": 5
+      },
+      "31": {
+        "name": "Icosphere.021",
+        "class_id": 5
+      },
+      "32": {
+        "name": "Icosphere.022",
+        "class_id": 5
+      },
+      "33": {
+        "name": "Icosphere.023",
+        "class_id": 5
+      },
+      "34": {
+        "name": "Pothole_00",
+        "class_id": 4
+      },
+      "35": {
+        "name": "Pothole_01",
+        "class_id": 4
+      },
+      "36": {
+        "name": "Pothole_02",
+        "class_id": 4
+      },
+      "37": {
+        "name": "Surroundings",
+        "class_id": 5
+      },
+      "38": {
+        "name": "Tree trunk",
+        "class_id": 5
+      },
+      "39": {
+        "name": "Tree trunk.001",
+        "class_id": 5
+      },
+      "40": {
+        "name": "Tree trunk.002",
+        "class_id": 5
+      },
+      "41": {
+        "name": "Tree trunk.003",
+        "class_id": 5
+      },
+      "42": {
+        "name": "Tree trunk.004",
+        "class_id": 5
+      },
+      "43": {
+        "name": "Tree trunk.005",
+        "class_id": 5
+      },
+      "44": {
+        "name": "Tree trunk.006",
+        "class_id": 5
+      },
+      "45": {
+        "name": "Tree trunk.007",
+        "class_id": 5
+      },
+      "46": {
+        "name": "Tree trunk.008",
+        "class_id": 5
+      },
+      "47": {
+        "name": "Tree trunk.009",
+        "class_id": 5
+      },
+      "48": {
+        "name": "Tree trunk.010",
+        "class_id": 5
+      },
+      "49": {
+        "name": "Tree trunk.011",
+        "class_id": 5
+      },
+      "50": {
+        "name": "Tree trunk.012",
+        "class_id": 5
+      },
+      "51": {
+        "name": "Tree trunk.013",
+        "class_id": 5
+      },
+      "52": {
+        "name": "Tree trunk.014",
+        "class_id": 5
+      },
+      "53": {
+        "name": "Tree trunk.015",
+        "class_id": 5
+      },
+      "54": {
+        "name": "Tree trunk.016",
+        "class_id": 5
+      },
+      "55": {
+        "name": "Tree trunk.017",
+        "class_id": 5
+      },
+      "56": {
+        "name": "Tree trunk.018",
+        "class_id": 5
+      },
+      "57": {
+        "name": "Tree trunk.019",
+        "class_id": 5
+      },
+      "58": {
+        "name": "Tree trunk.020",
+        "class_id": 5
+      },
+      "59": {
+        "name": "Tree trunk.021",
+        "class_id": 5
+      },
+      "60": {
+        "name": "Tree trunk.022",
+        "class_id": 5
+      },
+      "61": {
+        "name": "Tree trunk.023",
+        "class_id": 5
+      }
+    }
+  },
+  "camera": {
+    "K": [
+      [
+        391.1111111111111,
+        0,
+        320.0
+      ],
+      [
+        0,
+        391.1111111111111,
+        180.0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "world_to_camera_cv": [
+      [
+        0.9918857216835022,
+        -0.12713193893432617,
+        -9.313224635931761e-10,
+        0.22462153434753418
+      ],
+      [
+        -0.01185757014900446,
+        -0.09251298010349274,
+        -0.995640754699707,
+        1.0925196409225464
+      ],
+      [
+        0.12657776474952698,
+        0.9875619411468506,
+        -0.09326978772878647,
+        0.1312614530324936
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "camera_to_world_blender": [
+      [
+        0.9918858408927917,
+        0.011857572942972183,
+        -0.12657777965068817,
+        -0.2264590710401535
+      ],
+      [
+        -0.12713196873664856,
+        0.09251298755407333,
+        -0.9875620603561401,
+        0.0
+      ],
+      [
+        5.448361761750675e-10,
+        0.9956408739089966,
+        0.09326979517936707,
+        1.100000023841858
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "convention": "CV x right, y down, z forward; world meters, Z up; image origin upper-left corner, pixel centers at (u+0.5,v+0.5)",
+    "distortion": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "class_map": {
+    "0": "background",
+    "1": "asphalt",
+    "2": "boundary",
+    "3": "barrel",
+    "4": "pothole",
+    "5": "environment"
+  },
+  "instance_map": {
+    "1": {
+      "name": "Asphalt pad",
+      "class_id": 1
+    },
+    "2": {
+      "name": "Barrel_00",
+      "class_id": 3
+    },
+    "3": {
+      "name": "Barrel_01",
+      "class_id": 3
+    },
+    "4": {
+      "name": "Barrel_02",
+      "class_id": 3
+    },
+    "5": {
+      "name": "Barrel_03",
+      "class_id": 3
+    },
+    "6": {
+      "name": "Barrel_04",
+      "class_id": 3
+    },
+    "7": {
+      "name": "Barrel_05",
+      "class_id": 3
+    },
+    "8": {
+      "name": "Boundary -1",
+      "class_id": 2
+    },
+    "9": {
+      "name": "Boundary 1",
+      "class_id": 2
+    },
+    "10": {
+      "name": "Icosphere",
+      "class_id": 5
+    },
+    "11": {
+      "name": "Icosphere.001",
+      "class_id": 5
+    },
+    "12": {
+      "name": "Icosphere.002",
+      "class_id": 5
+    },
+    "13": {
+      "name": "Icosphere.003",
+      "class_id": 5
+    },
+    "14": {
+      "name": "Icosphere.004",
+      "class_id": 5
+    },
+    "15": {
+      "name": "Icosphere.005",
+      "class_id": 5
+    },
+    "16": {
+      "name": "Icosphere.006",
+      "class_id": 5
+    },
+    "17": {
+      "name": "Icosphere.007",
+      "class_id": 5
+    },
+    "18": {
+      "name": "Icosphere.008",
+      "class_id": 5
+    },
+    "19": {
+      "name": "Icosphere.009",
+      "class_id": 5
+    },
+    "20": {
+      "name": "Icosphere.010",
+      "class_id": 5
+    },
+    "21": {
+      "name": "Icosphere.011",
+      "class_id": 5
+    },
+    "22": {
+      "name": "Icosphere.012",
+      "class_id": 5
+    },
+    "23": {
+      "name": "Icosphere.013",
+      "class_id": 5
+    },
+    "24": {
+      "name": "Icosphere.014",
+      "class_id": 5
+    },
+    "25": {
+      "name": "Icosphere.015",
+      "class_id": 5
+    },
+    "26": {
+      "name": "Icosphere.016",
+      "class_id": 5
+    },
+    "27": {
+      "name": "Icosphere.017",
+      "class_id": 5
+    },
+    "28": {
+      "name": "Icosphere.018",
+      "class_id": 5
+    },
+    "29": {
+      "name": "Icosphere.019",
+      "class_id": 5
+    },
+    "30": {
+      "name": "Icosphere.020",
+      "class_id": 5
+    },
+    "31": {
+      "name": "Icosphere.021",
+      "class_id": 5
+    },
+    "32": {
+      "name": "Icosphere.022",
+      "class_id": 5
+    },
+    "33": {
+      "name": "Icosphere.023",
+      "class_id": 5
+    },
+    "34": {
+      "name": "Pothole_00",
+      "class_id": 4
+    },
+    "35": {
+      "name": "Pothole_01",
+      "class_id": 4
+    },
+    "36": {
+      "name": "Pothole_02",
+      "class_id": 4
+    },
+    "37": {
+      "name": "Surroundings",
+      "class_id": 5
+    },
+    "38": {
+      "name": "Tree trunk",
+      "class_id": 5
+    },
+    "39": {
+      "name": "Tree trunk.001",
+      "class_id": 5
+    },
+    "40": {
+      "name": "Tree trunk.002",
+      "class_id": 5
+    },
+    "41": {
+      "name": "Tree trunk.003",
+      "class_id": 5
+    },
+    "42": {
+      "name": "Tree trunk.004",
+      "class_id": 5
+    },
+    "43": {
+      "name": "Tree trunk.005",
+      "class_id": 5
+    },
+    "44": {
+      "name": "Tree trunk.006",
+      "class_id": 5
+    },
+    "45": {
+      "name": "Tree trunk.007",
+      "class_id": 5
+    },
+    "46": {
+      "name": "Tree trunk.008",
+      "class_id": 5
+    },
+    "47": {
+      "name": "Tree trunk.009",
+      "class_id": 5
+    },
+    "48": {
+      "name": "Tree trunk.010",
+      "class_id": 5
+    },
+    "49": {
+      "name": "Tree trunk.011",
+      "class_id": 5
+    },
+    "50": {
+      "name": "Tree trunk.012",
+      "class_id": 5
+    },
+    "51": {
+      "name": "Tree trunk.013",
+      "class_id": 5
+    },
+    "52": {
+      "name": "Tree trunk.014",
+      "class_id": 5
+    },
+    "53": {
+      "name": "Tree trunk.015",
+      "class_id": 5
+    },
+    "54": {
+      "name": "Tree trunk.016",
+      "class_id": 5
+    },
+    "55": {
+      "name": "Tree trunk.017",
+      "class_id": 5
+    },
+    "56": {
+      "name": "Tree trunk.018",
+      "class_id": 5
+    },
+    "57": {
+      "name": "Tree trunk.019",
+      "class_id": 5
+    },
+    "58": {
+      "name": "Tree trunk.020",
+      "class_id": 5
+    },
+    "59": {
+      "name": "Tree trunk.021",
+      "class_id": 5
+    },
+    "60": {
+      "name": "Tree trunk.022",
+      "class_id": 5
+    },
+    "61": {
+      "name": "Tree trunk.023",
+      "class_id": 5
+    }
+  },
+  "pixel_counts": {
+    "background": 85553,
+    "asphalt": 121360,
+    "boundary": 2948,
+    "barrel": 4581,
+    "pothole": 114,
+    "environment": 15844
+  },
+  "instance_pixel_counts": {
+    "1": 121360,
+    "2": 3453,
+    "3": 791,
+    "4": 66,
+    "5": 174,
+    "6": 19,
+    "7": 78,
+    "8": 1679,
+    "9": 1269,
+    "10": 0,
+    "11": 0,
+    "12": 10,
+    "13": 239,
+    "14": 377,
+    "15": 0,
+    "16": 0,
+    "17": 0,
+    "18": 0,
+    "19": 612,
+    "20": 1780,
+    "21": 616,
+    "22": 0,
+    "23": 14,
+    "24": 0,
+    "25": 1108,
+    "26": 1085,
+    "27": 127,
+    "28": 697,
+    "29": 1075,
+    "30": 0,
+    "31": 0,
+    "32": 243,
+    "33": 0,
+    "34": 114,
+    "35": 0,
+    "36": 0,
+    "37": 7106,
+    "38": 0,
+    "39": 0,
+    "40": 31,
+    "41": 37,
+    "42": 28,
+    "43": 0,
+    "44": 0,
+    "45": 0,
+    "46": 0,
+    "47": 66,
+    "48": 206,
+    "49": 35,
+    "50": 0,
+    "51": 38,
+    "52": 0,
+    "53": 67,
+    "54": 69,
+    "55": 38,
+    "56": 44,
+    "57": 66,
+    "58": 0,
+    "59": 0,
+    "60": 30,
+    "61": 0
+  },
+  "validation": {
+    "interior_center_rays_checked": 724,
+    "mismatches": 0,
+    "instance_mismatches": 0
+  },
+  "config": {
+    "schema_version": 1,
+    "seeds": [
+      6200
+    ],
+    "resolution": [
+      640,
+      360
+    ],
+    "samples": 32,
+    "course": {
+      "length_m": 34.0,
+      "width_m": 3.6,
+      "narrow_width_m": 3.048,
+      "line_width_m": 0.09,
+      "amplitude_m": [
+        0.8,
+        1.4
+      ],
+      "wavelength_m": [
+        23.0,
+        29.0
+      ],
+      "barrel_height_m": 1.0,
+      "barrel_radius_m": 0.29,
+      "pothole_diameter_m": 0.6096,
+      "minimum_clearance_m": 1.524,
+      "barrel_y_m": [
+        5,
+        10,
+        15,
+        22,
+        28,
+        32
+      ],
+      "pothole_y_m": [
+        7.5,
+        19,
+        26
+      ]
+    },
+    "camera": {
+      "height_m": 1.1,
+      "focal_length_mm": 22.0,
+      "sensor_width_mm": 36.0
+    },
+    "views": [
+      "front"
+    ],
+    "description": "Small AutoNav-inspired course segments, not full competition courses. Multicolored drums are visual augmentation; dimensions are configurable assumptions.",
+    "lighting": {
+      "sun_elevation_rad": [
+        0.35,
+        1.0
+      ],
+      "sun_rotation_rad": [
+        -1.5,
+        1.5
+      ],
+      "sun_energy": [
+        2.1,
+        3.5
+      ],
+      "sky_strength": 0.35
+    }
+  },
+  "source_sha256": "11102eecfe143cf1429298d2eea425f7a56b4f40ce23e5614310be8c6d0a826b",
+  "config_sha256": "3427332d780c17805f8e4db631407b10578fb769c85fb4b93a54027c6be85642",
+  "files": {
+    "index_0001.exr": "75cfc06965a1332fcbd154182dbe932d38151286bd376200f55c3bb8b1922c4d",
+    "instance.png": "1f6f1ec683ed5470f60e4e71cb6a3eabe44f0340352e4e64a75a51073e3a5037",
+    "instances.json": "7c30d9b7ec2f6e124628e39bbecf3ef9a4d529ab072f9e4426478b5dd1f0b8e8",
+    "overlay.png": "ce3b2523f95586396f9c0a213b5cdbf9c6f8e725096680b5fe76c761a9f93949",
+    "rgb.png": "6002264258c34c45a1c3fb28eb9deb4e3f23a437e50821b030e88281b8503393",
+    "scene.blend": "de906d905313313284eaa6a70625df10e829ad9ef9fd06da6ffed6f0cef5c0fa",
+    "semantic.png": "7ca59954afe2022e5e258a2b42e6c9fcadbc2cab06b3fed307c34407251a23ea",
+    "semantic_preview.png": "827412ef1f3e32859665f5e7c921729ced19c8d404e6301c922b0f1381c03098"
+  }
+}

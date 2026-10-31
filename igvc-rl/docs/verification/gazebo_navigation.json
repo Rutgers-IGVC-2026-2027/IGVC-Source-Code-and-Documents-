@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-26",
+  "scope": "Saved-map A* and pure-pursuit controller in the dynamic Gazebo robot simulation",
+  "platform": "Ubuntu 24.04, ROS 2 Jazzy, Gazebo Sim 8.15.0, Python 3.12",
+  "launch": "ros2 launch igvc_blender_course robot_sim.launch.py gui:=false navigation:=true",
+  "course_seed": 6200,
+  "course_metadata_sha256": "7144803e555ff20cbb66a32b093c79be9c7f0ad0652cc1ff624207a4d544a5fd",
+  "robot_sdf_sha256": "a04b795c93770b3ce5f93a4c6f85b45ee8f2e21e3d03dd66b7e2d9dff45ccca2",
+  "follower_sha256": "ccf918af0d0c619f0ffa50fda9fc5b9273bb5dd6a422986659898515a5998542",
+  "map_source": "Saved course JSON; no camera or LiDAR map construction",
+  "localization": "/ground_truth/odom in world",
+  "max_speed_m_s": 0.6,
+  "planned_path_length_m_rounded": 32.45,
+  "result": {
+    "success": true,
+    "status": "goal_reached",
+    "elapsed_wall_s": 68.24574840399987,
+    "pose_messages_received": 2787,
+    "moving_commands_received": 1257,
+    "last_position_world_m": [0.6698734721270552, 32.83800636099046],
+    "goal_world_m": [0.7088456654145664, 33.0],
+    "goal_distance_m": 0.16661563830922807,
+    "goal_tolerance_m": 0.20,
+    "last_cmd_vel_m_s_rad_s": [0.0, 0.0],
+    "test_processes_stopped": true
+  },
+  "checks": {
+    "colcon_build": "passed",
+    "robot_sdf_parser": "passed with existing gz_frame_id extension warnings",
+    "existing_core_tests": 27,
+    "saved_map_follower_tests": 7,
+    "asset_tests": 3,
+    "ros_integration_tests": 4,
+    "tests_passed_across_check_runs": 41,
+    "ruff_check_src_tests_benchmarks": "passed",
+    "changed_python_files_format": "passed",
+    "saved_lane_edges_match_sdf_meshes_within_m": 0.000003
+  },
+  "regression_fixed": "A terminal zero-speed preview stopped the robot outside goal tolerance; preview now stays inside the remaining trajectory.",
+  "limitations": [
+    "One saved course with ground-truth simulator localization, not physical-robot validation",
+    "Camera and LiDAR rates, image quality and contact forces were not measured",
+    "Runtime test used isolated temporary Python dependencies; documented apt dependencies are required for normal system-Python operation",
+    "Full-repository format check still flags pre-existing formatting in envs/nav_env.py"
+  ]
+}

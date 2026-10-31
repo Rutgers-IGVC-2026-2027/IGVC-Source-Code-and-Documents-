@@ -1,0 +1,29 @@
+{
+  "objects": 61,
+  "triangles_compared": 24908,
+  "unique_triangle_correspondences": 24908,
+  "maximum_vertex_error_m": 1.9975705890781016e-06,
+  "mesh_resource_references_resolved": 142,
+  "collidable_parts": 68,
+  "paint_and_pothole_collision_excluded": true,
+  "maximum_camera_coordinate_error_m": 7.321114466662948e-06,
+  "maximum_camera_projection_difference_px": 0.000388066947380139,
+  "runtime_status": "NUC unavailable via RustDesk; no runtime/ROS pass. Mac installation intentionally cancelled during simulator compilation.",
+  "ros_target": "Jazzy",
+  "gazebo_target": "Harmonic",
+  "package_relocation_checked": true,
+  "camera_info_topic_explicit": true,
+  "optical_frame_name": "igvc_camera_optical_frame",
+  "independent_review": "Account2 exit0; optical-frame finding fixed; runtime not reviewed",
+  "assimp_import": {
+    "mesh_parts": 73,
+    "triangles": 24908,
+    "all_imported": true
+  },
+  "sdformat14_parser": {
+    "model": "Valid. exit0",
+    "world": "Valid. exit0",
+    "SDF_PATH": "package/models",
+    "repair": "Distinct visual and collision names within the link"
+  }
+}

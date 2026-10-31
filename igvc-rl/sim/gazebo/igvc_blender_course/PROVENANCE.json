@@ -1,0 +1,1583 @@
+{
+  "source_scene": "work/night-20261018/02-blender-repair-1/course/6200_front/scene.blend",
+  "source_scene_sha256": "de906d905313313284eaa6a70625df10e829ad9ef9fd06da6ffed6f0cef5c0fa",
+  "blender_version": "4.3.0",
+  "object_count": 61,
+  "triangle_count": 24908,
+  "objects": [
+    {
+      "name": "Asphalt pad",
+      "export_name": "000_Asphalt_pad",
+      "class_id": 1,
+      "instance_id": 1,
+      "triangles": 2,
+      "parts": [
+        {
+          "file": "meshes/000_Asphalt_pad_m0.obj",
+          "triangles": 2,
+          "material": "Asphalt",
+          "color": [
+            0.20000000298023224,
+            0.17000000178813934,
+            0.13500000536441803,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": true
+        }
+      ]
+    },
+    {
+      "name": "Barrel_00",
+      "export_name": "001_Barrel_00",
+      "class_id": 3,
+      "instance_id": 2,
+      "triangles": 2172,
+      "parts": [
+        {
+          "file": "meshes/001_Barrel_00_m0.obj",
+          "triangles": 1664,
+          "material": "Drum 0",
+          "color": [
+            0.019999999552965164,
+            0.3799999952316284,
+            0.11999999731779099,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": true
+        },
+        {
+          "file": "meshes/001_Barrel_00_m1.obj",
+          "triangles": 256,
+          "material": "Reflective bands",
+          "color": [
+            0.8799999952316284,
+            0.8999999761581421,
+            0.8500000238418579,
+            1.0
+          ],
+          "procedural_base_color_approximated": false,
+          "collision": true
+        },
+        {
+          "file": "meshes/001_Barrel_00_m2.obj",
+          "triangles": 252,
+          "material": "Dark plastic",
+          "color": [
+            0.02500000037252903,
+            0.028999999165534973,
+            0.03200000151991844,
+            1.0
+          ],
+          "procedural_base_color_approximated": false,
+          "collision": true
+        }
+      ]
+    },
+    {
+      "name": "Barrel_01",
+      "export_name": "002_Barrel_01",
+      "class_id": 3,
+      "instance_id": 3,
+      "triangles": 2172,
+      "parts": [
+        {
+          "file": "meshes/002_Barrel_01_m0.obj",
+          "triangles": 1664,
+          "material": "Drum 1",
+          "color": [
+            0.9200000166893005,
+            0.14000000059604645,
+            0.012000000104308128,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": true
+        },
+        {
+          "file": "meshes/002_Barrel_01_m1.obj",
+          "triangles": 256,
+          "material": "Reflective bands",
+          "color": [
+            0.8799999952316284,
+            0.8999999761581421,
+            0.8500000238418579,
+            1.0
+          ],
+          "procedural_base_color_approximated": false,
+          "collision": true
+        },
+        {
+          "file": "meshes/002_Barrel_01_m2.obj",
+          "triangles": 252,
+          "material": "Dark plastic",
+          "color": [
+            0.02500000037252903,
+            0.028999999165534973,
+            0.03200000151991844,
+            1.0
+          ],
+          "procedural_base_color_approximated": false,
+          "collision": true
+        }
+      ]
+    },
+    {
+      "name": "Barrel_02",
+      "export_name": "003_Barrel_02",
+      "class_id": 3,
+      "instance_id": 4,
+      "triangles": 2172,
+      "parts": [
+        {
+          "file": "meshes/003_Barrel_02_m0.obj",
+          "triangles": 1664,
+          "material": "Drum 2",
+          "color": [
+            0.019999999552965164,
+            0.18000000715255737,
+            0.5799999833106995,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": true
+        },
+        {
+          "file": "meshes/003_Barrel_02_m1.obj",
+          "triangles": 256,
+          "material": "Reflective bands",
+          "color": [
+            0.8799999952316284,
+            0.8999999761581421,
+            0.8500000238418579,
+            1.0
+          ],
+          "procedural_base_color_approximated": false,
+          "collision": true
+        },
+        {
+          "file": "meshes/003_Barrel_02_m2.obj",
+          "triangles": 252,
+          "material": "Dark plastic",
+          "color": [
+            0.02500000037252903,
+            0.028999999165534973,
+            0.03200000151991844,
+            1.0
+          ],
+          "procedural_base_color_approximated": false,
+          "collision": true
+        }
+      ]
+    },
+    {
+      "name": "Barrel_03",
+      "export_name": "004_Barrel_03",
+      "class_id": 3,
+      "instance_id": 5,
+      "triangles": 2172,
+      "parts": [
+        {
+          "file": "meshes/004_Barrel_03_m0.obj",
+          "triangles": 1664,
+          "material": "Drum 3",
+          "color": [
+            0.9200000166893005,
+            0.6200000047683716,
+            0.019999999552965164,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": true
+        },
+        {
+          "file": "meshes/004_Barrel_03_m1.obj",
+          "triangles": 256,
+          "material": "Reflective bands",
+          "color": [
+            0.8799999952316284,
+            0.8999999761581421,
+            0.8500000238418579,
+            1.0
+          ],
+          "procedural_base_color_approximated": false,
+          "collision": true
+        },
+        {
+          "file": "meshes/004_Barrel_03_m2.obj",
+          "triangles": 252,
+          "material": "Dark plastic",
+          "color": [
+            0.02500000037252903,
+            0.028999999165534973,
+            0.03200000151991844,
+            1.0
+          ],
+          "procedural_base_color_approximated": false,
+          "collision": true
+        }
+      ]
+    },
+    {
+      "name": "Barrel_04",
+      "export_name": "005_Barrel_04",
+      "class_id": 3,
+      "instance_id": 6,
+      "triangles": 2172,
+      "parts": [
+        {
+          "file": "meshes/005_Barrel_04_m0.obj",
+          "triangles": 1664,
+          "material": "Drum 4",
+          "color": [
+            0.6800000071525574,
+            0.02199999988079071,
+            0.017000000923871994,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": true
+        },
+        {
+          "file": "meshes/005_Barrel_04_m1.obj",
+          "triangles": 256,
+          "material": "Reflective bands",
+          "color": [
+            0.8799999952316284,
+            0.8999999761581421,
+            0.8500000238418579,
+            1.0
+          ],
+          "procedural_base_color_approximated": false,
+          "collision": true
+        },
+        {
+          "file": "meshes/005_Barrel_04_m2.obj",
+          "triangles": 252,
+          "material": "Dark plastic",
+          "color": [
+            0.02500000037252903,
+            0.028999999165534973,
+            0.03200000151991844,
+            1.0
+          ],
+          "procedural_base_color_approximated": false,
+          "collision": true
+        }
+      ]
+    },
+    {
+      "name": "Barrel_05",
+      "export_name": "006_Barrel_05",
+      "class_id": 3,
+      "instance_id": 7,
+      "triangles": 2172,
+      "parts": [
+        {
+          "file": "meshes/006_Barrel_05_m0.obj",
+          "triangles": 1664,
+          "material": "Drum 0",
+          "color": [
+            0.019999999552965164,
+            0.3799999952316284,
+            0.11999999731779099,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": true
+        },
+        {
+          "file": "meshes/006_Barrel_05_m1.obj",
+          "triangles": 256,
+          "material": "Reflective bands",
+          "color": [
+            0.8799999952316284,
+            0.8999999761581421,
+            0.8500000238418579,
+            1.0
+          ],
+          "procedural_base_color_approximated": false,
+          "collision": true
+        },
+        {
+          "file": "meshes/006_Barrel_05_m2.obj",
+          "triangles": 252,
+          "material": "Dark plastic",
+          "color": [
+            0.02500000037252903,
+            0.028999999165534973,
+            0.03200000151991844,
+            1.0
+          ],
+          "procedural_base_color_approximated": false,
+          "collision": true
+        }
+      ]
+    },
+    {
+      "name": "Boundary -1",
+      "export_name": "007_Boundary__1",
+      "class_id": 2,
+      "instance_id": 8,
+      "triangles": 998,
+      "parts": [
+        {
+          "file": "meshes/007_Boundary__1_m0.obj",
+          "triangles": 998,
+          "material": "White tape",
+          "color": [
+            0.8199999928474426,
+            0.8299999833106995,
+            0.7799999713897705,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": false
+        }
+      ]
+    },
+    {
+      "name": "Boundary 1",
+      "export_name": "008_Boundary_1",
+      "class_id": 2,
+      "instance_id": 9,
+      "triangles": 998,
+      "parts": [
+        {
+          "file": "meshes/008_Boundary_1_m0.obj",
+          "triangles": 998,
+          "material": "White tape",
+          "color": [
+            0.8199999928474426,
+            0.8299999833106995,
+            0.7799999713897705,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": false
+        }
+      ]
+    },
+    {
+      "name": "Icosphere",
+      "export_name": "010_Icosphere",
+      "class_id": 5,
+      "instance_id": 10,
+      "triangles": 320,
+      "parts": [
+        {
+          "file": "meshes/010_Icosphere_m0.obj",
+          "triangles": 320,
+          "material": "Leaves",
+          "color": [
+            0.07000000029802322,
+            0.1599999964237213,
+            0.032999999821186066,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": true
+        }
+      ]
+    },
+    {
+      "name": "Icosphere.001",
+      "export_name": "011_Icosphere_001",
+      "class_id": 5,
+      "instance_id": 11,
+      "triangles": 320,
+      "parts": [
+        {
+          "file": "meshes/011_Icosphere_001_m0.obj",
+          "triangles": 320,
+          "material": "Leaves",
+          "color": [
+            0.07000000029802322,
+            0.1599999964237213,
+            0.032999999821186066,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": true
+        }
+      ]
+    },
+    {
+      "name": "Icosphere.002",
+      "export_name": "012_Icosphere_002",
+      "class_id": 5,
+      "instance_id": 12,
+      "triangles": 320,
+      "parts": [
+        {
+          "file": "meshes/012_Icosphere_002_m0.obj",
+          "triangles": 320,
+          "material": "Leaves",
+          "color": [
+            0.07000000029802322,
+            0.1599999964237213,
+            0.032999999821186066,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": true
+        }
+      ]
+    },
+    {
+      "name": "Icosphere.003",
+      "export_name": "013_Icosphere_003",
+      "class_id": 5,
+      "instance_id": 13,
+      "triangles": 320,
+      "parts": [
+        {
+          "file": "meshes/013_Icosphere_003_m0.obj",
+          "triangles": 320,
+          "material": "Leaves",
+          "color": [
+            0.07000000029802322,
+            0.1599999964237213,
+            0.032999999821186066,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": true
+        }
+      ]
+    },
+    {
+      "name": "Icosphere.004",
+      "export_name": "014_Icosphere_004",
+      "class_id": 5,
+      "instance_id": 14,
+      "triangles": 320,
+      "parts": [
+        {
+          "file": "meshes/014_Icosphere_004_m0.obj",
+          "triangles": 320,
+          "material": "Leaves",
+          "color": [
+            0.07000000029802322,
+            0.1599999964237213,
+            0.032999999821186066,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": true
+        }
+      ]
+    },
+    {
+      "name": "Icosphere.005",
+      "export_name": "015_Icosphere_005",
+      "class_id": 5,
+      "instance_id": 15,
+      "triangles": 320,
+      "parts": [
+        {
+          "file": "meshes/015_Icosphere_005_m0.obj",
+          "triangles": 320,
+          "material": "Leaves",
+          "color": [
+            0.07000000029802322,
+            0.1599999964237213,
+            0.032999999821186066,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": true
+        }
+      ]
+    },
+    {
+      "name": "Icosphere.006",
+      "export_name": "016_Icosphere_006",
+      "class_id": 5,
+      "instance_id": 16,
+      "triangles": 320,
+      "parts": [
+        {
+          "file": "meshes/016_Icosphere_006_m0.obj",
+          "triangles": 320,
+          "material": "Leaves",
+          "color": [
+            0.07000000029802322,
+            0.1599999964237213,
+            0.032999999821186066,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": true
+        }
+      ]
+    },
+    {
+      "name": "Icosphere.007",
+      "export_name": "017_Icosphere_007",
+      "class_id": 5,
+      "instance_id": 17,
+      "triangles": 320,
+      "parts": [
+        {
+          "file": "meshes/017_Icosphere_007_m0.obj",
+          "triangles": 320,
+          "material": "Leaves",
+          "color": [
+            0.07000000029802322,
+            0.1599999964237213,
+            0.032999999821186066,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": true
+        }
+      ]
+    },
+    {
+      "name": "Icosphere.008",
+      "export_name": "018_Icosphere_008",
+      "class_id": 5,
+      "instance_id": 18,
+      "triangles": 320,
+      "parts": [
+        {
+          "file": "meshes/018_Icosphere_008_m0.obj",
+          "triangles": 320,
+          "material": "Leaves",
+          "color": [
+            0.07000000029802322,
+            0.1599999964237213,
+            0.032999999821186066,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": true
+        }
+      ]
+    },
+    {
+      "name": "Icosphere.009",
+      "export_name": "019_Icosphere_009",
+      "class_id": 5,
+      "instance_id": 19,
+      "triangles": 320,
+      "parts": [
+        {
+          "file": "meshes/019_Icosphere_009_m0.obj",
+          "triangles": 320,
+          "material": "Leaves",
+          "color": [
+            0.07000000029802322,
+            0.1599999964237213,
+            0.032999999821186066,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": true
+        }
+      ]
+    },
+    {
+      "name": "Icosphere.010",
+      "export_name": "020_Icosphere_010",
+      "class_id": 5,
+      "instance_id": 20,
+      "triangles": 320,
+      "parts": [
+        {
+          "file": "meshes/020_Icosphere_010_m0.obj",
+          "triangles": 320,
+          "material": "Leaves",
+          "color": [
+            0.07000000029802322,
+            0.1599999964237213,
+            0.032999999821186066,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": true
+        }
+      ]
+    },
+    {
+      "name": "Icosphere.011",
+      "export_name": "021_Icosphere_011",
+      "class_id": 5,
+      "instance_id": 21,
+      "triangles": 320,
+      "parts": [
+        {
+          "file": "meshes/021_Icosphere_011_m0.obj",
+          "triangles": 320,
+          "material": "Leaves",
+          "color": [
+            0.07000000029802322,
+            0.1599999964237213,
+            0.032999999821186066,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": true
+        }
+      ]
+    },
+    {
+      "name": "Icosphere.012",
+      "export_name": "022_Icosphere_012",
+      "class_id": 5,
+      "instance_id": 22,
+      "triangles": 320,
+      "parts": [
+        {
+          "file": "meshes/022_Icosphere_012_m0.obj",
+          "triangles": 320,
+          "material": "Leaves",
+          "color": [
+            0.07000000029802322,
+            0.1599999964237213,
+            0.032999999821186066,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": true
+        }
+      ]
+    },
+    {
+      "name": "Icosphere.013",
+      "export_name": "023_Icosphere_013",
+      "class_id": 5,
+      "instance_id": 23,
+      "triangles": 320,
+      "parts": [
+        {
+          "file": "meshes/023_Icosphere_013_m0.obj",
+          "triangles": 320,
+          "material": "Leaves",
+          "color": [
+            0.07000000029802322,
+            0.1599999964237213,
+            0.032999999821186066,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": true
+        }
+      ]
+    },
+    {
+      "name": "Icosphere.014",
+      "export_name": "024_Icosphere_014",
+      "class_id": 5,
+      "instance_id": 24,
+      "triangles": 320,
+      "parts": [
+        {
+          "file": "meshes/024_Icosphere_014_m0.obj",
+          "triangles": 320,
+          "material": "Leaves",
+          "color": [
+            0.07000000029802322,
+            0.1599999964237213,
+            0.032999999821186066,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": true
+        }
+      ]
+    },
+    {
+      "name": "Icosphere.015",
+      "export_name": "025_Icosphere_015",
+      "class_id": 5,
+      "instance_id": 25,
+      "triangles": 320,
+      "parts": [
+        {
+          "file": "meshes/025_Icosphere_015_m0.obj",
+          "triangles": 320,
+          "material": "Leaves",
+          "color": [
+            0.07000000029802322,
+            0.1599999964237213,
+            0.032999999821186066,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": true
+        }
+      ]
+    },
+    {
+      "name": "Icosphere.016",
+      "export_name": "026_Icosphere_016",
+      "class_id": 5,
+      "instance_id": 26,
+      "triangles": 320,
+      "parts": [
+        {
+          "file": "meshes/026_Icosphere_016_m0.obj",
+          "triangles": 320,
+          "material": "Leaves",
+          "color": [
+            0.07000000029802322,
+            0.1599999964237213,
+            0.032999999821186066,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": true
+        }
+      ]
+    },
+    {
+      "name": "Icosphere.017",
+      "export_name": "027_Icosphere_017",
+      "class_id": 5,
+      "instance_id": 27,
+      "triangles": 320,
+      "parts": [
+        {
+          "file": "meshes/027_Icosphere_017_m0.obj",
+          "triangles": 320,
+          "material": "Leaves",
+          "color": [
+            0.07000000029802322,
+            0.1599999964237213,
+            0.032999999821186066,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": true
+        }
+      ]
+    },
+    {
+      "name": "Icosphere.018",
+      "export_name": "028_Icosphere_018",
+      "class_id": 5,
+      "instance_id": 28,
+      "triangles": 320,
+      "parts": [
+        {
+          "file": "meshes/028_Icosphere_018_m0.obj",
+          "triangles": 320,
+          "material": "Leaves",
+          "color": [
+            0.07000000029802322,
+            0.1599999964237213,
+            0.032999999821186066,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": true
+        }
+      ]
+    },
+    {
+      "name": "Icosphere.019",
+      "export_name": "029_Icosphere_019",
+      "class_id": 5,
+      "instance_id": 29,
+      "triangles": 320,
+      "parts": [
+        {
+          "file": "meshes/029_Icosphere_019_m0.obj",
+          "triangles": 320,
+          "material": "Leaves",
+          "color": [
+            0.07000000029802322,
+            0.1599999964237213,
+            0.032999999821186066,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": true
+        }
+      ]
+    },
+    {
+      "name": "Icosphere.020",
+      "export_name": "030_Icosphere_020",
+      "class_id": 5,
+      "instance_id": 30,
+      "triangles": 320,
+      "parts": [
+        {
+          "file": "meshes/030_Icosphere_020_m0.obj",
+          "triangles": 320,
+          "material": "Leaves",
+          "color": [
+            0.07000000029802322,
+            0.1599999964237213,
+            0.032999999821186066,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": true
+        }
+      ]
+    },
+    {
+      "name": "Icosphere.021",
+      "export_name": "031_Icosphere_021",
+      "class_id": 5,
+      "instance_id": 31,
+      "triangles": 320,
+      "parts": [
+        {
+          "file": "meshes/031_Icosphere_021_m0.obj",
+          "triangles": 320,
+          "material": "Leaves",
+          "color": [
+            0.07000000029802322,
+            0.1599999964237213,
+            0.032999999821186066,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": true
+        }
+      ]
+    },
+    {
+      "name": "Icosphere.022",
+      "export_name": "032_Icosphere_022",
+      "class_id": 5,
+      "instance_id": 32,
+      "triangles": 320,
+      "parts": [
+        {
+          "file": "meshes/032_Icosphere_022_m0.obj",
+          "triangles": 320,
+          "material": "Leaves",
+          "color": [
+            0.07000000029802322,
+            0.1599999964237213,
+            0.032999999821186066,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": true
+        }
+      ]
+    },
+    {
+      "name": "Icosphere.023",
+      "export_name": "033_Icosphere_023",
+      "class_id": 5,
+      "instance_id": 33,
+      "triangles": 320,
+      "parts": [
+        {
+          "file": "meshes/033_Icosphere_023_m0.obj",
+          "triangles": 320,
+          "material": "Leaves",
+          "color": [
+            0.07000000029802322,
+            0.1599999964237213,
+            0.032999999821186066,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": true
+        }
+      ]
+    },
+    {
+      "name": "Pothole_00",
+      "export_name": "034_Pothole_00",
+      "class_id": 4,
+      "instance_id": 34,
+      "triangles": 380,
+      "parts": [
+        {
+          "file": "meshes/034_Pothole_00_m0.obj",
+          "triangles": 380,
+          "material": "White tape",
+          "color": [
+            0.8199999928474426,
+            0.8299999833106995,
+            0.7799999713897705,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": false
+        }
+      ]
+    },
+    {
+      "name": "Pothole_01",
+      "export_name": "035_Pothole_01",
+      "class_id": 4,
+      "instance_id": 35,
+      "triangles": 380,
+      "parts": [
+        {
+          "file": "meshes/035_Pothole_01_m0.obj",
+          "triangles": 380,
+          "material": "White tape",
+          "color": [
+            0.8199999928474426,
+            0.8299999833106995,
+            0.7799999713897705,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": false
+        }
+      ]
+    },
+    {
+      "name": "Pothole_02",
+      "export_name": "036_Pothole_02",
+      "class_id": 4,
+      "instance_id": 36,
+      "triangles": 380,
+      "parts": [
+        {
+          "file": "meshes/036_Pothole_02_m0.obj",
+          "triangles": 380,
+          "material": "White tape",
+          "color": [
+            0.8199999928474426,
+            0.8299999833106995,
+            0.7799999713897705,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": false
+        }
+      ]
+    },
+    {
+      "name": "Surroundings",
+      "export_name": "038_Surroundings",
+      "class_id": 5,
+      "instance_id": 37,
+      "triangles": 2,
+      "parts": [
+        {
+          "file": "meshes/038_Surroundings_m0.obj",
+          "triangles": 2,
+          "material": "Grass",
+          "color": [
+            0.12999999523162842,
+            0.20000000298023224,
+            0.06499999761581421,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": true
+        }
+      ]
+    },
+    {
+      "name": "Tree trunk",
+      "export_name": "039_Tree_trunk",
+      "class_id": 5,
+      "instance_id": 38,
+      "triangles": 44,
+      "parts": [
+        {
+          "file": "meshes/039_Tree_trunk_m0.obj",
+          "triangles": 44,
+          "material": "Bark",
+          "color": [
+            0.11999999731779099,
+            0.07500000298023224,
+            0.03200000151991844,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": true
+        }
+      ]
+    },
+    {
+      "name": "Tree trunk.001",
+      "export_name": "040_Tree_trunk_001",
+      "class_id": 5,
+      "instance_id": 39,
+      "triangles": 44,
+      "parts": [
+        {
+          "file": "meshes/040_Tree_trunk_001_m0.obj",
+          "triangles": 44,
+          "material": "Bark",
+          "color": [
+            0.11999999731779099,
+            0.07500000298023224,
+            0.03200000151991844,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": true
+        }
+      ]
+    },
+    {
+      "name": "Tree trunk.002",
+      "export_name": "041_Tree_trunk_002",
+      "class_id": 5,
+      "instance_id": 40,
+      "triangles": 44,
+      "parts": [
+        {
+          "file": "meshes/041_Tree_trunk_002_m0.obj",
+          "triangles": 44,
+          "material": "Bark",
+          "color": [
+            0.11999999731779099,
+            0.07500000298023224,
+            0.03200000151991844,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": true
+        }
+      ]
+    },
+    {
+      "name": "Tree trunk.003",
+      "export_name": "042_Tree_trunk_003",
+      "class_id": 5,
+      "instance_id": 41,
+      "triangles": 44,
+      "parts": [
+        {
+          "file": "meshes/042_Tree_trunk_003_m0.obj",
+          "triangles": 44,
+          "material": "Bark",
+          "color": [
+            0.11999999731779099,
+            0.07500000298023224,
+            0.03200000151991844,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": true
+        }
+      ]
+    },
+    {
+      "name": "Tree trunk.004",
+      "export_name": "043_Tree_trunk_004",
+      "class_id": 5,
+      "instance_id": 42,
+      "triangles": 44,
+      "parts": [
+        {
+          "file": "meshes/043_Tree_trunk_004_m0.obj",
+          "triangles": 44,
+          "material": "Bark",
+          "color": [
+            0.11999999731779099,
+            0.07500000298023224,
+            0.03200000151991844,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": true
+        }
+      ]
+    },
+    {
+      "name": "Tree trunk.005",
+      "export_name": "044_Tree_trunk_005",
+      "class_id": 5,
+      "instance_id": 43,
+      "triangles": 44,
+      "parts": [
+        {
+          "file": "meshes/044_Tree_trunk_005_m0.obj",
+          "triangles": 44,
+          "material": "Bark",
+          "color": [
+            0.11999999731779099,
+            0.07500000298023224,
+            0.03200000151991844,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": true
+        }
+      ]
+    },
+    {
+      "name": "Tree trunk.006",
+      "export_name": "045_Tree_trunk_006",
+      "class_id": 5,
+      "instance_id": 44,
+      "triangles": 44,
+      "parts": [
+        {
+          "file": "meshes/045_Tree_trunk_006_m0.obj",
+          "triangles": 44,
+          "material": "Bark",
+          "color": [
+            0.11999999731779099,
+            0.07500000298023224,
+            0.03200000151991844,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": true
+        }
+      ]
+    },
+    {
+      "name": "Tree trunk.007",
+      "export_name": "046_Tree_trunk_007",
+      "class_id": 5,
+      "instance_id": 45,
+      "triangles": 44,
+      "parts": [
+        {
+          "file": "meshes/046_Tree_trunk_007_m0.obj",
+          "triangles": 44,
+          "material": "Bark",
+          "color": [
+            0.11999999731779099,
+            0.07500000298023224,
+            0.03200000151991844,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": true
+        }
+      ]
+    },
+    {
+      "name": "Tree trunk.008",
+      "export_name": "047_Tree_trunk_008",
+      "class_id": 5,
+      "instance_id": 46,
+      "triangles": 44,
+      "parts": [
+        {
+          "file": "meshes/047_Tree_trunk_008_m0.obj",
+          "triangles": 44,
+          "material": "Bark",
+          "color": [
+            0.11999999731779099,
+            0.07500000298023224,
+            0.03200000151991844,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": true
+        }
+      ]
+    },
+    {
+      "name": "Tree trunk.009",
+      "export_name": "048_Tree_trunk_009",
+      "class_id": 5,
+      "instance_id": 47,
+      "triangles": 44,
+      "parts": [
+        {
+          "file": "meshes/048_Tree_trunk_009_m0.obj",
+          "triangles": 44,
+          "material": "Bark",
+          "color": [
+            0.11999999731779099,
+            0.07500000298023224,
+            0.03200000151991844,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": true
+        }
+      ]
+    },
+    {
+      "name": "Tree trunk.010",
+      "export_name": "049_Tree_trunk_010",
+      "class_id": 5,
+      "instance_id": 48,
+      "triangles": 44,
+      "parts": [
+        {
+          "file": "meshes/049_Tree_trunk_010_m0.obj",
+          "triangles": 44,
+          "material": "Bark",
+          "color": [
+            0.11999999731779099,
+            0.07500000298023224,
+            0.03200000151991844,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": true
+        }
+      ]
+    },
+    {
+      "name": "Tree trunk.011",
+      "export_name": "050_Tree_trunk_011",
+      "class_id": 5,
+      "instance_id": 49,
+      "triangles": 44,
+      "parts": [
+        {
+          "file": "meshes/050_Tree_trunk_011_m0.obj",
+          "triangles": 44,
+          "material": "Bark",
+          "color": [
+            0.11999999731779099,
+            0.07500000298023224,
+            0.03200000151991844,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": true
+        }
+      ]
+    },
+    {
+      "name": "Tree trunk.012",
+      "export_name": "051_Tree_trunk_012",
+      "class_id": 5,
+      "instance_id": 50,
+      "triangles": 44,
+      "parts": [
+        {
+          "file": "meshes/051_Tree_trunk_012_m0.obj",
+          "triangles": 44,
+          "material": "Bark",
+          "color": [
+            0.11999999731779099,
+            0.07500000298023224,
+            0.03200000151991844,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": true
+        }
+      ]
+    },
+    {
+      "name": "Tree trunk.013",
+      "export_name": "052_Tree_trunk_013",
+      "class_id": 5,
+      "instance_id": 51,
+      "triangles": 44,
+      "parts": [
+        {
+          "file": "meshes/052_Tree_trunk_013_m0.obj",
+          "triangles": 44,
+          "material": "Bark",
+          "color": [
+            0.11999999731779099,
+            0.07500000298023224,
+            0.03200000151991844,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": true
+        }
+      ]
+    },
+    {
+      "name": "Tree trunk.014",
+      "export_name": "053_Tree_trunk_014",
+      "class_id": 5,
+      "instance_id": 52,
+      "triangles": 44,
+      "parts": [
+        {
+          "file": "meshes/053_Tree_trunk_014_m0.obj",
+          "triangles": 44,
+          "material": "Bark",
+          "color": [
+            0.11999999731779099,
+            0.07500000298023224,
+            0.03200000151991844,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": true
+        }
+      ]
+    },
+    {
+      "name": "Tree trunk.015",
+      "export_name": "054_Tree_trunk_015",
+      "class_id": 5,
+      "instance_id": 53,
+      "triangles": 44,
+      "parts": [
+        {
+          "file": "meshes/054_Tree_trunk_015_m0.obj",
+          "triangles": 44,
+          "material": "Bark",
+          "color": [
+            0.11999999731779099,
+            0.07500000298023224,
+            0.03200000151991844,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": true
+        }
+      ]
+    },
+    {
+      "name": "Tree trunk.016",
+      "export_name": "055_Tree_trunk_016",
+      "class_id": 5,
+      "instance_id": 54,
+      "triangles": 44,
+      "parts": [
+        {
+          "file": "meshes/055_Tree_trunk_016_m0.obj",
+          "triangles": 44,
+          "material": "Bark",
+          "color": [
+            0.11999999731779099,
+            0.07500000298023224,
+            0.03200000151991844,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": true
+        }
+      ]
+    },
+    {
+      "name": "Tree trunk.017",
+      "export_name": "056_Tree_trunk_017",
+      "class_id": 5,
+      "instance_id": 55,
+      "triangles": 44,
+      "parts": [
+        {
+          "file": "meshes/056_Tree_trunk_017_m0.obj",
+          "triangles": 44,
+          "material": "Bark",
+          "color": [
+            0.11999999731779099,
+            0.07500000298023224,
+            0.03200000151991844,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": true
+        }
+      ]
+    },
+    {
+      "name": "Tree trunk.018",
+      "export_name": "057_Tree_trunk_018",
+      "class_id": 5,
+      "instance_id": 56,
+      "triangles": 44,
+      "parts": [
+        {
+          "file": "meshes/057_Tree_trunk_018_m0.obj",
+          "triangles": 44,
+          "material": "Bark",
+          "color": [
+            0.11999999731779099,
+            0.07500000298023224,
+            0.03200000151991844,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": true
+        }
+      ]
+    },
+    {
+      "name": "Tree trunk.019",
+      "export_name": "058_Tree_trunk_019",
+      "class_id": 5,
+      "instance_id": 57,
+      "triangles": 44,
+      "parts": [
+        {
+          "file": "meshes/058_Tree_trunk_019_m0.obj",
+          "triangles": 44,
+          "material": "Bark",
+          "color": [
+            0.11999999731779099,
+            0.07500000298023224,
+            0.03200000151991844,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": true
+        }
+      ]
+    },
+    {
+      "name": "Tree trunk.020",
+      "export_name": "059_Tree_trunk_020",
+      "class_id": 5,
+      "instance_id": 58,
+      "triangles": 44,
+      "parts": [
+        {
+          "file": "meshes/059_Tree_trunk_020_m0.obj",
+          "triangles": 44,
+          "material": "Bark",
+          "color": [
+            0.11999999731779099,
+            0.07500000298023224,
+            0.03200000151991844,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": true
+        }
+      ]
+    },
+    {
+      "name": "Tree trunk.021",
+      "export_name": "060_Tree_trunk_021",
+      "class_id": 5,
+      "instance_id": 59,
+      "triangles": 44,
+      "parts": [
+        {
+          "file": "meshes/060_Tree_trunk_021_m0.obj",
+          "triangles": 44,
+          "material": "Bark",
+          "color": [
+            0.11999999731779099,
+            0.07500000298023224,
+            0.03200000151991844,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": true
+        }
+      ]
+    },
+    {
+      "name": "Tree trunk.022",
+      "export_name": "061_Tree_trunk_022",
+      "class_id": 5,
+      "instance_id": 60,
+      "triangles": 44,
+      "parts": [
+        {
+          "file": "meshes/061_Tree_trunk_022_m0.obj",
+          "triangles": 44,
+          "material": "Bark",
+          "color": [
+            0.11999999731779099,
+            0.07500000298023224,
+            0.03200000151991844,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": true
+        }
+      ]
+    },
+    {
+      "name": "Tree trunk.023",
+      "export_name": "062_Tree_trunk_023",
+      "class_id": 5,
+      "instance_id": 61,
+      "triangles": 44,
+      "parts": [
+        {
+          "file": "meshes/062_Tree_trunk_023_m0.obj",
+          "triangles": 44,
+          "material": "Bark",
+          "color": [
+            0.11999999731779099,
+            0.07500000298023224,
+            0.03200000151991844,
+            1.0
+          ],
+          "procedural_base_color_approximated": true,
+          "collision": true
+        }
+      ]
+    }
+  ],
+  "camera": {
+    "blender_to_world": [
+      [
+        0.9918858408927917,
+        0.011857572942972183,
+        -0.12657777965068817,
+        -0.2264590710401535
+      ],
+      [
+        -0.12713196873664856,
+        0.09251298755407333,
+        -0.9875620603561401,
+        0.0
+      ],
+      [
+        5.448361761750675e-10,
+        0.9956408739089966,
+        0.09326979517936707,
+        1.100000023841858
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "gazebo_to_world_rotation": [
+      [
+        0.12657777965068817,
+        -0.9918858408927917,
+        0.011857572942972183
+      ],
+      [
+        0.9875620603561401,
+        0.12713196873664856,
+        0.09251298755407333
+      ],
+      [
+        -0.09326979517936707,
+        -5.448361761750675e-10,
+        0.9956408739089966
+      ]
+    ],
+    "gazebo_pose": [
+      -0.2264590710401535,
+      0.0,
+      1.100000023841858,
+      -5.472216013657771e-10,
+      0.09340555220842361,
+      1.4433194398880005
+    ],
+    "image_size": [
+      640,
+      360
+    ],
+    "fx": 391.11111111111114,
+    "horizontal_fov": 1.3714590218125724
+  },
+  "limitations": [
+    "Procedural shaders, bump maps, Cycles lighting and texture noise are approximated by solid diffuse colors.",
+    "Static scene only; no robot or controller. Camera sensor is provided but requires Gazebo rendering support.",
+    "Paint and synthetic pothole discs are visual-only; potholes are not physical depressions.",
+    "SDF export alone does not establish Gazebo runtime or visual parity."
+  ],
+  "target": {
+    "ros": "Jazzy",
+    "gazebo": "Harmonic",
+    "sdf": "1.9",
+    "expected_os": "Ubuntu24.04"
+  },
+  "exporter_sha256": "0cdc6c1a25997207b02805883b1fe8a273806d718f4c485019506d936a006441",
+  "post_export_adjustments": [
+    "Explicit camera-info topic and ROS optical frame name; geometry and camera pose unchanged.",
+    "Distinct visual/collision names required by SDFormat; no geometry or camera changes."
+  ]
+}

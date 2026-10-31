@@ -1,0 +1,33 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: build power systems test",
+            "command": "/usr/bin/clang++",
+            "args": [
+                "-std=c++17",
+                "-fcolor-diagnostics",
+                "-g",
+                "-I",
+                "${workspaceFolder}/power-systems-processing",
+                "${workspaceFolder}/power-systems-processing/electricalLoad.cpp",
+                "${workspaceFolder}/power-systems-processing/powerSystemsProcessing.cpp",
+                "${workspaceFolder}/power-systems-processing/tests/powerSystemsProcessingTest.cpp",
+                "-o",
+                "${workspaceFolder}/power-systems-processing/tests/powerSystemsProcessingTest"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Build the power systems processing sources and test."
+        }
+    ]
+}

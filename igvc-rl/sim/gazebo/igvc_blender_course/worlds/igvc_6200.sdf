@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sdf version="1.9">
+  <world name="igvc_blender_6200">
+    <gravity>0 0 -9.81</gravity>
+    <physics name="physics" type="ignored">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1</real_time_factor>
+    </physics>
+    <plugin filename="gz-sim-physics-system" name="gz::sim::systems::Physics" />
+    <plugin filename="gz-sim-user-commands-system" name="gz::sim::systems::UserCommands" />
+    <plugin filename="gz-sim-scene-broadcaster-system" name="gz::sim::systems::SceneBroadcaster" />
+    <plugin filename="gz-sim-sensors-system" name="gz::sim::systems::Sensors">
+      <render_engine>ogre2</render_engine>
+    </plugin>
+    <scene>
+      <ambient>0.45 0.45 0.45 1</ambient>
+      <background>0.7 0.8 0.95 1</background>
+      <shadows>true</shadows>
+    </scene>
+    <light name="sun" type="directional">
+      <pose>0 0 10 0 0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <cast_shadows>true</cast_shadows>
+      <direction>-0.6824356914 0.09554301202 -0.7246744633</direction>
+    </light>
+    <include>
+      <uri>model://igvc_course_6200</uri>
+    </include>
+    <model name="saved_camera">
+      <static>true</static>
+      <pose>-0.226459071 0 1.100000024 -5.472216014e-10 0.09340555221 1.44331944</pose>
+      <link name="camera_link">
+        <sensor name="camera" type="camera">
+          <always_on>true</always_on>
+          <update_rate>10</update_rate>
+          <topic>/igvc/camera/image</topic>
+          <camera>
+            <horizontal_fov>1.3714590218125724</horizontal_fov>
+            <image>
+              <width>640</width>
+              <height>360</height>
+              <format>R8G8B8</format>
+            </image>
+            <clip>
+              <near>0.05000000074505806</near>
+              <far>300.0</far>
+            </clip>
+            <camera_info_topic>/igvc/camera/camera_info</camera_info_topic>
+            <optical_frame_id>igvc_camera_optical_frame</optical_frame_id>
+          </camera>
+        </sensor>
+      </link>
+    </model>
+  </world>
+</sdf>

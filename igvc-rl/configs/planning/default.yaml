@@ -1,0 +1,7 @@
+resolution: 0.05
+footprint_radius: 0.5825
+safety_margin: 0.10
+lateral_acceleration: 0.6
+acceleration: 0.8
+braking: 1.2
+max_speed: 1.5

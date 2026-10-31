@@ -1,0 +1,9 @@
+{
+  "n_envs": 2,
+  "vectorization": "SubprocVecEnv",
+  "start_method": "spawn",
+  "training_steps": 64,
+  "best_checkpoint_saved": true,
+  "final_checkpoint_saved": true,
+  "evaluation_archive_saved": true
+}

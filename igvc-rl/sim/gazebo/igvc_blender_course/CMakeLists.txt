@@ -1,0 +1,21 @@
+cmake_minimum_required(VERSION 3.16)
+project(igvc_blender_course)
+find_package(ament_cmake REQUIRED)
+find_package(ament_cmake_python REQUIRED)
+ament_python_install_package(igvc_rl PACKAGE_DIR ../../../src/igvc_rl)
+install(DIRECTORY models worlds launch config DESTINATION share/${PROJECT_NAME})
+install(FILES README.md PROVENANCE.json VERIFICATION.json RUNTIME_FIXES.json RUNTIME_VERIFICATION.json DESTINATION share/${PROJECT_NAME})
+install(PROGRAMS verify_target.sh DESTINATION lib/${PROJECT_NAME})
+install(PROGRAMS tools/verify_camera.py DESTINATION lib/${PROJECT_NAME})
+install(PROGRAMS tools/pov_demo.py DESTINATION lib/${PROJECT_NAME})
+install(PROGRAMS tools/astar_controller.py DESTINATION lib/${PROJECT_NAME})
+install(PROGRAMS tools/log_navigation.sh DESTINATION lib/${PROJECT_NAME})
+install(FILES ../../fixtures/course_6200/metadata.json
+  DESTINATION share/${PROJECT_NAME}/courses RENAME course_6200.json)
+install(FILES ../../../configs/robot/provisional_skid_steer.yaml
+  DESTINATION share/${PROJECT_NAME}/config)
+install(FILES POV.md RAMP.md RAMP_RESULTS.json RAMP_TEAM_LOG.md DESTINATION share/${PROJECT_NAME})
+install(DIRECTORY ../../../robot/description DESTINATION share/${PROJECT_NAME})
+# Also keep a resource-relative executable for direct share-directory checks.
+install(PROGRAMS verify_target.sh DESTINATION share/${PROJECT_NAME})
+ament_package()

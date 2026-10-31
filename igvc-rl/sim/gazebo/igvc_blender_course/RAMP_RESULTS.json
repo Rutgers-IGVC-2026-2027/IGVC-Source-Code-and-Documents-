@@ -1,0 +1,390 @@
+{
+  "date": "2026-10-31",
+  "phase": "native-box focused and retained-course runtime validation",
+  "crossing_verified": true,
+  "full_pov_available": true,
+  "runtime_scope": "Ground-truth saved-map A*/pure pursuit in Gazebo; retained seed-6200 course plus ramp and focused diagnostics. No learned policy or hardware.",
+  "dimension_status": "Engineering assumptions; no measured competition dimensions or calibrated drive/grip.",
+  "course_profile": {
+    "height": 0.1,
+    "grade": 0.1,
+    "transition": 0.5,
+    "deck": 1.5,
+    "width": 2.0,
+    "start": 4.0,
+    "spacing": 0.1
+  },
+  "course_geometry": {
+    "entry_xy_m": [
+      0.3234673075,
+      8.7592821575
+    ],
+    "exit_xy_m": [
+      0.0809630763,
+      13.2527431507
+    ],
+    "frame_yaw_rad": 0.053915947,
+    "planned_footprint_edge_margin_m": 0.41741952366,
+    "mapped_obstacle_clearance_m": 0.54458376866,
+    "retained_collision_mesh_clearance_m_min": 0.536,
+    "unchanged_baseline_model": true,
+    "unchanged_map": true,
+    "planner_unchanged": true
+  },
+  "attempts": [
+    {
+      "id": "gentle-01",
+      "representation": "initial closed OBJ mesh segments (superseded)",
+      "grade": 0.1,
+      "commanded_max_speed_m_s": 0.45,
+      "assumed_friction": 1.0,
+      "result": "SETUP_FAILURE: DART OdeMesh::fillArrays segmentation fault before camera/pose",
+      "goal_reached": false,
+      "pov_frames": 0,
+      "side_frames": 0,
+      "last_xyzrpy": null,
+      "recorder_wall_seconds": 3.728677207021974,
+      "remote_evidence": "/home/igvc/igvc-ramp-20261031/evidence/gentle-01",
+      "raw_failed_footage": "none; no camera frames were produced",
+      "logged_shutdown": "Gazebo exit -11; controller and bridge finished cleanly; runner signaled recorder",
+      "process_ids": {
+        "recorder": 1402975,
+        "launch": 1402976,
+        "gazebo": 1402992,
+        "bridge": 1402994,
+        "controller": 1403043
+      }
+    },
+    {
+      "id": "gentle-02",
+      "mode": "corridor",
+      "goal_reached": false,
+      "result": "STARTUP_INTEGRATION_FAILURE: native-box world and side frames, but CLI bridge arguments omitted YAML robot topics; intentionally stopped and repaired with separate bridge.",
+      "remote_evidence": "/home/igvc/igvc-ramp-20261031/evidence/gentle-02",
+      "raw_failed_footage": "Startup side-camera diagnostics preserved in outputs/ramp-evidence/gentle-02-diagnostics.tar.gz; no robot topics or physical climb"
+    },
+    {
+      "id": "gentle-03",
+      "mode": "corridor",
+      "grade": 0.1,
+      "commanded_max_speed_m_s": 0.45,
+      "assumed_friction": 1,
+      "remote_evidence": "/home/igvc/igvc-ramp-20261031/evidence/gentle-03",
+      "goal_reached": true,
+      "frames": {
+        "pov": 375,
+        "side": 272
+      },
+      "last_xyzrpy": [
+        -9.939092699109344e-13,
+        16.834385179303105,
+        -4.877830472871381e-09,
+        4.4173553814098535e-17,
+        2.5012360646885376e-09,
+        1.5707963267943843
+      ],
+      "wall_seconds": 45.041178990970366,
+      "statuses": [
+        "waiting_for_pose",
+        "tracking",
+        "stopping",
+        "goal_reached"
+      ],
+      "max_z": 0.2999999938913768,
+      "min_z": -8.126389543955392e-05,
+      "pitch_range": [
+        -0.09967900496649405,
+        0.0996712395513673
+      ],
+      "saved_odometry_analysis": {
+        "odom_samples": 378,
+        "sim_duration_s": 37.72,
+        "max_odom_sim_gap_s": 0.14,
+        "strictly_increasing_odom_stamps": true,
+        "max_abs_roll_rad": 1.3695958064933738e-14,
+        "observed_footprint_lateral_edge_margin_m": 0.4174195334540881,
+        "return_to_ground_z_m": -4.877830472871381e-09,
+        "visible_wheel_contact": "qualitative side-frame inspection; no contact-force instrumentation",
+        "calibrated": false
+      },
+      "result": "goal reached and stopped after ascent/deck/descent; qualitative physical simulator trial"
+    },
+    {
+      "id": "course-01",
+      "mode": "course",
+      "grade": 0.1,
+      "commanded_max_speed_m_s": 0.45,
+      "assumed_friction": 1,
+      "remote_evidence": "/home/igvc/igvc-ramp-20261031/evidence/course-01",
+      "goal_reached": true,
+      "frames": {
+        "pov": 727,
+        "side": 709
+      },
+      "last_xyzrpy": [
+        0.6693590281004339,
+        32.837304326025404,
+        -4.877827919358424e-09,
+        1.0928345446335132e-12,
+        2.507301930400802e-09,
+        1.3346994472384601
+      ],
+      "wall_seconds": 90.07181031594519,
+      "statuses": [
+        "waiting_for_pose",
+        "tracking",
+        "stopping",
+        "goal_reached"
+      ],
+      "max_z": 0.09999999168680468,
+      "min_z": -8.126389543960943e-05,
+      "pitch_range": [
+        -0.09949618804649206,
+        0.0996689037383852
+      ],
+      "saved_odometry_analysis": {
+        "odom_samples": 746,
+        "sim_duration_s": 74.56,
+        "max_odom_sim_gap_s": 0.16000000000000014,
+        "strictly_increasing_odom_stamps": true,
+        "max_abs_roll_rad": 0.0005196199357443531,
+        "observed_footprint_lateral_edge_margin_m": 0.40927629906029006,
+        "return_to_ground_z_m": -4.877827919358424e-09,
+        "visible_wheel_contact": "qualitative side-frame inspection; no contact-force instrumentation",
+        "calibrated": false
+      },
+      "side_view_limit": "Barrel partly occludes ascent; course-02 moves only diagnostic camera to opposite side.",
+      "result": "goal reached and stopped after ascent/deck/descent; qualitative physical simulator trial"
+    },
+    {
+      "id": "course-02",
+      "mode": "course",
+      "grade": 0.1,
+      "commanded_max_speed_m_s": 0.45,
+      "assumed_friction": 1,
+      "remote_evidence": "/home/igvc/igvc-ramp-20261031/evidence/course-02",
+      "goal_reached": true,
+      "frames": {
+        "pov": 731,
+        "side": 708
+      },
+      "last_xyzrpy": [
+        0.6707807457815241,
+        32.843358061230084,
+        -4.8778278083361215e-09,
+        1.1154082198259657e-12,
+        2.4815041035559562e-09,
+        1.3344442222224913
+      ],
+      "wall_seconds": 90.3605958080152,
+      "statuses": [
+        "waiting_for_pose",
+        "tracking",
+        "stopping",
+        "goal_reached"
+      ],
+      "max_z": 0.09999999512208807,
+      "min_z": -8.126389543960943e-05,
+      "pitch_range": [
+        -0.09946306062543206,
+        0.09930898334394526
+      ],
+      "saved_odometry_analysis": {
+        "odom_samples": 746,
+        "sim_duration_s": 74.54,
+        "max_odom_sim_gap_s": 0.12000000000000455,
+        "strictly_increasing_odom_stamps": true,
+        "max_abs_roll_rad": 0.0005279623331055548,
+        "observed_footprint_lateral_edge_margin_m": 0.40928939178269286,
+        "return_to_ground_z_m": -4.8778278083361215e-09,
+        "visible_wheel_contact": "qualitative side-frame inspection; no contact-force instrumentation",
+        "calibrated": false
+      },
+      "result": "goal reached and stopped after ascent/deck/descent; qualitative physical simulator trial"
+    },
+    {
+      "id": "sensitivity-01",
+      "mode": "corridor",
+      "grade": 0.15,
+      "commanded_max_speed_m_s": 0.6,
+      "assumed_friction": 0.6,
+      "remote_evidence": "/home/igvc/igvc-ramp-20261031/evidence/sensitivity-01",
+      "goal_reached": true,
+      "frames": {
+        "pov": 257,
+        "side": 190
+      },
+      "last_xyzrpy": [
+        -3.072653230284529e-14,
+        14.832969244590126,
+        -4.877830639404834e-09,
+        1.9306168808140796e-16,
+        2.510799994209756e-09,
+        1.5707963267949259
+      ],
+      "wall_seconds": 31.929195675998926,
+      "statuses": [
+        "waiting_for_pose",
+        "tracking",
+        "stopping",
+        "goal_reached"
+      ],
+      "max_z": 0.2999999951221573,
+      "min_z": -8.045130522260635e-05,
+      "pitch_range": [
+        -0.14889929076650155,
+        0.1488899474866131
+      ],
+      "saved_odometry_analysis": {
+        "odom_samples": 258,
+        "sim_duration_s": 25.76,
+        "max_odom_sim_gap_s": 0.14000000000000007,
+        "strictly_increasing_odom_stamps": true,
+        "max_abs_roll_rad": 4.223532394399638e-15,
+        "observed_footprint_lateral_edge_margin_m": 0.4174195334547496,
+        "return_to_ground_z_m": -4.877830639404834e-09,
+        "visible_wheel_contact": "qualitative side-frame inspection; no contact-force instrumentation",
+        "calibrated": false
+      },
+      "result": "goal reached and stopped after ascent/deck/descent; qualitative physical simulator trial"
+    },
+    {
+      "id": "course-fast-01",
+      "mode": "course",
+      "grade": 0.1,
+      "commanded_max_speed_m_s": 0.9,
+      "assumed_friction": 1.0,
+      "remote_evidence": "/home/igvc/igvc-ramp-20261031/evidence/course-fast-01",
+      "goal_reached": true,
+      "frames": {
+        "pov": 390,
+        "side": 383
+      },
+      "last_xyzrpy": [
+        0.6716838377649871,
+        32.844071923551084,
+        -4.877828696514541e-09,
+        3.8203821848368363e-13,
+        2.4823529229240115e-09,
+        1.3374827045546314
+      ],
+      "wall_seconds": 50.889961962006055,
+      "statuses": [
+        "waiting_for_pose",
+        "tracking",
+        "stopping",
+        "goal_reached"
+      ],
+      "max_z": 0.09999983521205918,
+      "min_z": -8.126389543960943e-05,
+      "pitch_range": [
+        -0.09929072416201512,
+        0.09946491646917817
+      ],
+      "saved_odometry_analysis": {
+        "odom_samples": 399,
+        "sim_duration_s": 39.8,
+        "max_odom_sim_gap_s": 0.1599999999999966,
+        "strictly_increasing_odom_stamps": true,
+        "max_abs_roll_rad": 0.0005135855277675278,
+        "observed_footprint_lateral_edge_margin_m": 0.40889276957910436,
+        "return_to_ground_z_m": -4.877828696514541e-09,
+        "visible_wheel_contact": "qualitative side-frame inspection; no contact-force instrumentation",
+        "calibrated": false,
+        "max_recorded_forward_speed_m_s": 0.9039673054976568,
+        "final_recorded_forward_speed_m_s": 0.0,
+        "max_commanded_forward_speed_m_s": 0.8999999999999999
+      },
+      "result": "goal reached and stopped after ascent/deck/descent; qualitative physical simulator trial"
+    },
+    {
+      "id": "course-fast-02",
+      "mode": "course",
+      "grade": 0.1,
+      "commanded_max_speed_m_s": 0.9,
+      "assumed_friction": 1.0,
+      "remote_evidence": "/home/igvc/igvc-ramp-20261031/evidence/course-fast-02",
+      "goal_reached": true,
+      "frames": {
+        "pov": 391,
+        "side": 377
+      },
+      "last_xyzrpy": [
+        0.6706476811802495,
+        32.839744374209204,
+        -4.87782864100339e-09,
+        4.01504306977022e-13,
+        2.498281344882293e-09,
+        1.3374834726982674
+      ],
+      "wall_seconds": 50.78279479406774,
+      "statuses": [
+        "waiting_for_pose",
+        "tracking",
+        "stopping",
+        "goal_reached"
+      ],
+      "max_z": 0.0999999071080736,
+      "min_z": -8.126389543960943e-05,
+      "pitch_range": [
+        -0.0988643465634678,
+        0.0994929904648776
+      ],
+      "saved_odometry_analysis": {
+        "odom_samples": 399,
+        "sim_duration_s": 39.86,
+        "max_odom_sim_gap_s": 0.14000000000000057,
+        "strictly_increasing_odom_stamps": true,
+        "max_abs_roll_rad": 0.0004961543633395759,
+        "observed_footprint_lateral_edge_margin_m": 0.40890496699165024,
+        "return_to_ground_z_m": -4.87782864100339e-09,
+        "visible_wheel_contact": "qualitative side-frame inspection; no contact-force instrumentation",
+        "calibrated": false,
+        "max_recorded_forward_speed_m_s": 0.9039592527899517,
+        "final_recorded_forward_speed_m_s": 0.0,
+        "max_commanded_forward_speed_m_s": 0.8999999999999984
+      },
+      "result": "goal reached and stopped after ascent/deck/descent; qualitative physical simulator trial"
+    }
+  ],
+  "tests": {
+    "passed": 55,
+    "skipped": 1,
+    "skip": "local rclpy unavailable; NUC launch/controller exercised in actual runs",
+    "ruff": "passed",
+    "wheel_and_sdist": "passed",
+    "remote_ament_build": "passed; final source symlink install and installed launch arguments/config/result assets checked"
+  },
+  "videos": [
+    "IGVC-RAMP-COURSE-FAST-01-POV.mp4",
+    "IGVC-RAMP-COURSE-FAST-01-SIDE.mp4",
+    "IGVC-RAMP-COURSE-FAST-02-POV.mp4",
+    "IGVC-RAMP-COURSE-FAST-02-SIDE.mp4",
+    "IGVC-RAMP-COURSE-FIRST-POV.mp4",
+    "IGVC-RAMP-COURSE-FIRST-SIDE.mp4",
+    "IGVC-RAMP-COURSE-POV.mp4",
+    "IGVC-RAMP-COURSE-SIDE.mp4",
+    "IGVC-RAMP-FOCUSED-POV.mp4",
+    "IGVC-RAMP-FOCUSED-SIDE.mp4",
+    "IGVC-RAMP-SENSITIVITY-POV.mp4",
+    "IGVC-RAMP-SENSITIVITY-SIDE.mp4"
+  ],
+  "evidence_status": "Raw captured PNGs, simulation timestamps, odometry, command/status events and logs preserved; videos encoded from capture timestamps and decoded for validation.",
+  "remaining": [
+    "No calibrated torque limits, measured slip or contact forces",
+    "No physical slope RL training/evaluation loop or hardware transfer validation",
+    "Single seed-6200 placement; no general ramp placement planner"
+  ],
+  "runtime_source_sha256": {
+    "src/igvc_rl/simulation/ramp.py": "c7cab027fd4b7b65a708b0058041bf9f7ff9a1f65390f239dae52c0a16f47dc2",
+    "sim/gazebo/igvc_blender_course/launch/robot_sim.launch.py": "396afac651c09d4a125632357ab90655cde42c544f3a740eba49d97d65334e4a",
+    "sim/gazebo/igvc_blender_course/config/ramp_course_6200.json": "42125d9e3cbe6ec49e58ef50962fc5eb47882efd65f86ebc06e8e77433d1d43f"
+  },
+  "runtime_source_matches_nuc": true,
+  "runtime_cleanup": "Verified2026-10-31T17:38:03Z: no attempt-owned Gazebo, controller, recorder or runner processes found after both fast trials",
+  "independent_review_02": "Final report received before commit: no actionable source findings. Reviewed generator/launch/config/test/CMake hashes match current runtime source. Review covers baseline trials through0.60m/s; new0.90m/s trial evidence checked by finalization owner.",
+  "fastest_tested_full_course_command_m_s": 0.9,
+  "speed_claim": "Fastest tested successful commanded maximum; not maximum possible speed. Controller may slow for curves and goal.",
+  "new_video_verification": "Both fast POV/side pairs encoded with captured simulation timestamps, decoded without errors; ascent/deck/descent side frames and repeat deck POV visually inspected.",
+  "source_review_status": "Independent review complete; parent verified reviewed runtime/test/install hashes and inspected fast-run crossing frames. Git publication status is recorded in the external commit receipt."
+}

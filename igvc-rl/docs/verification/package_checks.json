@@ -1,0 +1,11 @@
+{
+  "wheel_built": true,
+  "source_distribution_built": true,
+  "standalone_wheel_import": true,
+  "tested_working_directory": "/tmp",
+  "fixture_loaded": true,
+  "environment_reset_step": true,
+  "packaged_training_defaults_loaded": true,
+  "source_distribution_obj_meshes": 73,
+  "runtime_environments_excluded": true
+}

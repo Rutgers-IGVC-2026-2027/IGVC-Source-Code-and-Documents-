@@ -1,0 +1,67 @@
+{
+  "episodes": [
+    {
+      "seed": 6200,
+      "success": true,
+      "collision": false,
+      "reason": "success",
+      "steps": 248,
+      "return_": 163.2620036676746,
+      "elapsed_time": 24.800000000000082,
+      "path_length": 32.22783868203029,
+      "remaining_distance": 0.1607130269351984,
+      "cross_track_rmse": 0.023955539677894138
+    },
+    {
+      "seed": 6210,
+      "success": true,
+      "collision": false,
+      "reason": "success",
+      "steps": 255,
+      "return_": 163.6946068263826,
+      "elapsed_time": 25.500000000000092,
+      "path_length": 32.460680276461275,
+      "remaining_distance": 0.2318115906350613,
+      "cross_track_rmse": 0.024563313961645492
+    },
+    {
+      "seed": 6211,
+      "success": true,
+      "collision": false,
+      "reason": "success",
+      "steps": 250,
+      "return_": 163.49086695321577,
+      "elapsed_time": 25.000000000000085,
+      "path_length": 32.33428769884986,
+      "remaining_distance": 0.22198106896852465,
+      "cross_track_rmse": 0.02199239999415801
+    },
+    {
+      "seed": 6212,
+      "success": true,
+      "collision": false,
+      "reason": "success",
+      "steps": 265,
+      "return_": 163.78826680655945,
+      "elapsed_time": 26.500000000000107,
+      "path_length": 32.50626568670102,
+      "remaining_distance": 0.22941649532596387,
+      "cross_track_rmse": 0.02657714773543155
+    },
+    {
+      "seed": 6213,
+      "success": true,
+      "collision": false,
+      "reason": "success",
+      "steps": 244,
+      "return_": 162.92795692128072,
+      "elapsed_time": 24.400000000000077,
+      "path_length": 32.0555401416452,
+      "remaining_distance": 0.22845132643331567,
+      "cross_track_rmse": 0.01660821433529937
+    }
+  ],
+  "success_rate": 1.0,
+  "collision_rate": 0.0,
+  "controller": "pure-pursuit"
+}

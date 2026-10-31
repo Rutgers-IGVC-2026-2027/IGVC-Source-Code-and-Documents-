@@ -1,0 +1,125 @@
+{
+  "target": "ROS 2 Jazzy / Gazebo Sim 8.15.0 on Ubuntu 24.04.5",
+  "date_eastern": "2026-10-19",
+  "package_build": "passed",
+  "model_world_parser": "passed",
+  "geometry_preserved": true,
+  "camera_probe": {
+    "probe": "camera_probe.py",
+    "target": "ROS 2 Jazzy / Gazebo Harmonic",
+    "status": "PASS",
+    "exit_code": 0,
+    "elapsed_sec": 0.457,
+    "timeout_sec": 30.0,
+    "errors": [],
+    "counts": {
+      "clock": 335,
+      "image": 3,
+      "camera_info": 4
+    },
+    "clock": {
+      "count": 335,
+      "first_stamp_sec": 4.93,
+      "last_stamp_sec": 5.312,
+      "monotonic": true,
+      "violations": 0
+    },
+    "camera_info": {
+      "count": 4,
+      "frame_id": "igvc_camera_optical_frame",
+      "distortion_model": "plumb_bob",
+      "k": [
+        391.1111068725586,
+        0.0,
+        320.0,
+        0.0,
+        391.1111354827881,
+        180.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "d": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "r": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "p": [
+        391.1111068725586,
+        0.0,
+        320.0,
+        0.0,
+        0.0,
+        391.1111354827881,
+        180.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "monotonic": true,
+      "violations": 0
+    },
+    "image": {
+      "count": 3,
+      "frame_id": "igvc_camera_optical_frame",
+      "width": 640,
+      "height": 360,
+      "step": 1920,
+      "encoding": "rgb8",
+      "byte_length": 691200,
+      "expected_byte_length": 691200,
+      "sha256": "29805ab724583afcd9bb286a8d5ea9ea4646a6d3ab76634e84bdc585c98e2077",
+      "monotonic": true,
+      "violations": 0,
+      "ppm_path": "/home/igvc/igvc-blender-gazebo-20261019/evidence/smoke-20261020T003146Z/first-frame.ppm",
+      "nonuniformity": {
+        "nonuniform": true,
+        "min_byte": 5,
+        "max_byte": 249,
+        "mean_byte": 140.39,
+        "distinct_samples": 134,
+        "spatial_distinct_pixels": 1719
+      }
+    },
+    "summary": {
+      "clock_active": true,
+      "image_active": true,
+      "camera_info_active": true,
+      "timestamps_monotonic": true,
+      "image_nonuniform": true,
+      "ppm_saved": true
+    }
+  },
+  "ground_contact": {
+    "radius_m": 0.1,
+    "initial_z_m": 1,
+    "settled_z_m": 0.09999989388004729,
+    "passed": true,
+    "scope": "One temporary sphere against ground only"
+  },
+  "gui_visually_verified": true,
+  "test_cleanup": true,
+  "limitations": [
+    "Static course, no robot/autonomous driving",
+    "Solid material approximation",
+    "NVIDIA driver smoke failed; no GPU acceleration claim",
+    "Ground-only collision smoke; not all obstacle contacts",
+    "No measured perception accuracy"
+  ],
+  "evidence": "work/gazebo-runtime-20261019/nuc-evidence/evidence/smoke-20261020T003146Z"
+}
