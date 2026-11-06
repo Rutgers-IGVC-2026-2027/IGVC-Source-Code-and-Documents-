@@ -1,0 +1,47 @@
+........................FF.....                                          [100%]
+=================================== FAILURES ===================================
+__________ test_clock_reset_clears_evidence_even_when_support_missing __________
+
+contact_ros = <test_contact_support_integration.ContactHarness object at 0x79279cb2ad50>
+
+    def test_clock_reset_clears_evidence_even_when_support_missing(contact_ros):
+        h = contact_ros
+        h.ready()
+        h.contacts("normal")
+        assert not h.node.support_ready()
+        h.sim = 10.
+        h.spin(.10)
+        h.commands.clear()  # Drain pre-jump DDS commands before checking stop.
+        h.assert_stopped()
+>       assert h.node.pose is None and h.node.follower.costmap is None, (
+            "Missing-support gate bypassed base clock-reset invalidation; old evidence retained")
+E       AssertionError: Missing-support gate bypassed base clock-reset invalidation; old evidence retained
+E       assert (array([0., 0., 0.]) is None)
+E        +  where array([0., 0., 0.]) = <igvc_rl.ros.contact_sensor_controller.ContactSensorController object at 0x7927940a30e0>.pose
+E        +    where <igvc_rl.ros.contact_sensor_controller.ContactSensorController object at 0x7927940a30e0> = <test_contact_support_integration.ContactHarness object at 0x79279cb2ad50>.node
+
+tests/ros/test_contact_support_integration.py:131: AssertionError
+---------------------------- Captured stderr setup -----------------------------
+[INFO] [1793837151.615646133] [sensor_controller]: EXPERIMENT: four actual wheel contacts permit current-body self context; unknown evidence is preserved
+_________ test_far_away_contact_cannot_establish_current_wheel_support _________
+
+contact_ros = <test_contact_support_integration.ContactHarness object at 0x792798cd4d40>
+
+    def test_far_away_contact_cannot_establish_current_wheel_support(contact_ros):
+        h = contact_ros
+        h.contacts("remote_position")
+        h.inputs()
+>       assert not h.node.support_ready(), "Contact 1000m from robot accepted as current support"
+E       AssertionError: Contact 1000m from robot accepted as current support
+E       assert not True
+E        +  where True = <bound method ContactSensorController.support_ready of <igvc_rl.ros.contact_sensor_controller.ContactSensorController object at 0x7927940dc6b0>>()
+E        +    where <bound method ContactSensorController.support_ready of <igvc_rl.ros.contact_sensor_controller.ContactSensorController object at 0x7927940dc6b0>> = <igvc_rl.ros.contact_sensor_controller.ContactSensorController object at 0x7927940dc6b0>.support_ready
+E        +      where <igvc_rl.ros.contact_sensor_controller.ContactSensorController object at 0x7927940dc6b0> = <test_contact_support_integration.ContactHarness object at 0x792798cd4d40>.node
+
+tests/ros/test_contact_support_integration.py:139: AssertionError
+---------------------------- Captured stderr setup -----------------------------
+[INFO] [1793837152.275331549] [sensor_controller]: EXPERIMENT: four actual wheel contacts permit current-body self context; unknown evidence is preserved
+=========================== short test summary info ============================
+FAILED tests/ros/test_contact_support_integration.py::test_clock_reset_clears_evidence_even_when_support_missing
+FAILED tests/ros/test_contact_support_integration.py::test_far_away_contact_cannot_establish_current_wheel_support
+2 failed, 29 passed in 6.80s

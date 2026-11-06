@@ -1,0 +1,34 @@
+
+==================================== ERRORS ====================================
+___________ ERROR collecting tests/planning/test_contact_support.py ____________
+ImportError while importing test module '/home/igvc/IGVC-Source-Code-and-Documents-/igvc-rl/tests/planning/test_contact_support.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/planning/test_contact_support.py:2: in <module>
+    from igvc_rl.planning.contact_support import contact_support_valid,apply_current_body_context
+src/igvc_rl/planning/__init__.py:2: in <module>
+    from .costmap import Costmap
+src/igvc_rl/planning/costmap.py:6: in <module>
+    import shapely
+E   ModuleNotFoundError: No module named 'shapely'
+__________ ERROR collecting tests/planning/test_sensor_navigation.py ___________
+ImportError while importing test module '/home/igvc/IGVC-Source-Code-and-Documents-/igvc-rl/tests/planning/test_sensor_navigation.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/planning/test_sensor_navigation.py:11: in <module>
+    from igvc_rl.planning.sensor_navigation import (
+src/igvc_rl/planning/__init__.py:2: in <module>
+    from .costmap import Costmap
+src/igvc_rl/planning/costmap.py:6: in <module>
+    import shapely
+E   ModuleNotFoundError: No module named 'shapely'
+=========================== short test summary info ============================
+SKIPPED [1] tests/ros/test_sensor_integration.py:14: could not import 'rclpy': No module named 'rclpy'
+ERROR tests/planning/test_contact_support.py
+ERROR tests/planning/test_sensor_navigation.py
+!!!!!!!!!!!!!!!!!!! Interrupted: 2 errors during collection !!!!!!!!!!!!!!!!!!!!
+1 skipped, 2 errors in 0.12s

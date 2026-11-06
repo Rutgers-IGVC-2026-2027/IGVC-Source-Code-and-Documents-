@@ -1,0 +1,105 @@
+........................FF.....FF..........................              [100%]
+=================================== FAILURES ===================================
+__________ test_clock_reset_clears_evidence_even_when_support_missing __________
+
+contact_ros = <test_contact_support_integration.ContactHarness object at 0x79c01b152cc0>
+
+    def test_clock_reset_clears_evidence_even_when_support_missing(contact_ros):
+        h = contact_ros
+        h.ready()
+        h.contacts("normal")
+        assert not h.node.support_ready()
+        h.sim = 10.
+        h.spin(.10)
+        h.commands.clear()  # Drain pre-jump DDS commands before checking stop.
+        h.assert_stopped()
+>       assert h.node.pose is None and h.node.follower.costmap is None, (
+            "Missing-support gate bypassed base clock-reset invalidation; old evidence retained")
+E       AssertionError: Missing-support gate bypassed base clock-reset invalidation; old evidence retained
+E       assert (array([0., 0., 0.]) is None)
+E        +  where array([0., 0., 0.]) = <igvc_rl.ros.contact_sensor_controller.ContactSensorController object at 0x79c018203a40>.pose
+E        +    where <igvc_rl.ros.contact_sensor_controller.ContactSensorController object at 0x79c018203a40> = <test_contact_support_integration.ContactHarness object at 0x79c01b152cc0>.node
+
+tests/ros/test_contact_support_integration.py:131: AssertionError
+---------------------------- Captured stderr setup -----------------------------
+[INFO] [1793837227.280387542] [sensor_controller]: EXPERIMENT: four actual wheel contacts permit current-body self context; unknown evidence is preserved
+_________ test_far_away_contact_cannot_establish_current_wheel_support _________
+
+contact_ros = <test_contact_support_integration.ContactHarness object at 0x79c01b03f9b0>
+
+    def test_far_away_contact_cannot_establish_current_wheel_support(contact_ros):
+        h = contact_ros
+        h.contacts("remote_position")
+        h.inputs()
+>       assert not h.node.support_ready(), "Contact 1000m from robot accepted as current support"
+E       AssertionError: Contact 1000m from robot accepted as current support
+E       assert not True
+E        +  where True = <bound method ContactSensorController.support_ready of <igvc_rl.ros.contact_sensor_controller.ContactSensorController object at 0x79c018220890>>()
+E        +    where <bound method ContactSensorController.support_ready of <igvc_rl.ros.contact_sensor_controller.ContactSensorController object at 0x79c018220890>> = <igvc_rl.ros.contact_sensor_controller.ContactSensorController object at 0x79c018220890>.support_ready
+E        +      where <igvc_rl.ros.contact_sensor_controller.ContactSensorController object at 0x79c018220890> = <test_contact_support_integration.ContactHarness object at 0x79c01b03f9b0>.node
+
+tests/ros/test_contact_support_integration.py:139: AssertionError
+---------------------------- Captured stderr setup -----------------------------
+[INFO] [1793837227.940886040] [sensor_controller]: EXPERIMENT: four actual wheel contacts permit current-body self context; unknown evidence is preserved
+_________ test_moving_pose_does_not_keep_abandoned_unknown_traversable _________
+
+contact_ros = <test_contact_support_integration.ContactHarness object at 0x79c01b0ae2a0>
+
+    def test_moving_pose_does_not_keep_abandoned_unknown_traversable(contact_ros):
+        h = contact_ros
+        h.contacts()
+        data = np.zeros((60, 80), np.int8)
+        data[28:32, 18:22] = -1
+        h.inputs(data)
+        assert h.node.follower.costmap.is_free((0., 0.))
+        h.contacts()
+        odom = h.odom()
+        odom.pose.pose.position.x = -1.2
+        h.odom_pub.publish(odom)
+        h.spin(.07)
+        assert np.isclose(h.node.pose[0], -1.2)
+        assert h.node.follower.costmap.is_unknown((0., 0.))
+>       assert not h.node.follower.costmap.is_free((0., 0.)), (
+            "Raw unknown outside the current body retains old-body traversal permission")
+E       AssertionError: Raw unknown outside the current body retains old-body traversal permission
+E       assert not True
+E        +  where True = <bound method Costmap.is_free of SensorCostmap(occupied=array([[ True,  True,  True, ...,  True,  True,  True],\n      ...1, 0.1, 0.1, ..., 0.1, 0.1, 0.1]]), stamp=100.359770581, frame_id='world', conversion_duration_ms=0.22437699954025447)>((0.0, 0.0))
+E        +    where <bound method Costmap.is_free of SensorCostmap(occupied=array([[ True,  True,  True, ...,  True,  True,  True],\n      ...1, 0.1, 0.1, ..., 0.1, 0.1, 0.1]]), stamp=100.359770581, frame_id='world', conversion_duration_ms=0.22437699954025447)> = SensorCostmap(occupied=array([[ True,  True,  True, ...,  True,  True,  True],\n       [ True,  True,  True, ...,  True....1, 0.1, 0.1, ..., 0.1, 0.1, 0.1]]), stamp=100.359770581, frame_id='world', conversion_duration_ms=0.22437699954025447).is_free
+E        +      where SensorCostmap(occupied=array([[ True,  True,  True, ...,  True,  True,  True],\n       [ True,  True,  True, ...,  True....1, 0.1, 0.1, ..., 0.1, 0.1, 0.1]]), stamp=100.359770581, frame_id='world', conversion_duration_ms=0.22437699954025447) = <igvc_rl.planning.sensor_navigation.SensorFollower object at 0x79c01b0af320>.costmap
+E        +        where <igvc_rl.planning.sensor_navigation.SensorFollower object at 0x79c01b0af320> = <igvc_rl.ros.contact_sensor_controller.ContactSensorController object at 0x79c01826f9e0>.follower
+E        +          where <igvc_rl.ros.contact_sensor_controller.ContactSensorController object at 0x79c01826f9e0> = <test_contact_support_integration.ContactHarness object at 0x79c01b0ae2a0>.node
+
+tests/ros/test_contact_support_integration.py:191: AssertionError
+---------------------------- Captured stderr setup -----------------------------
+[INFO] [1793837228.392564004] [sensor_controller]: EXPERIMENT: four actual wheel contacts permit current-body self context; unknown evidence is preserved
+______ test_current_contacts_do_not_authorize_future_wheel_on_hidden_hole ______
+
+    def test_current_contacts_do_not_authorize_future_wheel_on_hidden_hole():
+        """A hole between front/rear contacts is hidden beneath the present body."""
+        from igvc_rl.robot import RobotParameters
+        p = RobotParameters()
+        data = np.zeros((101, 101), np.int8)
+        data[57, 49] = -1  # x=-.05, y=.35; rear wheel track at y=.33.
+        m = SensorCostmap.from_occupancy_grid(
+            data, .05, (-2.525, -2.525),
+            footprint_radius=p.circumscribed_radius, safety_margin=.1)
+        rear_now = np.array([-p.wheelbase/2, p.track_width/2])
+        rear_after = rear_now + np.array([.2, 0.])
+        assert m.is_known_free(rear_now)
+        assert m.is_unknown(rear_after), "Fixture must place future wheel on unknown"
+        apply_current_body_context(m, np.zeros(3), p.length, p.footprint_width)
+        assert m.is_free((0., 0.)), "Current supported pose prerequisite failed"
+>       assert not m.is_free((.2, 0.)), (
+            "Whole-body exception authorizes future rear-wheel placement over hidden unknown")
+E       AssertionError: Whole-body exception authorizes future rear-wheel placement over hidden unknown
+E       assert not True
+E        +  where True = <bound method Costmap.is_free of SensorCostmap(occupied=array([[ True,  True,  True, ...,  True,  True,  True],\n      ... [0.05, 0.05, 0.05, ..., 0.05, 0.05, 0.05]]), stamp=0.0, frame_id='world', conversion_duration_ms=0.32552098855376244)>((0.2, 0.0))
+E        +    where <bound method Costmap.is_free of SensorCostmap(occupied=array([[ True,  True,  True, ...,  True,  True,  True],\n      ... [0.05, 0.05, 0.05, ..., 0.05, 0.05, 0.05]]), stamp=0.0, frame_id='world', conversion_duration_ms=0.32552098855376244)> = SensorCostmap(occupied=array([[ True,  True,  True, ...,  True,  True,  True],\n       [ True,  True,  True, ...,  True...  [0.05, 0.05, 0.05, ..., 0.05, 0.05, 0.05]]), stamp=0.0, frame_id='world', conversion_duration_ms=0.32552098855376244).is_free
+
+tests/ros/test_contact_support_integration.py:211: AssertionError
+=========================== short test summary info ============================
+FAILED tests/ros/test_contact_support_integration.py::test_clock_reset_clears_evidence_even_when_support_missing
+FAILED tests/ros/test_contact_support_integration.py::test_far_away_contact_cannot_establish_current_wheel_support
+FAILED tests/ros/test_contact_support_integration.py::test_moving_pose_does_not_keep_abandoned_unknown_traversable
+FAILED tests/ros/test_contact_support_integration.py::test_current_contacts_do_not_authorize_future_wheel_on_hidden_hole
+4 failed, 55 passed, 8 deselected in 18.72s

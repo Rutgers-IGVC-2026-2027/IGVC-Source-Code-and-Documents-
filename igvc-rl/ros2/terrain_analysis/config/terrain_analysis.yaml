@@ -1,0 +1,16 @@
+terrain_analysis:
+  ros__parameters:
+    fixed_frame: map
+    cell_size: 0.2
+    grid_width: 105
+    max_samples_per_cell: 64
+    min_samples: 6
+    ground_quantile: 0.25
+    decay_seconds: 2.0
+    obstacle_clearance: 0.15
+    max_scan_age: 0.5
+    max_odom_age: 0.5
+    max_odom_scan_skew: 0.15
+    future_tolerance: 0.05
+    max_input_points: 200000
+    max_input_bytes: 32000000

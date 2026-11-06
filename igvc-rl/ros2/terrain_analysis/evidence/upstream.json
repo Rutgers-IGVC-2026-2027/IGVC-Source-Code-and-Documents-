@@ -1,0 +1,27 @@
+{
+  "verified_utc": "2026-11-04T16:51:14.479373+00:00",
+  "repository": "https://github.com/jizhang-cmu/ground_based_autonomy_basic",
+  "ref": "noetic",
+  "commit": "7ae94b72206430a399ae012f49715cf51fadb0e0",
+  "files": [
+    {
+      "path": "src/terrain_analysis/src/terrainAnalysis.cpp",
+      "url": "https://raw.githubusercontent.com/jizhang-cmu/ground_based_autonomy_basic/7ae94b72206430a399ae012f49715cf51fadb0e0/src/terrain_analysis/src/terrainAnalysis.cpp",
+      "sha256": "aed8c4f076150d3b1f5205eac4691c907c3a2f0906669d85e475dfa0d2699f44",
+      "bytes": 22820
+    },
+    {
+      "path": "src/terrain_analysis/package.xml",
+      "url": "https://raw.githubusercontent.com/jizhang-cmu/ground_based_autonomy_basic/7ae94b72206430a399ae012f49715cf51fadb0e0/src/terrain_analysis/package.xml",
+      "sha256": "dfff8689027e4d072e841214e65b55269f3a09bae30963a98bb29a3e4a9b1b21",
+      "bytes": 654
+    },
+    {
+      "path": "src/terrain_analysis/launch/terrain_analysis.launch",
+      "url": "https://raw.githubusercontent.com/jizhang-cmu/ground_based_autonomy_basic/7ae94b72206430a399ae012f49715cf51fadb0e0/src/terrain_analysis/launch/terrain_analysis.launch",
+      "sha256": "f954573c3eb8b0353e6784c0dc2ce3cf45af97582ca3f07d6776ee1f22e5a662",
+      "bytes": 1703
+    }
+  ],
+  "license_observation": "terrain_analysis/package.xml declares BSD. No package-local or repository-root license text present at this commit. No upstream source code copied; new implementation uses the algorithmic ideas."
+}

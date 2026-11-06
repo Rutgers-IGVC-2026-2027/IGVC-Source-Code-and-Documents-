@@ -1,0 +1,36 @@
+F                                                                        [100%]
+=================================== FAILURES ===================================
+_________ test_moving_pose_does_not_keep_abandoned_unknown_traversable _________
+
+contact_ros = <test_contact_support_integration.ContactHarness object at 0x7cc60930ba10>
+
+    def test_moving_pose_does_not_keep_abandoned_unknown_traversable(contact_ros):
+        h = contact_ros
+        h.contacts()
+        data = np.zeros((60, 80), np.int8)
+        data[28:32, 18:22] = -1
+        h.inputs(data)
+        assert h.node.follower.costmap.is_free((0., 0.))
+        h.contacts()
+        odom = h.odom()
+        odom.pose.pose.position.x = -1.2
+        h.odom_pub.publish(odom)
+        h.spin(.07)
+        assert np.isclose(h.node.pose[0], -1.2)
+        assert h.node.follower.costmap.is_unknown((0., 0.))
+>       assert not h.node.follower.costmap.is_free((0., 0.)), (
+            "Raw unknown outside the current body retains old-body traversal permission")
+E       AssertionError: Raw unknown outside the current body retains old-body traversal permission
+E       assert not True
+E        +  where True = <bound method Costmap.is_free of SensorCostmap(occupied=array([[ True,  True,  True, ...,  True,  True,  True],\n      ...[0.1, 0.1, 0.1, ..., 0.1, 0.1, 0.1]]), stamp=100.35943696, frame_id='world', conversion_duration_ms=0.345143984304741)>((0.0, 0.0))
+E        +    where <bound method Costmap.is_free of SensorCostmap(occupied=array([[ True,  True,  True, ...,  True,  True,  True],\n      ...[0.1, 0.1, 0.1, ..., 0.1, 0.1, 0.1]]), stamp=100.35943696, frame_id='world', conversion_duration_ms=0.345143984304741)> = SensorCostmap(occupied=array([[ True,  True,  True, ...,  True,  True,  True],\n       [ True,  True,  True, ...,  True... [0.1, 0.1, 0.1, ..., 0.1, 0.1, 0.1]]), stamp=100.35943696, frame_id='world', conversion_duration_ms=0.345143984304741).is_free
+E        +      where SensorCostmap(occupied=array([[ True,  True,  True, ...,  True,  True,  True],\n       [ True,  True,  True, ...,  True... [0.1, 0.1, 0.1, ..., 0.1, 0.1, 0.1]]), stamp=100.35943696, frame_id='world', conversion_duration_ms=0.345143984304741) = <igvc_rl.planning.sensor_navigation.SensorFollower object at 0x7cc60eff11c0>.costmap
+E        +        where <igvc_rl.planning.sensor_navigation.SensorFollower object at 0x7cc60eff11c0> = <igvc_rl.ros.contact_sensor_controller.ContactSensorController object at 0x7cc6093da540>.follower
+E        +          where <igvc_rl.ros.contact_sensor_controller.ContactSensorController object at 0x7cc6093da540> = <test_contact_support_integration.ContactHarness object at 0x7cc60930ba10>.node
+
+tests/ros/test_contact_support_integration.py:191: AssertionError
+---------------------------- Captured stderr setup -----------------------------
+[INFO] [1793837178.923681691] [sensor_controller]: EXPERIMENT: four actual wheel contacts permit current-body self context; unknown evidence is preserved
+=========================== short test summary info ============================
+FAILED tests/ros/test_contact_support_integration.py::test_moving_pose_does_not_keep_abandoned_unknown_traversable
+1 failed in 0.89s
