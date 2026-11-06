@@ -30,6 +30,8 @@ public:
 
 enum class motorSide{ Left, Right};
 
+motorManager();
+
 [[nodiscard]] motorConnectResult connectMotors();
 
 

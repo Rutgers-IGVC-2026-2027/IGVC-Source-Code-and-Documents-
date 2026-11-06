@@ -24,3 +24,12 @@ $(TARGETS): %: %.cpp | check
 
 clean:
 	rm -f $(TARGETS)
+
+motoManagerTest: motoManagerTest.cpp motorManager.cpp motorManager.hpp
+	/usr/bin/g++ -std=c++17 -O0 -g3 -Wall -Wextra -pthread \
+	-I/home/igvc/nanolib/NanoLib_cpp_1.4.3/nanolib_cpp_linux_1.4.3/nanotec_nanolib/inc \
+	motorManager.cpp motoManagerTest.cpp \
+	-L/usr/local/lib/nanotec \
+	-Wl,-rpath,/usr/local/lib/nanotec \
+	-lnanolib -ldl -lstdc++fs -pthread \
+	-o motoManagerTest
